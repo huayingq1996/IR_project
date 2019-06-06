@@ -1,0 +1,755 @@
+"unitid","institution name","year","IC2015.Religious affiliation","DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks","DRVGR2015.Graduation rate - Bachelor degree within 6 years, total","DRVADM2015.Percent admitted - total","DRVADM2015.Admissions yield - total","ADM2015.SAT Critical Reading 25th percentile score","ADM2015.SAT Critical Reading 75th percentile score","ADM2015.SAT Math 25th percentile score","ADM2015.SAT Math 75th percentile score","ADM2015.ACT Composite 25th percentile score","ADM2015.ACT Composite 75th percentile score","F1415_F2.Total expenses","F1415_F2.Instruction-Total amount","F1415_F2.Value of endowment assets at the end of the fiscal year"
+"100654","Alabama A & M University","2015","Not applicable","63153","31","65","28","383","470","360","480","16","19",,,
+"100690","Amridge University","2015","Churches of Christ","28953","0",,,,,,,,,"8064960","2795295","174805"
+"100724","Alabama State University","2015","Not applicable","71460","27","46","26","370","450","360","460","16","19",,,
+"100830","Auburn University at Montgomery","2015","Not applicable","68292","22","79","32","450","520","470","540","19","23",,,
+"101189","Faulkner University","2015","Churches of Christ","53757","21","57","30","430","520","440","510","18","24","43302272","18119083","18222279"
+"101480","Jacksonville State University","2015","Not applicable","61155","31","67","51","450","550","440","550","20","26",,,
+"101587","University of West Alabama","2015","Not applicable","53442","28","73","48","430","530","360","560","18","21",,,
+"101709","University of Montevallo","2015","Not applicable","67464","45","70","36","455","595","475","580","20","26",,,
+"101879","University of North Alabama","2015","Not applicable","66537","38","58","61","398","560","410","535","19","25",,,
+"102049","Samford University","2015","Baptist","77391","74","93","28","500","610","490","610","23","29","152407077","75488971","319249582"
+"102368","Troy University","2015","Not applicable","57024","34","92","41","433","528","430","550","19","26",,,
+"102377","Tuskegee University","2015","Not applicable","54774","45","53","15","420","510","410","520","18","23","154067412","42990784","119962116"
+"102553","University of Alaska Anchorage","2015","Not applicable","79434","27","71","70",,,,,,,,,
+"102632","University of Alaska Southeast","2015","Not applicable","71649","25","49","88",,,,,,,,,
+"102669","Alaska Pacific University","2015","United Methodist","49122","58","39","18","415","570","415","545","17","26","17125309","5442925","88911394"
+"105367","Ottawa University-Phoenix","2015","American Baptist","49635",,,,,,,,,,,,
+"105589","Prescott College","2015","Not applicable","39474","30","70","15","440","580","460","570","19","27","14812862","5712182","1491223"
+"106458","Arkansas State University-Main Campus","2015","Not applicable","62280","39","70","42","400","540","470","540","21","26",,,
+"106467","Arkansas Tech University","2015","Not applicable","57339","46","89","49",,,,,,,,,
+"106485","University of Arkansas at Monticello","2015","Not applicable","49581","22",,,,,,,,,,,
+"106704","University of Central Arkansas","2015","Not applicable","60264","45","92","44","440","540","450","570","20","26",,,
+"107044","Harding University","2015","Churches of Christ","64800","64","99","67","490","620","480","620","22","28","121210133","53511249","118044187"
+"107071","Henderson State University","2015","Not applicable","57843","34","63","32","430","493","448","525","18","24",,,
+"107141","John Brown University","2015","Not applicable","59715","62","74","42","520","660","510","625","24","30","50142105","16576337","100979996"
+"107983","Southern Arkansas University Main Campus","2015","Not applicable","56619","35","67","41","390","540","420","540","18","24",,,
+"110361","California Baptist University","2015","Southern Baptist","79344","60","65","40","420","540","410","540","17","24","154880080","66676295","16087620"
+"110413","California Lutheran University","2015","Evangelical Lutheran Church","89442","66","62","15","500","600","500","600","22","27","106828395","38235343","92938118"
+"110422","California Polytechnic State University-San Luis Obispo","2015","Not applicable","81180","76","31","34","550","650","580","690","26","31",,,
+"110486","California State University-Bakersfield","2015","Not applicable","76095","39","69","25",,,,,,,,,
+"110495","California State University-Stanislaus","2015","Not applicable","75402","55","71","25",,,,,,,,,
+"110510","California State University-San Bernardino","2015","Not applicable","77967","52","65","34","400","490","400","500","16","20",,,
+"110529","California State Polytechnic University-Pomona","2015","Not applicable","84357","63","39","20","450","580","470","620","20","27",,,
+"110538","California State University-Chico","2015","Not applicable","78597","64","63","19","440","550","450","560","19","24",,,
+"110547","California State University-Dominguez Hills","2015","Not applicable","78201","35","53","15",,,,,,,,,
+"110574","California State University-East Bay","2015","Not applicable","81324","45","74","16",,,,,,,,,
+"110583","California State University-Long Beach","2015","Not applicable","79551","67","34","23","460","570","470","600","20","26",,,
+"110592","California State University-Los Angeles","2015","Not applicable","79911","45","68","18","390","490","390","500","15","20",,,
+"110608","California State University-Northridge","2015","Not applicable","78633","50","46","36","400","500","390","510","16","22",,,
+"110617","California State University-Sacramento","2015","Not applicable","77679","46","67","25","415","520","420","540","17","23",,,
+"111948","Chapman University","2015","Christian Church (Disciples of Christ)","100440","79","48","22","550","640","550","650","25","30","252204752","120198440","301272000"
+"112075","Concordia University-Irvine","2015","Lutheran Church - Missouri Synod","62271","61","59","18","440","560","460","570","20","25","65915829","27456614","19603873"
+"113698","Dominican University of California","2015","Not applicable","81891","64","79","15","480","560","470","580","21","25","55093264","26960430","35232559"
+"114813","Fresno Pacific University","2015","Mennonite Brethren Church","59769","54","63","52","440","530","440","547","19","24","55253862","20864608","13343413"
+"115083","Golden Gate University-San Francisco","2015","Not applicable","96309",,,,,,,,,,"56758352","19356029","62847060"
+"115728","Holy Names University","2015","Roman Catholic","74457","40","43","32","390","470","380","470","15","21","31364246","9155896","15117070"
+"115755","Humboldt State University","2015","Not applicable","77211","46","77","14","440","560","430","550","18","24",,,
+"116712","John F. Kennedy University","2015","Not applicable","54099",,,,,,,,,,"24943755","10120061","4895664"
+"117627","La Sierra University","2015","Seventh Day Adventist","66051","49","45","23","420","510","420","520","16","22","76774877","24078050","16775905"
+"117751","The Master's University and Seminary","2015","Interdenominational","53649","69","95","43","480","620","480","590","21","27","36365679","11975307","18832160"
+"117946","Loyola Marymount University","2015","Roman Catholic","92628","79","51","20","550","640","560","660","25","30","334697000","134351000","448480000"
+"118888","Mills College","2015","Not applicable","84528","65","72","22","530","670","500","620","24","30","68319743","25292448","182723112"
+"119058","Middlebury Institute of International Studies at Monterey","2015","Not applicable","86967",,,,,,,,,,,,
+"119173","Mount Saint Mary's University","2015","Roman Catholic","74034","66","77","30","410","510","420","510","16","21","81214014","28807194","129458028"
+"119605","National University","2015","Not applicable","91521","30",,,,,,,,,"218156264","78676901","595884453"
+"120184","Notre Dame de Namur University","2015","Roman Catholic","74637","42","87","12","420","520","390","510","16","21","40049134","12375594","20635727"
+"120537","Hope International University","2015","Christian Churches and Churches of Christ","60750","42","34","34","390","510","400","520","16","22","20767849","6789475","5738272"
+"121309","Point Loma Nazarene University","2015","Church of the Nazarene","87669","75","71","30","510","620","510","630","23","28","85828820","29002747","51961162"
+"121691","University of Redlands","2015","Not applicable","89586","72","68","16","510","610","510","610","22","28","123081659","48026196","125701210"
+"122755","San Jose State University","2015","Not applicable","85401","57","55","20","450","570","470","610","20","26",,,
+"122931","Santa Clara University","2015","Roman Catholic","109197","84","49","17","590","690","620","710","27","32","326560000","129214000",
+"123457","Simpson University","2015","Christ and Missionary Alliance Church","55845","49","52","27","450","560","443","560","18","24","21631358","7864578","6493269"
+"123554","Saint Mary's College of California","2015","Roman Catholic","89127","71","98","18","508","620","508","610","22","27","130797449","54098890","170105332"
+"123572","Sonoma State University","2015","Not applicable","79335","59","77","16","440","550","440","550","19","24",,,
+"123651","Vanguard University of Southern California","2015","Assemblies of God Church","75951","56","68","37","440","550","410","540","18","24","40820778","13605960","4910050"
+"125897","Woodbury University","2015","Not applicable","61047","46","58","15","430","540","430","520","16","21","46896449","22879473","22483549"
+"126182","Adams State University","2015","Not applicable","53991","29","64","25","430","530","470","533","17","23",,,
+"126580","University of Colorado Colorado Springs","2015","Not applicable","70479","44","92","22","490","600","470","590","21","26",,,
+"126669","Colorado Christian University","2015","Undenominational","54351","47",,,,,,,,,"59125590","13046442","4097316"
+"126827","Colorado Technical University-Colorado Springs","2015","Not applicable","62064","29",,,,,,,,,,,
+"127565","Metropolitan State University of Denver","2015","Not applicable","56718","25","65","47","440","560","440","550","18","23",,,
+"127653","Naropa University","2015","Not applicable","54675","33","80","31",,,,,,,"23924943","9875071","6999641"
+"127918","Regis University","2015","Roman Catholic","64737","73","66","15","480","580","470","590","21","27","130582038","50109039","55962419"
+"128106","Colorado State University-Pueblo","2015","Not applicable","58914","33","96","13","420","550","430","545","18","23",,,
+"128391","Western State Colorado University","2015","Not applicable","57636","43","98","29","460","580","450","560","17","23",,,
+"128498","Albertus Magnus College","2015","Roman Catholic","60561","59",,,,,,,,,"27043262","9117290","6799067"
+"128744","University of Bridgeport","2015","Not applicable","67644","33","52","12","410","510","420","500","18","23","92502000","38143000","33617000"
+"128771","Central Connecticut State University","2015","Not applicable","82062","57","59","27","460","550","460","550","20","24",,,
+"129215","Eastern Connecticut State University","2015","Not applicable","78705","56","64","29",,,,,,,,,
+"129242","Fairfield University","2015","Roman Catholic","94833","82","65","14",,,,,,,"179992000","55189000","317035000"
+"129428","Rensselaer at Hartford","2015","Not applicable","104490",,,,,,,,,,"13869000","1808000","2842000"
+"129941","University of New Haven","2015","Not applicable","86598","54","82","14","480","580","480","580","21","26","168902339","58025059","49057717"
+"130183","Post University","2015","Not applicable","54981","30","81","50","390","500","380","510","17","21",,,
+"130226","Quinnipiac University","2015","Not applicable","97164","76","74","11","490","580","500","600","22","27","293334994","125687659","367874617"
+"130253","Sacred Heart University","2015","Roman Catholic","78003","64","59","24",,,,,,,"172279369","59190673","141011618"
+"130314","University of Saint Joseph","2015","Roman Catholic","72018","55","93","31","410","530","410","520","16","22","60911000","23982000","26505000"
+"130493","Southern Connecticut State University","2015","Not applicable","80937","52","65","27","410","510","410","500","18","22",,,
+"130776","Western Connecticut State University","2015","Not applicable","84123","49","57","23",,,,,,,,,
+"130934","Delaware State University","2015","Not applicable","64818","42","44","25","410","480","400","490","17","21",,,
+"131399","University of the District of Columbia","2015","Not applicable","63900","34",,,,,,,,,,,
+"131450","Gallaudet University","2015","Not applicable","89964","46","62","71","340","420","385","508","16","21","138714745","52688518","172688350"
+"131803","Strayer University-District of Columbia","2015","Not applicable","78975","13",,,,,,,,,,,
+"131876","Trinity Washington University","2015","Roman Catholic","56898","44","94","27",,,,,,,"31665464","10284256","26377892"
+"132657","Lynn University","2015","Not applicable","47754","44","76","18","450","540","445","550","19","24","71505728","21649386","24273813"
+"133553","Embry-Riddle Aeronautical University-Daytona Beach","2015","Not applicable","81891","55","69","40",,,,,,,"328293000","83594820","64278302"
+"134079","Florida Southern College","2015","United Methodist","61281","57","45","25","520","620","530","610","24","29","70310782","19443872","79212366"
+"134149","Everest University-Pompano Beach","2015","Not applicable","38718","9",,,,,,,,,"20183866","10309336",
+"134237","Full Sail University","2015","Not applicable","38574","43",,,,,,,,,,,
+"134945","Jacksonville University","2015","Not applicable","63765","41","54","23",,,,,,,"80096454","30098548","36987406"
+"135081","Keiser University-Ft Lauderdale","2015","Not applicable","45675","59",,,,,,,,,"326518000","98799774",
+"136172","University of North Florida","2015","Not applicable","70992","55","57","26","540","630","530","610","22","27",,,
+"136330","Palm Beach Atlantic University","2015","Interdenominational","66600","44","93","39","480","590","460","590","20","26","73199278","26588809","79782976"
+"136950","Rollins College","2015","Not applicable","77148","71","60","17",,,,,,,"134246000","40086000","366955000"
+"137032","Saint Leo University","2015","Roman Catholic","69543","42","73","24",,,,,,,"161382384","57451442","58303306"
+"137476","St Thomas University","2015","Roman Catholic","90423","39","49","25","410","520","400","510","17","22","55252061","22172841","24933675"
+"137546","Stetson University","2015","Not applicable","91611","64","63","14",,,,,,,"126181440","51304545","208878395"
+"137564","Southeastern University","2015","Assemblies of God Church","64926","39","46","55","430","550","410","530","17","23","57700711","16166439","8945726"
+"137847","The University of Tampa","2015","Not applicable","78651","55","51","19","490","580","500","590","22","26","159670302","50322909","36055294"
+"138716","Albany State University","2015","Not applicable","50760","31","64","34","430","480","410","470","17","19",,,
+"138789","Armstrong State University","2015","Not applicable","52713","32","74","50","470","550","450","530","19","23",,,
+"139144","Berry College","2015","Not applicable","68733","64","55","24","530","630","520","610","24","29","88403841","28922450","887981093"
+"139199","Brenau University","2015","Not applicable","61785","48","66","13","450","560","440","530","19","23","44971778","19684785","38670897"
+"139311","Clayton  State University","2015","Not applicable","56817","32","39","57",,,,,,,,,
+"139366","Columbus State University","2015","Not applicable","56322","30","56","58","430","550","420","540","17","23",,,
+"139579","South University-Savannah","2015","Not applicable","70515","10",,,,,,,,,,,
+"139719","Fort Valley State University","2015","Not applicable","35460","29","21","43","390","480","380","470","16","20",,,
+"139764","Georgia Southwestern State University","2015","Not applicable","52902","33","72","46","440","530","430","510","18","24",,,
+"139861","Georgia College & State University","2015","Not applicable","59184","60","76","49","530","620","520","610","23","27",,,
+"140818","Piedmont College","2015","United Church of Christ","55548","45","57","43","430","550","440","550","19","24","34515781","16486197","56790363"
+"140960","Savannah State University","2015","Not applicable","48852","27","83","49","390","460","380","460","16","19",,,
+"141167","Thomas University","2015","Not applicable","46188","28","43","75",,,,,,,"12997939","5566112","5221804"
+"141486","Chaminade University of Honolulu","2015","Roman Catholic","70101","47","82","34","430","520","435","540","19","22","45527790","17788885","14081144"
+"141565","University of Hawaii at Hilo","2015","Not applicable","83493","39","71","35","410","520","420","530","16","22",,,
+"141644","Hawaii Pacific University","2015","Not applicable","76455","49","91","16",,,,,,,"85268265","25234371","61746456"
+"142461","Northwest Nazarene University","2015","Church of the Nazarene","48906","49","56","30","460","580","460","570","20","27","42318750","17707353","53817632"
+"143118","Aurora University","2015","Not applicable","67545","56","77","29","450","548","460","530","19","23","70718149","25942336","45435661"
+"143358","Bradley University","2015","Not applicable","74691","74","66","15","500","620","520","650","23","28","166852611","78794440","277175310"
+"144005","Chicago State University","2015","Not applicable","66528","11","21","16","435","518","493","560","16","20",,,
+"144281","Columbia College Chicago","2015","Not applicable","71244","42","88","24",,,,,,,"215952581","115359138","131641189"
+"144351","Concordia University-Chicago","2015","Lutheran Church - Missouri Synod","37395","50","50","13","450","550","470","590","20","25","61171481","33248159","21254284"
+"144892","Eastern Illinois University","2015","Not applicable","72333","58","50","25",,,,,"19","24",,,
+"144962","Elmhurst College","2015","United Church of Christ","70677","67","55","24","485","600","485","605","21","26","75405150","29665960","91824806"
+"145336","Governors State University","2015","Not applicable","68112",,"39","47","455","570","400","500","17","21",,,
+"145372","Greenville University","2015","Free Methodist","51966","57","56","24","440","530","430","540","19","25","25010352","9569671","16865645"
+"146339","Judson University","2015","Baptist","63144","52","71","34","520","570","450","590","21","26","24964863","8354669","15567325"
+"146612","Lewis University","2015","Roman Catholic","80370","66","62","20","500","560","500","600","20","25","122941871","52667850","59972549"
+"147013","McKendree University","2015","United Methodist","63324","56","63","30","450","550","420","530","19","24","42909019","15588002","37030053"
+"147660","North Central College","2015","United Methodist","75096","67","57","14",,,,,"22","27","70787021","25949268","104784275"
+"147679","North Park University","2015","Evangelical Covenant Church of America","69588","52","49","19","450","580","460","590","19","24","59043476","19804959","74216558"
+"147776","Northeastern Illinois University","2015","Not applicable","67059","22","67","25","300","465","425","455","16","20",,,
+"147828","Olivet Nazarene University","2015","Church of the Nazarene","63198","61","77","23","460","580","470","570","20","27","92128598","30474772","28427021"
+"148131","Quincy University","2015","Roman Catholic","48897","52","63","28","480","590","430","520","19","24","25167423","7351548","19246629"
+"148335","Robert Morris University Illinois","2015","Not applicable","64485","73","24","87",,,,,,,"73736706","16619782","34520707"
+"148405","Rockford University","2015","Not applicable","47853","42","54","14","400","560","430","520","19","24","24117904","8330384","13377880"
+"148487","Roosevelt University","2015","Not applicable","71937","37","72","15","470","635","470","610","19","25","125906152","48781128","80836946"
+"148496","Dominican University","2015","Roman Catholic","64089","59","63","19","440","580","420","550","19","24","62430418","30857362","29885513"
+"148584","University of St Francis","2015","Roman Catholic","69552","65","51","25","470","530","470","630","21","25","48697348","17613766","17307753"
+"148627","Saint Xavier University","2015","Roman Catholic","63648","48","75","11","460","520","490","530","19","23","73531236","28826888","12583358"
+"148654","University of Illinois at Springfield","2015","Not applicable","67095","48","63","28","430","530","510","600","20","26",,,
+"149231","Southern Illinois University-Edwardsville","2015","Not applicable","70236","49","88","31","430","558","470","615","20","26",,,
+"149772","Western Illinois University","2015","Not applicable","77922","53","60","23",,,,,"18","23",,,
+"150066","Anderson University","2015","Church of God","57933","54","60","27","470","560","470","570","21","25","47163000","19004000","31276000"
+"150145","Bethel College-Indiana","2015","Missionary Church Inc","52857","63","66","22","440","560","440","560","19","26","32166355","11271537","10369946"
+"150163","Butler University","2015","Not applicable","76482","76","70","15","520","620","530","630","25","30","157581000","64359000","193960000"
+"150172","Calumet College of Saint Joseph","2015","Roman Catholic","53469","30",,,,,,,,,"13273771","5459433","4336364"
+"150534","University of Evansville","2015","United Methodist","69318","68","70","18","500","610","510","630","23","29","71133705","29065820","128800500"
+"150677","Grace College and Theological Seminary","2015","Brethren Church","63774","60","77","12","460","580","450","570","21","27","35769243","12980457","11495508"
+"151102","Indiana University-Purdue University-Fort Wayne","2015","Not applicable","67176","25","92","51","430","540","440","550","19","25",,,
+"151263","University of Indianapolis","2015","United Methodist","64998","56","73","18","450","560","460","560","20","25","107976470","43769632","93191865"
+"151306","University of Southern Indiana","2015","Not applicable","62505","41","69","39","440","550","450","550","19","24",,,
+"151342","Indiana University-South Bend","2015","Not applicable","53748","24","76","52","420","530","420","530","18","23",,,
+"151360","Indiana University-Northwest","2015","Not applicable","59436","24","79","52","400","510","400","510","17","23",,,
+"151379","Indiana University-Southeast","2015","Not applicable","60003","28","85","57","420","530","410","520","18","23",,,
+"151388","Indiana University-East","2015","Not applicable","54783","28","62","43","430","520","430","530","18","23",,,
+"151786","Marian University","2015","Roman Catholic","55404","56","56","27","440","540","450","550","20","26","89357872","35635585","39260589"
+"151801","Indiana Wesleyan University-Marion","2015","Wesleyan","64215","65","95","47","470","590","470","600","21","27","189774293","58828480","145985050"
+"152248","Purdue University-Calumet Campus","2015","Not applicable","74277","31","65","60","430","530","420","540",,,,,
+"152336","University of Saint Francis-Fort Wayne","2015","Roman Catholic","52848","56","95","39","430","530","430","540","18","24","38813077","15578732","20745950"
+"152600","Valparaiso University","2015","Lutheran Church in America","73710","67","82","14","490","600","510","630","23","29","134959000","49886000","204314000"
+"153269","Drake University","2015","Not applicable","84267","73","67","18","520","670","550","690","24","30","139691729","44703893","196490294"
+"153278","University of Dubuque","2015","Presbyterian Church (USA)","56313","41","77","40","420","490","390","500","17","23","51095853","14138955","100744127"
+"153366","Graceland University-Lamoni","2015","Other (none of the above)","50265","52","48","28","370","450","410","490","18","24","39667076","13054103","45933335"
+"153861","Maharishi University of Management","2015","Not applicable","19935","39","37","68",,,,,,,"31400000","9090000","10199000"
+"154004","Morningside College","2015","United Methodist","59607","55","56","15",,,,,"20","26","35289104","11443788","44913992"
+"154013","Mount Mercy University","2015","Roman Catholic","54729","65","61","35",,,"510","530","19","23","30111331","11224771","25946589"
+"154022","Ashford University","2015","Not applicable","54270","14",,,,,,,,,,,
+"154095","University of Northern Iowa","2015","Not applicable","75438","68","80","45","410","570","470","610","20","25",,,
+"154235","Saint Ambrose University","2015","Roman Catholic","64233","63","73","24",,,,,"20","25","71949009","30506858","134316701"
+"154493","Upper Iowa University","2015","Not applicable","52542","41","66","23",,,"415","515","17","22","58172146","23502303","11561590"
+"154590","William Penn University","2015","Friends","50454","30","58","50",,,,,,,"24501614","7321733","7464793"
+"154688","Baker University","2015","United Methodist","52929","61","82","25","405","555","485","555","20","25","41775452","15401411","37887302"
+"155025","Emporia State University","2015","Not applicable","57168","42","87","49",,,,,"19","25",,,
+"155061","Fort Hays State University","2015","Not applicable","60372","42","86","48",,,,,,,,,
+"155089","Friends University","2015","Not applicable","60381","40","58","37","490","660","490","580","19","24","32492000","10080595","45780000"
+"155335","Newman University","2015","Roman Catholic","54711","46","56","23","450","580","460","590","20","28","25531455","10228409","22618722"
+"155520","MidAmerica Nazarene University","2015","Church of the Nazarene","56628","54","61","34","380","510","410","500","19","25","33383612","11576819","9340540"
+"155681","Pittsburg State University","2015","Not applicable","64683","46","81","48",,,,,,,,,
+"155812","University of Saint Mary","2015","Roman Catholic","51453","41","49","29","410","490","450","520","19","23","22108943","10640240","15236973"
+"155900","Southwestern College","2015","United Methodist","47664","44","91","27","440","480","450","570","19","24","26467088","8779004","29595690"
+"156082","Washburn University","2015","Not applicable","67968","36",,,,,,,,,,,
+"156213","Asbury University","2015","Not applicable","56952","63","57","34","485","620","470","605","21","27","37490413","14569527","43429283"
+"156286","Bellarmine University","2015","Roman Catholic","70191","67","84","14","495","590","500","610","22","27","72652583","33167067","54332846"
+"156365","Campbellsville University","2015","Southern Baptist","45324","37","76","26","395","515","420","550","18","24","38222881","13674868","13336302"
+"156620","Eastern Kentucky University","2015","Not applicable","64098","45","71","39","430","550","430","550","19","25",,,
+"157216","Lindsey Wilson College","2015","United Methodist","51876","26",,,,,,,,,"38241777","12543534","21140437"
+"157377","Midway University","2015","Christian Church (Disciples of Christ)","54171","53","46","40",,,,,,,"18046248","5609581","26970034"
+"157386","Morehead State University","2015","Not applicable","61290","40","85","35","430","550","420","550","20","25",,,
+"157401","Murray State University","2015","Not applicable","63954","48","91","33","480","590","470","570","20","26",,,
+"157447","Northern Kentucky University","2015","Not applicable","68085","40","92","33","460","595","460","580","20","26",,,
+"157793","Sullivan University","2015","Not applicable","52893",,,,,,,,,,,,
+"157809","Thomas More College","2015","Roman Catholic","55836","47","88","20","400","490","420","510","20","24","25943546","9264143","19559280"
+"157863","Union College","2015","United Methodist","41544","32","69","23","433","508","453","553","18","23","19535837","5750208","20881863"
+"157951","Western Kentucky University","2015","Not applicable","64161","50","93","38","430","580","440","570","19","26",,,
+"159009","Grambling State University","2015","Not applicable","54981","35","38","46","375","465","420","490","16","20",,,
+"159416","Louisiana State University-Shreveport","2015","Not applicable","56133","36","76","74","460","520","470","500","20","24",,,
+"159568","Louisiana College","2015","Southern Baptist","51264","32","69","40","480","490","380","470","18","23","22296344","9008279","35776372"
+"159656","Loyola University New Orleans","2015","Roman Catholic","75078","66","90","21","520","620","480","610","22","28","122062588","50342262","272625000"
+"159717","McNeese State University","2015","Not applicable","59472","41","82","58","440","530","470","580","20","24",,,
+"159966","Nicholls State University","2015","Not applicable","52182","44","90","56","440","540","470","610","20","24",,,
+"160038","Northwestern State University of Louisiana","2015","Not applicable","55773","39","84","47","420","550","450","550","19","24",,,
+"160612","Southeastern Louisiana University","2015","Not applicable","56403","37","88","75",,,,,"20","24",,,
+"160621","Southern University and A & M College","2015","Not applicable","57195","34","79","62","415","495","420","510","17","21",,,
+"160630","Southern University at New Orleans","2015","Not applicable","35568","14","21","55","360","390","245","480","15","18",,,
+"160904","Xavier University of Louisiana","2015","Roman Catholic","75348","38","66","21","450","550","420","560","20","26","100438308","24936028","160276105"
+"161457","University of New England","2015","Not applicable","72693","65","85","17","480","580","480","590","20","29","151925834","60335087","33731889"
+"161518","Saint Joseph's College of Maine","2015","Roman Catholic","54216","54","78","26","440","540","450","540","21","26","37237831","15065711","18107119"
+"161554","University of Southern Maine","2015","Not applicable","78327","33","88","24","420","550","440","550","19","25",,,
+"161563","Thomas College","2015","Not applicable","57276","45","92","25",,,,,,,"17170587","4140440","10510830"
+"161873","University of Baltimore","2015","Not applicable","95175","32","53","40","445","550","420","530","18","23",,,
+"162007","Bowie State University","2015","Not applicable","75051","41","57","39","410","490","400","470","15","20",,,
+"162210","Washington Adventist University","2015","Seventh Day Adventist","49158","36","33","31","340","470","360","460","14","21","29824636","10033111","3099969"
+"162283","Coppin State University","2015","Not applicable","66555","18","37","16","400","470","410","500","16","20",,,
+"162584","Frostburg State University","2015","Not applicable","63891","51","63","38","430","530","430","530","17","22",,,
+"162760","Hood College","2015","Not applicable","66681","63","79","20",,,,,,,"41817568","14938981","84671464"
+"163046","Loyola University Maryland","2015","Roman Catholic","86139","81","61","12",,,,,,,"197844142","65931878","206254056"
+"163204","University of Maryland-University College","2015","Not applicable","71127","8",,,,,,,,,,,
+"163462","Mount St. Mary's University","2015","Roman Catholic","66006","69","67","12","460","570","450","560","18","24","66921866","20617573","48144575"
+"163578","Notre Dame of Maryland University","2015","Roman Catholic","66483","54","52","21","480","600","480","580","23","28","47859084","22726625","39303723"
+"163851","Salisbury University","2015","Not applicable","66546","67","61","23",,,,,,,,,
+"164076","Towson University","2015","Not applicable","65088","70","73","34","500","580","500","590","21","25",,,
+"164173","Stevenson University","2015","Not applicable","75204","53","60","21","450","550","450","560","19","24","97161805","38127685","79078747"
+"164492","Anna Maria College","2015","Roman Catholic","56097","34","80","16",,,,,,,"24632133","7703918","4266443"
+"164562","Assumption College","2015","Roman Catholic","75501","73","76","16",,,,,,,"68022430","22075011","101064350"
+"164632","Bay Path University","2015","Not applicable","71694","57","77","20",,,,,,,"44521505","16493999","41457507"
+"164739","Bentley University","2015","Not applicable","115587","89","42","26","540","640","600","690","26","30","196313000","70605000","265345000"
+"165024","Bridgewater State University","2015","Not applicable","79731","58","81","32","440","550","450","550","19","24",,,
+"165167","Cambridge College","2015","Not applicable","68841","38",,,,,,,,,"27858864","10583122","14451700"
+"165529","Curry College","2015","Not applicable","86076","47","88","12","430","510","420","520","18","22","76448495","28213657","96643252"
+"165644","Eastern Nazarene College","2015","Church of the Nazarene","51300","66","61","16","420","550","420","560","18","24","23738304","7798429","16206256"
+"165662","Emerson College","2015","Not applicable","87246","80","49","22","560","670","540","640","25","29","173886847","51709423","149219896"
+"165699","Endicott College","2015","Not applicable","75618","71","73","28",,,,,,,"86002415","27180607","64555615"
+"165820","Fitchburg State University","2015","Not applicable","78993","53","75","26","450","540","450","550","18","23",,,
+"165866","Framingham State University","2015","Not applicable","76176","56","71","25","430","540","440","540","19","23",,,
+"166391","Lasell College","2015","Not applicable","70074","52","78","20","440","530","430","530","18","23","56067624","14294107","39840851"
+"166692","Massachusetts Maritime Academy","2015","Not applicable","77211","72","74","63","480","570","500","590","20","23",,,
+"166850","Merrimack College","2015","Roman Catholic","72423","71","79","14",,,,,,,"91442550","30419602","51275154"
+"167394","College of Our Lady of the Elms","2015","Roman Catholic","62694","67","75","30","440","530","430","540","19","24","25314627","10694013","8049948"
+"167729","Salem State University","2015","Not applicable","76599","50","75","28",,,,,,,,,
+"167783","Simmons College","2015","Not applicable","71289","74","58","18","540","630","520","610","24","29","139921621","73712077","186030000"
+"167899","Springfield College","2015","Not applicable","73413","72","64","21","460","560","470","580","20","26","110079412","34897654","64406733"
+"168227","Wentworth Institute of Technology","2015","Not applicable","73863","67","67","21","470","580","520","630","22","27","107959546","42576842","89739718"
+"168254","Western New England University","2015","Not applicable","82989","55","81","14","470","570","490","610","22","27","104636801","39388971","66201691"
+"168263","Westfield State University","2015","Not applicable","80190","63","80","32","450","540","460","550","19","24",,,
+"168290","Wheelock College","2015","Not applicable","64125","64","95","17","410","542","400","520","18","24","43897969","17667724","53868729"
+"168430","Worcester State University","2015","Not applicable","79047","51","69","32","455","550","470","560","20","25",,,
+"168786","Aquinas College","2015","Roman Catholic","54423","56","72","19",,,,,"21","26","36883902","11949164","38163133"
+"169479","Davenport University","2015","Not applicable","56196","37","89","34",,,,,,,"112361076","29931389","20475737"
+"169716","University of Detroit Mercy","2015","Roman Catholic","78129","63","73","16","443","608","458","628","22","27","141561303","65538665","43908390"
+"169910","Ferris State University","2015","Not applicable","75906","49","78","24","410","540","470","580","19","24",,,
+"169983","Kettering University","2015","Not applicable","71694","54","70","25","520","628","580","670","24","29","54934824","21451438","80958608"
+"170037","Cornerstone University","2015","Interdenominational","52749","61","73","18","478","578","463","580","19","25","41961868","15515015","7431739"
+"170082","Grand Valley State University","2015","Not applicable","74286","67","81","30","450","580","510","630","21","26",,,
+"170675","Lawrence Technological University","2015","Not applicable","68679","56","55","29","460","590","500","630","22","29","63142669","26019996","47859681"
+"170806","Madonna University","2015","Roman Catholic","67788","61","60","31",,,,,"20","24","44253132","22251616","37645078"
+"170842","Marygrove College","2015","Roman Catholic","60570","29","57","14",,,,,"14","18","25591531","9788334","1755756"
+"171137","University of Michigan-Dearborn","2015","Not applicable","81360","53","62","30",,,"490","620","21","27",,,
+"171146","University of Michigan-Flint","2015","Not applicable","73287","38","74","22","470","530","490","640","18","24",,,
+"171456","Northern Michigan University","2015","Not applicable","69732","49","70","35","440","580","450","580","19","24",,,
+"172051","Saginaw Valley State University","2015","Not applicable","69219","40","76","29",,,,,"19","25",,,
+"172264","Siena Heights University","2015","Roman Catholic","52659","37","77","22","420","510","460","540","18","26","34531482","11099440","10904696"
+"172334","Spring Arbor University","2015","Free Methodist","46719","52","69","27","525","640","460","600","20","26","51655612","24059375","13311307"
+"173045","Augsburg University","2015","Evangelical Lutheran Church","66816","56","59","28","505","635","450","560","19","25","73204872","29613417","40463556"
+"173124","Bemidji State University","2015","Not applicable","74457","44","94","31",,,,,"19","24",,,
+"173160","Bethel University","2015","Baptist","67455","74","95","42","495","675","500","675","22","27","99685342","33421025","31518883"
+"173328","Concordia University-Saint Paul","2015","Lutheran Church - Missouri Synod","42471","46","55","28",,,,,,,"47299855","21806479","28549030"
+"173665","Hamline University","2015","United Methodist","55890","63","72","18","480","660","500","650","21","28","89460565","32155298","93035603"
+"173920","Minnesota State University-Mankato","2015","Not applicable","80028","48","67","36",,,,,"20","24",,,
+"173984","Argosy University-Twin Cities","2015","Not applicable","50112","14",,,,,,,,,,,
+"174020","Metropolitan State University","2015","Not applicable","79074","30","100","26",,,,,,,,,
+"174233","University of Minnesota-Duluth","2015","Not applicable","71721","60","76","35","470","610","490","590","22","26",,,
+"174358","Minnesota State University Moorhead","2015","Not applicable","75708","43","77","37","447","519","481","570","20","25",,,
+"174491","University of Northwestern-St Paul","2015","Other Protestant","55152","65","87","38","443","640","470","588","21","27","72222945","20915939","16496616"
+"174783","Saint Cloud State University","2015","Not applicable","80208","42","86","35","445","560","450","585","19","25",,,
+"174817","Saint Mary's University of Minnesota","2015","Roman Catholic","59841","61","78","25","445","548","423","548","19","26","72407987","27934525","56151177"
+"174899","The College of Saint Scholastica","2015","Roman Catholic","61794","70","61","20","380","470","340","540","20","26","74621676","32956700","69406739"
+"175005","St Catherine University","2015","Roman Catholic","63054","64","67","21","495","610","485","545","19","25","93546854","41159487","80333293"
+"175078","Southwest Minnesota State University","2015","Not applicable","78894","39","64","35","370","540","380","530","19","24",,,
+"175272","Winona State University","2015","Not applicable","74430","58","62","39",,,"495","655","20","25",,,
+"175342","Alcorn State University","2015","Not applicable","59751","34","81","26","390","480","390","500","16","20",,,
+"175421","Belhaven University","2015","Presbyterian Church (USA)","53217","51","51","18",,,,,,,"44031073","13187772","5863329"
+"175616","Delta State University","2015","Not applicable","56808","34","87","44","390","520","470","560","18","23",,,
+"176035","Mississippi University for Women","2015","Not applicable","55881","49","96","38","410","490","580","660","18","24",,,
+"176044","Mississippi Valley State University","2015","Not applicable","52416","22","76","21",,,,,"16","19",,,
+"176053","Mississippi College","2015","Southern Baptist","66087","54","82","37","500","640","490","600","21","27","78567366","38183380","72466782"
+"176479","William Carey University","2015","Baptist","46620","54","57","41","380","520","430","560","20","27","50999348","26356946","15633168"
+"176628","Avila University","2015","Roman Catholic","60543","55","51","20","410","500","450","540","18","24","29784556","13306722","9213100"
+"176965","University of Central Missouri","2015","Not applicable","64035","52","79","43",,,,,"19","24",,,
+"177065","Columbia College","2015","Christian Church (Disciples of Christ)","67725","46",,,,,,,,,"91808914","54845614","151816014"
+"177214","Drury University","2015","Not applicable","56295","49","84","40",,,,,"23","29","53819372","24366509","86604221"
+"177339","Evangel University","2015","Assemblies of God Church","62433","53","61","40","470","580","440","580","20","26","41380379","14538147","14161770"
+"177418","Fontbonne University","2015","Roman Catholic","56340","54","97","37",,,,,"20","25","31383895","11256759","19210434"
+"177940","Lincoln University","2015","Not applicable","50337","20",,,,,,,,,,,
+"178244","Missouri Baptist University","2015","Baptist","51264","37","57","51","380","470","360","480","18","23","31916377","13081580","3606492"
+"178615","Truman State University","2015","Not applicable","62766","73","79","41","580","730","560","680","25","30",,,
+"178624","Northwest Missouri State University","2015","Not applicable","60030","47","75","40","370","470","480","630","20","25",,,
+"178721","Park University","2015","Not applicable","57105","29","40","28",,,,,,,"74869051","33240725","72626954"
+"179043","Rockhurst University","2015","Roman Catholic","64053","71","74","16","490","600","520","610","23","28","49930663","16309265","36045321"
+"179326","Southwest Baptist University","2015","Southern Baptist","51966","47","90","27","410","530","420","530","20","26","40627841","16876853","26738813"
+"179548","Stephens College","2015","Not applicable","52029","27","68","23","510","600","480","570","20","24","23506118","7816686","47343426"
+"179557","Southeast Missouri State University","2015","Not applicable","65448","48","84","44","448","580","465","595","20","25",,,
+"179566","Missouri State University-Springfield","2015","Not applicable","66690","52","86","44","478","613","468","613","21","26",,,
+"179894","Webster University","2015","Not applicable","76635","62","56","37","510","630","510","615","21","27","205949649","82077603","129881837"
+"179964","William Woods University","2015","Christian Church (Disciples of Christ)","49527","52","73","29","430","540","445","520","19","26","25250929","9487266","18297969"
+"180179","Montana State University-Billings","2015","Not applicable","59076","24",,,,,,,,,,,
+"180814","Bellevue University","2015","Not applicable","51003","18",,,,,,,,,"76330454","16760309","74141672"
+"180948","Chadron State College","2015","Not applicable","61803","42",,,,,,,,,,,
+"180984","Concordia University-Nebraska","2015","Lutheran Church - Missouri Synod","52029","59","78","32","430","560","470","560","20","27","35509354","11293149","44962737"
+"181002","Creighton University","2015","Roman Catholic","82026","74","70","16","510","630","540","650","24","29","348487000","119875000","449443000"
+"181215","University of Nebraska at Kearney","2015","Not applicable","64413","56","85","44","440","540","420","530","20","25",,,
+"181446","Nebraska Wesleyan University","2015","United Methodist","58122","62","79","33","430","590","510","600","22","27","38260000","15237000","55725877"
+"181534","Peru State College","2015","Not applicable","63324","37",,,,,,,,,,,
+"181604","College of Saint Mary","2015","Roman Catholic","55404","45","61","40",,,,,,,"18920717","6813687","14483882"
+"181783","Wayne State College","2015","Not applicable","65718","49",,,,,,,,,,,
+"182458","Sierra Nevada College","2015","Not applicable","52128","41","66","26","430","560","440","540","18","27","17156018","6379039","4526673"
+"182795","Franklin Pierce University","2015","Not applicable","48168","43","80","14","420","520","410","520","19","23","47506741","16835455","5019608"
+"182980","New England College","2015","Not applicable","58284","34","98","9",,,,,,,"29715300","9303944","11869486"
+"183026","Southern New Hampshire University","2015","Not applicable","69867","59","92","22",,,,,,,"387920527","76310367","21811715"
+"183062","Keene State College","2015","Not applicable","82953","63","79","21","440","550","440","550","19","24",,,
+"183080","Plymouth State University","2015","Not applicable","74610","58","74","28",,,,,,,,,
+"183211","Rivier University","2015","Roman Catholic","66339","42","57","18",,,,,,,"33681060","13835200","35557978"
+"183910","Caldwell University","2015","Roman Catholic","73953","64","64","14","420","530","430","550","18","24","42352872","12342461","8319896"
+"183974","Centenary University","2015","United Methodist","63882","59","87","22","410","510","420","510","17","24","44392362","12703093","10603215"
+"184603","Fairleigh Dickinson University-Metropolitan Campus","2015","Not applicable","79560","53","80","16","440","540","460","560","18","23","213268042","80922695","65689624"
+"184612","Felician University","2015","Roman Catholic","57852","39","79","21","390","470","400","500","15","21","39617765","12555261","5914303"
+"184694","Fairleigh Dickinson University-Florham Campus","2015","Not applicable","78273","53","83","18","460","570","460","570","20","25",,,
+"184773","Georgian Court University","2015","Roman Catholic","73485","53","73","16","420","510","420","540",,,"45677650","13482903","51731037"
+"185129","New Jersey City University","2015","Not applicable","90288","29","87","34","370","470","390","500",,,,,
+"185262","Kean University","2015","Not applicable","81981","50","74","26","410","500","430","520","17","21",,,
+"185572","Monmouth University","2015","Not applicable","76959","67","74","19","480","570","470","550","20","25","159099139","56064552","80346000"
+"186201","Ramapo College of New Jersey","2015","Not applicable","98406","74","53","25","490","590","500","610","20","26",,,
+"186283","Rider University","2015","Not applicable","103680","64","69","13","450","550","460","560","19","25","155997000","62857000","58326000"
+"186371","Rutgers University-Camden","2015","Not applicable","96705","57","58","10","450","550","470","570",,,,,
+"186432","Saint Peter's University","2015","Roman Catholic","77328","54","67","19","410","500","420","515","16","21","74509971","23567526","30999978"
+"186618","College of Saint Elizabeth","2015","Roman Catholic","65295","49","63","20","350","443","358","460",,,"26546857","10137651","19461065"
+"186876","Stockton University","2015","Not applicable","82044","73","64","33","480","580","500","600","19","25",,,
+"187046","Thomas Edison State University","2015","Not applicable",,,,,,,,,,,,,
+"187134","The College of New Jersey","2015","Not applicable","87102","85","49","26","550","640","570","670","26","30",,,
+"187444","William Paterson University of New Jersey","2015","Not applicable","93150","49","74","18","440","540","460","540",,,,,
+"187648","Eastern New Mexico University-Main Campus","2015","Not applicable","60489","32","50","52","400","520","420","520","17","23",,,
+"187897","New Mexico Highlands University","2015","Not applicable","55746","18",,,,,,,,,,,
+"187967","New Mexico Institute of Mining and Technology","2015","Not applicable","72333","49","24","85","520","650","570","680","23","29",,,
+"188182","University of the Southwest","2015","Not applicable","31401","4",,,,,,,,,"11695965","4479783","6609948"
+"188207","Southwestern College","2015","Not applicable","36171",,,,,,,,,,"2445489","636453","770859"
+"188304","Western New Mexico University","2015","Not applicable","40221","21",,,,,,,,,,,
+"188641","Alfred University","2015","Not applicable","58275","60","68","18","450","570","470","580","21","28","65956009","26458008","107966345"
+"189705","Canisius College","2015","Roman Catholic","70605","70","87","17","470","580","480","600","21","27","90240412","34451213","110740199"
+"190114","Metropolitan College of New York","2015","Not applicable","61524","36","53","45",,,,,,,"27669339","9129234","693887"
+"190512","CUNY Bernard M Baruch College","2015","Not applicable","106443","70","32","23","540","630","600","690",,,,,
+"190549","CUNY Brooklyn College","2015","Not applicable","92475","54","37","18","490","580","530","630",,,,,
+"190558","College of Staten Island CUNY","2015","Not applicable","87507","43","98","23",,,,,,,,,
+"190567","CUNY City College","2015","Not applicable","99423","44","43","19","470","600","530","650",,,,,
+"190594","CUNY Hunter College","2015","Not applicable","95634","54","39","20","520","620","550","640",,,,,
+"190600","CUNY John Jay College of Criminal Justice","2015","Not applicable","88776","41","37","30","430","520","460","540",,,,,
+"190637","CUNY Lehman College","2015","Not applicable","88074","38","30","15","460","550","480","560",,,,,
+"190664","CUNY Queens College","2015","Not applicable","91494","58","40","21","490","580","530","620",,,,,
+"190716","D'Youville College","2015","Not applicable","56916","44","73","27","460","550","460","560","21","25","56416321","26770319","41042161"
+"190725","Daemen College","2015","Not applicable","61479","49","51","26",,,,,,,"47435417","21761865","12300284"
+"190761","Dominican College of Blauvelt","2015","Not applicable","72171","46","71","26","390","480","390","490","17","21","38263835","14478802","1390170"
+"191126","Fashion Institute of Technology","2015","Not applicable","93375",,"41","65",,,,,,,,,
+"191931","Iona College","2015","Roman Catholic","82998","66","91","10","450","550","440","550","20","25","96909000","31146000","110891000"
+"191968","Ithaca College","2015","Not applicable","77607","76","67","16",,,,,,,"225892143","88507869","289274531"
+"192192","Keuka College","2015","Baptist","59517","53","77","18",,,,,,,"41901789","14377439","13261050"
+"192323","Le Moyne College","2015","Roman Catholic","79074","68","62","15","480","580","500","590","21","25","76167664","32149846","163263270"
+"192439","LIU Brooklyn","2015","Not applicable","92916","28","91","13",,,,,,,,"88892840",
+"192448","LIU Post","2015","Not applicable","100089","49","81","10","450","550","460","560","19","24",,"67685065",
+"192703","Manhattan College","2015","Roman Catholic","90531","72","67","16","490","580","500","610","22","27","119482857","40757239","75942238"
+"192749","Manhattanville College","2015","Not applicable","76212","57","74","15",,,,,,,"61017187","20957179","31811944"
+"192819","Marist College","2015","Not applicable","79623","78","45","29",,,,,,,"168609442","66334272","56960149"
+"192925","Medaille College","2015","Not applicable","48321","39","69","42","370","480","370","500","15","23","36928102","12610681","1283016"
+"193016","Mercy College","2015","Not applicable","77715","38","66","26",,,,,,,"123312271","45763195","193535022"
+"193292","Molloy College","2015","Roman Catholic","93051","71","76","20","480","570","490","580","21","26","95800261","55364886","33957692"
+"193308","Monroe College","2015","Not applicable","54603","68","45","62",,,,,,,,,
+"193353","Mount Saint Mary College","2015","Roman Catholic","76554","59","90","13","450","525","430","530","20","24","56951858","16301032","4858021"
+"193399","College of Mount Saint Vincent","2015","Roman Catholic","75501","53","86","14","410","500","400","490","18","22","46250922","15475012","17181154"
+"193584","Nazareth College","2015","Not applicable","72990","73","76","19",,,,,,,"72558919","31878762","65163785"
+"193645","The College of New Rochelle","2015","Not applicable","73089","29","73","42","450","520","420","500","20","23","58303010","18141247","14639429"
+"193973","Niagara University","2015","Roman Catholic","72171","63","85","26","460","563","470","570","20","25","79084971","27147166","95197456"
+"194091","New York Institute of Technology","2015","Not applicable","102627","46","68","13","460","570","500","610","21","26","234658357","102351987","101128133"
+"194161","Nyack College","2015","Christ and Missionary Alliance Church","59310","50","99","50","390","520","380","510","16","22","47184341","21278917","11915093"
+"194958","Roberts Wesleyan College","2015","Free Methodist","58833","62","66","27","480","590","470","590","20","26","35948343","17150487","24164205"
+"195128","The Sage Colleges","2015","Not applicable","55116","60","54","20",,,,,,,"49960345","21088695","30626246"
+"195164","St Bonaventure University","2015","Roman Catholic","59652","64","66","20","460","580","470","590","21","27","53915865","17170336","63222695"
+"195234","The College of Saint Rose","2015","Not applicable","73251","61","82","14",,,,,,,"89886371","46811685","31470680"
+"195243","St. Thomas Aquinas College","2015","Not applicable","78084","55","79","18","410","520","420","530","18","22","30904694","11355008","43170532"
+"195544","St. Joseph's College-New York","2015","Not applicable","78516","68","68","24","450","550","460","560","19","24","83769000","37414000","24396000"
+"196112","SUNY Polytechnic Institute","2015","Not applicable","84501","49","60","25","470","640","490","670","23","28",,,
+"196121","SUNY College at Brockport","2015","Not applicable","66654","69","53","23","460","550","470","570","20","25",,,
+"196130","SUNY Buffalo State","2015","Not applicable","69597","49","62","22","400","500","400","500","16","22",,,
+"196149","SUNY Cortland","2015","Not applicable","59454","73","51","22",,,,,,,,,
+"196158","SUNY at Fredonia","2015","Not applicable","63783","65","59","27","460","580","460","580","21","26",,,
+"196167","SUNY College at Geneseo","2015","Not applicable","66735","82","73","20","550","640","550","650","25","29",,,
+"196176","State University of New York at New Paltz","2015","Not applicable","62739","73","42","18","510","610","515","600","23","27",,,
+"196185","SUNY Oneonta","2015","Not applicable","58860","72","49","20","490","580","510","590","22","25",,,
+"196194","SUNY College at Oswego","2015","Not applicable","61974","66","51","27","500","590","510","600","22","26",,,
+"196200","SUNY College at Potsdam","2015","Not applicable","59175","55","74","23",,,,,,,,,
+"196237","SUNY College at Old Westbury","2015","Not applicable","75186","40","50","17","460","530","450","550",,,,,
+"196246","SUNY College at Plattsburgh","2015","Not applicable","63909","65","50","23","480","600","500","600","21","25",,,
+"196264","SUNY Empire State College","2015","Not applicable","61614","17",,,,,,,,,,,
+"196291","SUNY Maritime College","2015","Not applicable","63864","56","68","36","500","590","530","610","22","26",,,
+"196592","Touro College","2015","Not applicable","65124","62","34","51",,,,,,,"228335000","104996000","11782000"
+"196680","Excelsior College","2015","Not applicable",,,,,,,,,,,"94919600","19120745","1276269"
+"197045","Utica College","2015","Not applicable","66627","42","83","15",,,,,,,"74568537","27174442","24470339"
+"197197","Wagner College","2015","Lutheran Church in America","67725","64","68","22",,,,,,,"72318392","22149546","73156830"
+"197869","Appalachian State University","2015","Not applicable","70173","71","66","35","530","620","530","620","23","28",,,
+"198136","Campbell University","2015","Baptist","74232","50","73","20","440","550","460","560","19","24","118828398","68531031","133564944"
+"198507","Elizabeth City State University","2015","Not applicable","67932","39","70","25","370","460","390","460","17","19",,,
+"198516","Elon University","2015","Not applicable","81108","83","57","26","550","640","560","650","25","29","207718967","100340875","215379885"
+"198543","Fayetteville State University","2015","Not applicable","72360","32","60","27","390","460","400","470","17","20",,,
+"198835","Lenoir-Rhyne University","2015","Evangelical Lutheran Church","62298","48","84","13","440","550","440","550",,,"43136011","13893657","70626088"
+"198969","Methodist University","2015","United Methodist","62928","39","56","21","410","530","430","550","17","23","51548811","19955518","22180719"
+"199032","Montreat College","2015","Interdenominational","42516","60","54","34","430","540","420","520","18","23","18388744","4829482","17748699"
+"199157","North Carolina Central University","2015","Not applicable","69633","42","66","22","400","470","410","470","17","20",,,
+"199218","University of North Carolina Wilmington","2015","Not applicable","72117","71","61","29","560","630","560","630","23","27",,,
+"199281","University of North Carolina at Pembroke","2015","Not applicable","60714","38","74","36","410","490","420","500","18","22",,,
+"199306","Pfeiffer University","2015","United Methodist","54882","43","47","21","405","530","400","530","17","22","26607072","10101435","18633039"
+"199412","Queens University of Charlotte","2015","Presbyterian Church (USA)","72783","53","67","20","470","580","470","570","21","26","55122305","20305672","98019126"
+"199759","Southeastern Baptist Theological Seminary","2015","Southern Baptist","51471","25","98","69",,,,,,,"26349165","7420964","26057829"
+"199962","Wingate University","2015","Not applicable","66501","54","70","12","460","560","470","570","20","25","61734231","28410149","51114140"
+"199999","Winston-Salem State University","2015","Not applicable","72468","46","59","34","400","460","410","470","17","19",,,
+"200004","Western Carolina University","2015","Not applicable","68112","57","40","23","470","560","470","570","20","24",,,
+"200217","University of Mary","2015","Roman Catholic","58383","60","96","48","450","600","460","580","20","26","62611595","18036835","50956731"
+"200253","Minot State University","2015","Not applicable","60651","43","57","71","425","510","440","520","19","24",,,
+"201195","Baldwin Wallace University","2015","United Methodist","70002","67","60","29",,,,,,,"96126597","41142909","155728404"
+"201548","Capital University","2015","Evangelical Lutheran Church","74115","63","72","25","480","600","480","580","22","28","71118346","31364334","73514052"
+"202763","The University of Findlay","2015","Church of God","64431","55","76","30","470","560","470","480","20","25","86567597","37002401","35835018"
+"203085","Heidelberg University","2015","United Church of Christ","57654","39","79","30","460","580","490","580","19","25","31957354","11762722","45764724"
+"203368","John Carroll University","2015","Roman Catholic","72693","73","82","23","490","590","500","600","22","28","94400244","34137304","205196988"
+"203580","Lake Erie College","2015","Not applicable","59184","50","56","22","440","540","450","540","19","23","22381261","6007122","32722506"
+"203757","Lourdes University","2015","Roman Catholic","55278","27","69","32","370","510","430","530","18","24","30761618","13285290","11003077"
+"203775","Malone University","2015","Friends","56529","57","69","30","478","563","458","550","19","25","35218035","12703574","18350915"
+"204194","Mount Vernon Nazarene University","2015","Church of the Nazarene","54990","58","78","44","450","550","460","580","20","25","35450286","13314593","16345843"
+"204200","Mount Saint Joseph University","2015","Roman Catholic","57402","50","15","100",,,,,,,"39174410","14543337","38192996"
+"204264","Muskingum University","2015","Presbyterian Church (USA)","69867","52","74","25","400","550","400","520","18","24","36924353","17144957","74492000"
+"204468","Notre Dame College","2015","Roman Catholic","48357","39","91","17","390","455","380","483","17","21","30639957","9200920","7542105"
+"204617","Ohio Dominican University","2015","Roman Catholic","63819","45","81","22","400","580","450","570","19","24","35652538","10526346","27049210"
+"204936","Otterbein University","2015","United Methodist","66654","61","75","26","480","620","490","610","22","27","64885478","27850263","91520709"
+"205957","Franciscan University of Steubenville","2015","Roman Catholic","67977","79","79","33","540","650","520","620","23","28","61683977","19869404","55126646"
+"206048","Tiffin University","2015","Not applicable","61101","43","93","20",,,,,,,"43943874","11473498","9091487"
+"206349","Ursuline College","2015","Roman Catholic","52596","44","88","18","425","590","440","535","19","24","23909019","12925286","21980890"
+"206437","Walsh University","2015","Roman Catholic","54675","60","80","38",,,,,,,"48918655","20983241","21925835"
+"206622","Xavier University","2015","Roman Catholic","75870","74","72","15","490","590","490","590","22","27","165416000","63184000","156378000"
+"206695","Youngstown State University","2015","Not applicable","71982","31","71","36","400","530","410","530","18","24",,,
+"206835","Oklahoma Wesleyan University","2015","Wesleyan","50697","43","95","10","410","500","430","540","18","23","20505294","6863539","5903028"
+"206862","Southern Nazarene University","2015","Church of the Nazarene","51588","46",,,,,,,,,"45929436","18304668","23569490"
+"206914","Cameron University","2015","Not applicable","54828","24",,,,,,,,,,,
+"206941","University of Central Oklahoma","2015","Not applicable","60678","39","70","69",,,,,"19","24",,,
+"207041","East Central University","2015","Not applicable","49284","36","46","69","370","450","500","620","18","23",,,
+"207209","Langston University","2015","Not applicable","53073","21",,,,,,,,,,,
+"207263","Northeastern State University","2015","Not applicable","57780","26","93","56","418","445","418","465","19","23",,,
+"207306","Northwestern Oklahoma State University","2015","Not applicable","42498","20","48","89",,,,,"18","22",,,
+"207324","Oklahoma Christian University","2015","Churches of Christ","54711","49","59","29","480","610","490","620","21","28","54676674","18104283","29929169"
+"207458","Oklahoma City University","2015","United Methodist","64683","58","70","29","485","600","480","610","22","28","74288728","37461095","99356461"
+"207582","Oral Roberts University","2015","Other Protestant","65169","58","64","28","453","550","450","560","19","24","99779576","27208867","41353555"
+"207847","Southeastern Oklahoma State University","2015","Not applicable","63225","29","72","63",,,,,"18","23",,,
+"207865","Southwestern Oklahoma State University","2015","Not applicable","59886","33","92","51",,,,,"18","24",,,
+"208646","Eastern Oregon University","2015","Not applicable","57078","26","97","34","420","530","420","520","18","23",,,
+"208822","George Fox University","2015","Friends","67401","70","77","28","480","600","480","600","21","27","68688407","33134345","20894426"
+"209108","Marylhurst University","2015","Roman Catholic","55071","40","100","100",,,,,,,"18984684","6761384","19008708"
+"209409","Northwest Christian University","2015","Christian Church (Disciples of Christ)","46602","50","68","33","460","540","450","535","19","23","12362922","3229554","12417394"
+"209612","Pacific University","2015","Not applicable","71361","71","79","20","490","590","500","600","21","26","107499671","42795893","62730243"
+"209825","University of Portland","2015","Roman Catholic","70434","78","62","14","540","660","550","640",,,"122572000","45914000","150666000"
+"210146","Southern Oregon University","2015","Not applicable","66744","37","95","36","460","580","440","560","19","26",,,
+"210331","Corban University","2015","Baptist","51750","57","31","29","480","600","460","560","21","27","23811796","6813004","3112748"
+"210429","Western Oregon University","2015","Not applicable","56286","44","88","32","420","540","420","530","17","22",,,
+"210739","DeSales University","2015","Roman Catholic","62082","70","78","20","450","590","440","590","21","28","65296174","27160780","69220981"
+"210775","Alvernia University","2015","Roman Catholic","61254","51","74","32","450","540","450","550","19","24","54591528","17122532","22407663"
+"211088","Arcadia University","2015","Presbyterian Church (USA)","70605","58","59","11","498","600","498","600","22","27","127161000","34013000","67727000"
+"211158","Bloomsburg University of Pennsylvania","2015","Not applicable","79245","62","88","25","440","540","440","540","18","23",,,
+"211352","Cabrini University","2015","Roman Catholic","66222","54","72","22",,,,,,,"52519052","16713721","43708900"
+"211361","California University of Pennsylvania","2015","Not applicable","86184","51","85","30","410","510","410","510","17","22",,,
+"211431","Carlow University","2015","Roman Catholic","60498","50","81","29","438","540","430","523","19","23","43499287","13993873","23463263"
+"211556","Chatham University","2015","Not applicable","66249","56","55","26",,,,,,,"53503234","19663053","83921042"
+"211583","Chestnut Hill College","2015","Roman Catholic","48807","49","93","18","430","550","420","530","17","24","38342883","14010810","9284436"
+"211644","Clarion University of Pennsylvania","2015","Not applicable","84267","50","96","45","420","520","420","510","17","22",,,
+"211981","Delaware Valley University","2015","Not applicable","67653","57","69","26","430","550","440","560","18","25","55429269","17616365","30634431"
+"212115","East Stroudsburg University of Pennsylvania","2015","Not applicable","79821","55","84","26","420","510","420","520","18","24",,,
+"212133","Eastern University","2015","American Baptist","56871","63","52","25","460","570","460","560","18","27","63806331","28879240","28863478"
+"212160","Edinboro University of Pennsylvania","2015","Not applicable","82440","49","96","36","430","530","420","520","17","23",,,
+"212601","Gannon University","2015","Roman Catholic","67680","66","76","19","460","560","463","570","20","25","81790000","32019000","58151000"
+"212656","Geneva College","2015","Reformed Presbyterian Church","59949","64","73","27","450","590","450","590","21","27","36895393","14341436","39260559"
+"212832","Gwynedd Mercy University","2015","Roman Catholic","58374","57","68","31","410","500","420","510","18","22","44687000","21400000","23267000"
+"212984","Holy Family University","2015","Roman Catholic","66231","57","74","35","410","510","410","500",,,"39647259","18201945","16883924"
+"213321","King's College","2015","Roman Catholic","68976","66","72","22",,,,,,,"56627307","22885157","70165262"
+"213349","Kutztown University of Pennsylvania","2015","Not applicable","78741","54","82","28","430","530","430","520","17","22",,,
+"213367","La Salle University","2015","Roman Catholic","84636","63","75","18","440","550","450","550","18","23","129711576","52100601","87982244"
+"213507","Lebanon Valley College","2015","United Methodist","69381","74","72","19",,,,,,,"53045307","19440483","61750747"
+"213598","Lincoln University","2015","Not applicable","67446","42","91","15","370","470","370","460","15","19","49987598","17191260","35605356"
+"213613","Lock Haven University","2015","Not applicable","86337","50","92","27","420","520","430","530","17","22",,,
+"213783","Mansfield University of Pennsylvania","2015","Not applicable","83160","50","89","24","420","540","430","530","17","22",,,
+"213826","Marywood University","2015","Roman Catholic","70623","70","71","23","460","560","470","560",,,"72251857","28655443","35388057"
+"213987","Mercyhurst University","2015","Roman Catholic","68643","64","80","27",,,,,,,"89309774","35513902","30250000"
+"214041","Millersville University of Pennsylvania","2015","Not applicable","85986","62","73","30","450","550","450","550","19","24",,,
+"214069","Misericordia University","2015","Roman Catholic","64161","72","71","31","480","570","490","570","22","27","58312427","22191580","44087114"
+"214272","Neumann University","2015","Roman Catholic","61317","50","91","20","410","490","410","500","17","21","54206345","16148826","28205381"
+"214607","Pennsylvania State University-Penn State Great Valley","2015","Not applicable","116370",,,,,,,,,,,,
+"214713","Pennsylvania State University-Penn State Harrisburg","2015","Not applicable","86382","64","85","26","440","560","470","610","20","26",,,
+"215099","Jefferson (Philadelphia University + Thomas Jefferson University)","2015","Not applicable","81576","65","64","20","490","580","490","600","21","26","88505157","35831163","28166417"
+"215114","Cairn University-Langhorne","2015","Not applicable","51183","58","99","42","430","555","420","540","18","24","19789452","6914035","11196341"
+"215442","Point Park University","2015","Not applicable","68328","58","71","21","450","560","430","530","19","25","75169618","34355484","37133997"
+"215691","Rosemont College","2015","Roman Catholic","48114","47","71","22","400","520","380","505","15","20","20008970","5040929","13024372"
+"215743","Saint Francis University","2015","Roman Catholic","60615","72","74","29","460","570","470","590","21","26","64234020","24073718","45757516"
+"215770","Saint Joseph's University","2015","Roman Catholic","80586","79","82","17",,,,,,,"213581189","78358516","215905363"
+"215929","University of Scranton","2015","Roman Catholic","87804","80","72","13","510","610","520","620","22","28","160555933","62750025","170075150"
+"215947","Seton Hill University","2015","Roman Catholic","64773","59","76","25",,,,,,,"48651028","20062081","33888211"
+"216010","Shippensburg University of Pennsylvania","2015","Not applicable","89874","57","89","25","440","530","440","550","18","23",,,
+"216038","Slippery Rock University of Pennsylvania","2015","Not applicable","84132","68","68","39","450","540","460","540","19","24",,,
+"216694","Waynesburg University","2015","Presbyterian Church (USA)","60498","62","86","29","450","550","455","550","20","26","42283991","17674791","55602806"
+"216764","West Chester University of Pennsylvania","2015","Not applicable","81486","71","59","32","490","580","490","580","21","26",,,
+"216931","Wilkes University","2015","Not applicable","79200","59","82","23","460","578","470","598",,,"84233572","35941175","43364548"
+"217059","York College of Pennsylvania","2015","Not applicable","78840","57","43","16","470","570","490","580","20","25","100299443","41269841","82102816"
+"217165","Bryant University","2015","Not applicable","125127","80","72","19",,,,,,,"132139000","33048000","170101208"
+"217235","Johnson & Wales University-Providence","2015","Not applicable","81324","55","82","20",,,,,,,"332041491","101821552","263780313"
+"217402","Providence College","2015","Roman Catholic","86769","85","57","18",,,,,,,"176661868","57377157","208738341"
+"217420","Rhode Island College","2015","Not applicable","66915","44","72","33","400","520","400","510","16","21",,,
+"217518","Roger Williams University","2015","Not applicable","104346","64","78","14",,,,,,,"147928000","73792000","68690000"
+"217536","Salve Regina University","2015","Roman Catholic","75474","72","73","17",,,,,,,"65305000","20328000","57006000"
+"217633","Anderson University","2015","Baptist","55035","49","55","36","480","593","470","590","21","26","42376322","15395021","41155422"
+"217688","Charleston Southern University","2015","Baptist","49995","39","60","29","450","560","460","550","20","25","47823546","19849097","17124053"
+"217749","Bob Jones University","2015","Not applicable","36009","61","82","67","453","618","440","570","19","26",,,
+"217776","Southern Wesleyan University","2015","Wesleyan","47574","50","62","36",,,,,,,"25807417","9595990","4845154"
+"217819","College of Charleston","2015","Not applicable","74565","68","77","25","520","610","510","600","23","28",,,
+"217864","Citadel Military College of South Carolina","2015","Not applicable","75123","67","77","32","490","580","490","590","21","25",,,
+"217925","Columbia International University","2015","Not applicable","40410","54","34","51","480","580","450","550","20","26","30749809","6359496","4590980"
+"217934","Columbia College","2015","United Methodist","58473","50","89","40","430","550","410","520","18","24","26983059","10837984","19417021"
+"217961","Converse College","2015","Not applicable","42723","54","58","29","480","590","440","550","20","25","28371636","9784183","80983209"
+"218061","Francis Marion University","2015","Not applicable","66078","42","59","34","410","520","410","510","17","22",,,
+"218441","North Greenville University","2015","Southern Baptist","51336","55","58","58","440","630","470","670","20","29","39873453","12194027","28200202"
+"218724","Coastal Carolina University","2015","Not applicable","61965","43","60","23","450","530","460","550","20","24",,,
+"218733","South Carolina State University","2015","Not applicable","62541","36","95","21","340","420","340","420","14","17",,,
+"218964","Winthrop University","2015","Not applicable","67725","55","67","33","460","570","450","560","20","26",,,
+"219046","Black Hills State University","2015","Not applicable","63729","34","84","45","430","500","428","555","19","23",,,
+"219082","Dakota State University","2015","Not applicable","66933","39","81","47","440","550","440","580","20","25",,,
+"219198","Mount Marty College","2015","Roman Catholic","54666","46","73","38",,,,,"19","25","15086419","7052495","20127722"
+"219259","Northern State University","2015","Not applicable","64746","48","72","33","420","490","440","550","19","25",,,
+"219383","University of Sioux Falls","2015","American Baptist","57312","54","92","17","470","550","440","540","20","25","24874998","8801755","25721163"
+"219602","Austin Peay State University","2015","Not applicable","62208","36","88","49","490","620","510","580","19","24",,,
+"219709","Belmont University","2015","Interdenominational","81567","69","80","28","530","630","510","620","23","28","148538850","66568942","107827318"
+"219718","Bethel University","2015","Cumberland Presbyterian","31428","34","84","65","395","520","390","500","17","22","63528037","44373389","3230396"
+"219790","Bryan College-Dayton","2015","Interdenominational","50355","57","46","52","430","562","430","512","19","25","17124526","5553627","5901131"
+"219806","Carson-Newman University","2015","Baptist","50805","46","59","14","440","550","440","550","19","26","40182096","12835734","53592352"
+"219833","Christian Brothers University","2015","Roman Catholic","53118","52","46","29",,,,,"21","27","52448872","12530498","33303938"
+"219949","Cumberland University","2015","Not applicable","50040","45","49","59","410","480","470","600","19","23","22324747","8163772","11401995"
+"220215","Freed-Hardeman University","2015","Churches of Christ","57303","58","92","33","500","585","480","580","21","27","35561434","10767290","51511939"
+"220516","King University","2015","Presbyterian Church (USA)","42273","45","44","38","425","550","410","550","19","25","36003157","13824202","36706729"
+"220552","South College","2015","Not applicable","74358","20",,,,,,,,,,,
+"220613","Lee University","2015","Church of God","53460","52","85","46","460","610","440","570","21","27","63389137","26828447","18575224"
+"220631","Lincoln Memorial University","2015","Not applicable","53802","44","74","17","480","500","500","540","19","27","84823375","46006113","34686173"
+"221661","Southern Adventist University","2015","Seventh Day Adventist","41679","46",,,,,,,,,"75863735","27310169","33232747"
+"221740","The University of Tennessee-Chattanooga","2015","Not applicable","69255","44","79","35","460","570","450","580","21","26",,,
+"221768","The University of Tennessee-Martin","2015","Not applicable","61848","46","70","43",,,,,"20","25",,,
+"221953","Tusculum College","2015","Presbyterian Church (USA)","35019","36","69","20","398","493","430","543","18","23","30572245","8584664","17238622"
+"222178","Abilene Christian University","2015","Churches of Christ","69651","61","50","20","470","590","480","590","22","27","121674603","38321210","382839788"
+"222628","Amberton University","2015","Undenominational","55323",,,,,,,,,,"5723990","2645896","34374233"
+"222831","Angelo State University","2015","Not applicable","63162","37","77","45","430","530","440","540","18","23",,,
+"224004","Concordia University-Texas","2015","Lutheran Church - Missouri Synod","59913","42","82","31","440","540","450","550","19","24","36169746","12232403","19909120"
+"224323","University of Dallas","2015","Roman Catholic","67545","70","64","28","540","690","540","650","24","30","57253000","21966000","58826000"
+"224545","Texas A&M University-Texarkana","2015","Not applicable","76221",,"71","16","420","540","440","540","19","24",,,
+"225247","Hardin-Simmons University","2015","Baptist","60021","53","60","43","450","570","470","570","19","25","42477998","19997193","165247590"
+"225399","Houston Baptist University","2015","Southern Baptist","58743","33","33","11","470","580","490","570","20","26","59263280","19219211","100668709"
+"225414","University of Houston-Clear Lake","2015","Not applicable","78642",,"65","37","460","560","480","560","19","24",,,
+"225432","University of Houston-Downtown","2015","Not applicable","69435","13","78","33","390","480","420","510","16","20",,,
+"225502","University of Houston-Victoria","2015","Not applicable","74538",,"53","12",,,,,,,,,
+"225627","University of the Incarnate Word","2015","Roman Catholic","70803","53","92","24","430","530","430","530","18","23","143379537","57946680","125280375"
+"226152","Texas A & M International University","2015","Not applicable","74295","40","48","32","400","500","420","520","16","20",,,
+"226231","LeTourneau University","2015","Interdenominational","58338","54","45","30","500","630","520","650","22","29","53494086","19993100","17618290"
+"226383","Lubbock Christian University","2015","Churches of Christ","56655","42","96","33","440","550","430","555","19","25","32134763","11782575","16343058"
+"226471","University of Mary Hardin-Baylor","2015","Baptist","67842","43","80","12","460","560","470","570","20","26","74208427","26937295","80752124"
+"226833","Midwestern State University","2015","Not applicable","68400","44","76","38","450","540","450","550","19","24",,,
+"227331","Our Lady of the Lake University","2015","Roman Catholic","61344","37","68","15","410","500","410","510","17","22","53509367","23292672","26415374"
+"227845","Saint Edward's University","2015","Roman Catholic","74358","63","77","22","530","620","510","600","23","27","114186580","42019091","92397741"
+"227863","University of St Thomas","2015","Roman Catholic","61794","58","78","36","480","600","500","610","22","27","64781481","32887768","86629941"
+"228149","St. Mary's University","2015","Roman Catholic","90621","52","55","18","460","560","470","570","20","25","95107000","36148411","182997000"
+"228325","Southwestern Assemblies of God University","2015","Assemblies of God Church","47862","44","28","70","400","540","400","510","18","23","30310064","8985997","8687342"
+"228431","Stephen F Austin State University","2015","Not applicable","66285","41","62","33","440","550","450","550","19","24",,,
+"228501","Sul Ross State University","2015","Not applicable","53604","19","80","38","350","460","390","480","15","20",,,
+"228529","Tarleton State University","2015","Not applicable","67959","44","50","42","420","520","430","530","18","23",,,
+"228802","The University of Texas at Tyler","2015","Not applicable","71739","41","64","49","480","570","490","590","20","25",,,
+"229018","The University of Texas of the Permian Basin","2015","Not applicable","68670","40","84","52","420","530","460","540","18","22",,,
+"229160","Texas Wesleyan University","2015","United Methodist","65349","36","46","26","468","550","460","540","19","23","52514011","21907334","56428371"
+"229267","Trinity University","2015","Presbyterian Church (USA)","92421","83","48","23","580","690","580","680","27","32","118003098","40580446","1192776516"
+"229780","Wayland Baptist University","2015","Southern Baptist","43290","33","99","59","375","490","390","515","16","23","60443266","35553342","84921601"
+"229814","West Texas A & M University","2015","Not applicable","68157","40","67","38","420","540","440","543","18","23",,,
+"230603","Southern Utah University","2015","Not applicable","55647","39","72","24","450","590","450","570","20","27",,,
+"230737","Utah Valley University","2015","Not applicable","66834","30",,,,,,,,,,,
+"230782","Weber State University","2015","Not applicable","66474","38",,,,,,,,,,,
+"230807","Westminster College","2015","Not applicable","75267","62","96","24","500","620","503","618","22","27","67836428","30632850","73630746"
+"230852","Champlain College","2015","Not applicable","74043","58","66","15","520","630","510","630","23","29","81665449","25363236","16244196"
+"230889","Goddard College","2015","Not applicable","46251","25","100","50",,,,,,,"10372875","4652513","1176905"
+"230898","Green Mountain College","2015","United Methodist","54333","38","66","24",,,,,,,"19528345","5695697","3568130"
+"230913","Johnson State College","2015","Not applicable","62478","34","95","25","450","560","430","540","14","22",,,
+"230995","Norwich University","2015","Not applicable","66789","56","57","31",,,,,,,"105542000","28593000","208796000"
+"231712","Christopher Newport University","2015","Not applicable","74367","70","60","28","540","630","530","620","23","27",,,
+"232043","Eastern Mennonite University","2015","Mennonite Church","54027","61","62","25","430","570","440","560","18","26","37586390","17277098","25097544"
+"232265","Hampton University","2015","Not applicable","56304","63","69","13","470","540","470","550","20","24","159801097","39264270","263237078"
+"232423","James Madison University","2015","Not applicable","74835","83","73","28","520","610","520","610","23","27",,,
+"232566","Longwood University","2015","Not applicable","65322","66","79","28","450","550","440","540","18","23",,,
+"232609","Lynchburg College","2015","Christian Church (Disciples of Christ)","66033","56","69","15","460","570","450","550","19","24","64602291","28203564","98665977"
+"232672","Mary Baldwin University","2015","Presbyterian Church (USA)","60201","37","97","7","440","600","420","540","19","25","31758578","14554635","36881411"
+"232681","University of Mary Washington","2015","Not applicable","69147","70","83","21","510","620","490","590","22","27",,,
+"232706","Marymount University","2015","Roman Catholic","74241","50","68","21","450","560","430","550","19","24","80525290","30690637","37475510"
+"232937","Norfolk State University","2015","Not applicable","71163","33","79","25","350","460","350","450","15","19",,,
+"233277","Radford University","2015","Not applicable","72423","59","83","31",,,,,,,,,
+"233684","Strayer University-Virginia","2015","Not applicable","60219","11",,,,,,,,,,,
+"234155","Virginia State University","2015","Not applicable","65619","49","77","15","390","480","380","460","15","21",,,
+"234827","Central Washington University","2015","Not applicable","70029","52","82","41","420","550","430","550","17","25",,,
+"234915","City University of Seattle","2015","Not applicable","51273","47",,,,,,,,,"34143958","12905353",
+"235097","Eastern Washington University","2015","Not applicable","73602","46","82","41","420","540","430","550","18","23",,,
+"235167","The Evergreen State College","2015","Not applicable","71343","54","98","35","490","630","450","560","20","26",,,
+"235316","Gonzaga University","2015","Roman Catholic","79641","83","73","27","540","640","550","650","25","29","194883000","72339000","216572000"
+"235422","Heritage University","2015","Not applicable","64863","18",,,,,,,,,"30628780","14837495","15011132"
+"236133","Northwest University","2015","Assemblies of God Church","56673","50","64","42","440","560","430","550","19","24","33027254","11246677","7331657"
+"236230","Pacific Lutheran University","2015","Evangelical Lutheran Church","66582","68","76","23","480","620","500","610","22","28","101274204","40086420","85581438"
+"236452","Saint Martin's University","2015","Roman Catholic","54045","49","93","20","460","580","458","570","21","26","35411918","12035948","17317429"
+"236595","Seattle University","2015","Roman Catholic","79398","79","73","18","530","650","530","630","25","29","213911657","99530249","201582730"
+"236896","Walla Walla University","2015","Seventh Day Adventist","46476","48","56","35","450","600","460","580","20","27","47118034","18973460","22790458"
+"237011","Western Washington University","2015","Not applicable","77832","71","82","34","500","620","500","600","22","27",,,
+"237066","Whitworth University","2015","Presbyterian","62010","75","62","21",,,,,,,"75330370","27686724","129431885"
+"237312","University of Charleston","2015","Not applicable","56961","48","52","31","430","520","443","530","19","24","43244280","14363048","40204102"
+"237330","Concord University","2015","Not applicable","56457","39","85","36","400","530","410","530","19","24",,,
+"237367","Fairmont State University","2015","Not applicable","56952","30","65","42","420","510","410","510","18","23",,,
+"237525","Marshall University","2015","Not applicable","63108","45","88","44","440","490","430","480","20","25",,,
+"237783","Salem International University","2015","Not applicable","34272","12",,,,,,,,,,,
+"237969","West Virginia Wesleyan College","2015","United Methodist","51768","50","77","28","420","540","420","550","20","25","31004034","9272900","44753388"
+"238078","Wheeling Jesuit University","2015","Roman Catholic","53622","54","61","25","450","550","450","560","20","25","33489868","9857618","13788523"
+"238193","Alverno College","2015","Roman Catholic","51507","42","77","49","405","560","365","490","16","22","44077083","13846577","25425125"
+"238458","Carroll University","2015","Presbyterian Church (USA)","62550","59","94","35","370","480","480","540","21","26","65722674","20430974","52607425"
+"238616","Concordia University-Wisconsin","2015","Lutheran Church - Missouri Synod","72792","58","67","32","445","568","453","588","20","26","91013377","47315188","60749967"
+"238980","Lakeland University","2015","United Church of Christ","58698","51","96","23","385","480","390","510","16","22","35143852","13145368","14577876"
+"239080","Marian University","2015","Roman Catholic","57492","41","84","29",,,,,"17","23","32589285","11796558","7444682"
+"239318","Milwaukee School of Engineering","2015","Not applicable","77877","64","65","34","580","670","610","730","25","30","75198839","30551399","59972726"
+"239390","Mount Mary University","2015","Roman Catholic","54243","43","53","36","345","453","318","425","17","21","23132993","8825751","15873321"
+"239743","Silver Lake College of the Holy Family","2015","Roman Catholic","37467","40","47","32",,,,,,,"12859943","4723174","7242230"
+"240107","Viterbo University","2015","Roman Catholic","55773","52","66","30","550","640","490","520","21","26","41132981","18553986","45054555"
+"240189","University of Wisconsin-Whitewater","2015","Not applicable","65196","60","80","45","410","550","490","590","20","25",,,
+"240268","University of Wisconsin-Eau Claire","2015","Not applicable","65727","65","85","45",,,,,"22","26",,,
+"240277","University of Wisconsin-Green Bay","2015","Not applicable","60183","46","85","44",,,,,"21","25",,,
+"240329","University of Wisconsin-La Crosse","2015","Not applicable","61506","68","80","43",,,,,"23","26",,,
+"240365","University of Wisconsin-Oshkosh","2015","Not applicable","63819","51","81","40",,,,,"20","24",,,
+"240392","Herzing University-Madison","2015","Not applicable","55737","37","93","61",,,,,,,,,
+"240417","University of Wisconsin-Stout","2015","Not applicable","60786","57","93","53",,,,,"20","24",,,
+"240462","University of Wisconsin-Platteville","2015","Not applicable","57789","54","94","49",,,,,"21","26",,,
+"240471","University of Wisconsin-River Falls","2015","Not applicable","65880","57","90","48",,,,,"20","25",,,
+"240480","University of Wisconsin-Stevens Point","2015","Not applicable","59922","64","90","45",,,,,"20","25",,,
+"240754","University of Guam","2015","Not applicable","69066","27",,,,,,,,,,,
+"241100","American University of Puerto Rico","2015","Not applicable","26415","31",,,,,,,,,"10108896","3663238",
+"241225","Universidad Central de Bayamon","2015","Roman Catholic","23661","3","68","43",,,,,,,"13613313","3415576","443171"
+"241377","Caribbean University-Bayamon","2015","Not applicable","20367","27",,,,,,,,,"21551142","5668054","3583"
+"241395","Pontifical Catholic University of Puerto Rico-Arecibo","2015","Roman Catholic","28548","26","40","41",,,,,,,,,
+"241739","Universidad Metropolitana","2015","Not applicable","35973","26",,,,,,,,,"93708557","42156129","22092650"
+"242617","Inter American University of Puerto Rico-San German","2015","Not applicable","43515","34","63","94",,,,,,,,"17171628",
+"242626","Inter American University of Puerto Rico-Aguadilla","2015","Not applicable","39753","24","53","98",,,,,,,,"11387029",
+"242635","Inter American University of Puerto Rico-Arecibo","2015","Not applicable","41328","28","56","99",,,,,,,,"12414318",
+"242662","Inter American University of Puerto Rico-Ponce","2015","Not applicable","39888","25","53","96",,,,,,,,"14542496",
+"243081","Ponce Health Sciences University","2015","Not applicable","58284",,,,,,,,,,,,
+"243197","University of Puerto Rico-Mayaguez","2015","Not applicable","71361","36","77","92",,,,,,,,,
+"243346","Universidad Del Este","2015","Not applicable","34146","25",,,,,,,,,"78362756","32779926","21111540"
+"243443","Universidad del Sagrado Corazon","2015","Roman Catholic","33921","32","22","41",,,,,,,"46464349","15729010","23196010"
+"243665","University of the Virgin Islands","2015","Not applicable","57006","24","95","38","350","468","330","440","16","21",,,
+"245838","Antioch University-Los Angeles","2015","Not applicable","60273",,,,,,,,,,,,
+"245865","Antioch University-New England","2015","Not applicable","60597",,,,,,,,,,,,
+"245883","Antioch University-Seattle","2015","Not applicable","61146","20",,,,,,,,,,,
+"245892","Antioch University-Midwest","2015","Not applicable","43101",,,,,,,,,,,,
+"245953","Mid-America Christian University","2015","Church of God","42165","44",,,,,,,,,"28573334","6077205","2589197"
+"251312","South University-Columbia","2015","Not applicable","67086","11",,,,,,,,,,,
+"260901","Kaplan University-Davenport Campus","2015","Not applicable","41355","0",,,,,,,,,,,
+"262086","Brandman University","2015","Not applicable","74664",,"75","55",,,,,,,"91935493","31023004",
+"363907","Caribbean University-Ponce","2015","Not applicable","21339","21",,,,,,,,,"2944280","774360","490"
+"366711","California State University-San Marcos","2015","Not applicable","77211","51","54","30","420","520","430","530","18","23",,,
+"366748","Argosy University-Hawaii","2015","Not applicable","56430","0",,,,,,,,,,,
+"367884","Hodges University","2015","Not applicable","48078","23","94","91",,,,,,,"27542533","11219678","2745821"
+"377555","University of Washington-Bothell Campus","2015","Not applicable","90054","70","79","31","450","570","470","590","19","25",,,
+"377564","University of Washington-Tacoma Campus","2015","Not applicable","82278","63","83","35","410","550","440","550","16","22",,,
+"380465","University of Phoenix-Utah","2015","Not applicable",,"21",,,,,,,,,,,
+"405997","University of Phoenix-New Mexico","2015","Not applicable",,"20",,,,,,,,,,,
+"407009","Arizona State University-West","2015","Not applicable","75582","71","76","31","480","600","470","600","21","27",,,
+"409698","California State University-Monterey Bay","2015","Not applicable","71478","53","49","14",,,,,,,,,
+"420042","University of Phoenix-Hawaii","2015","Not applicable",,"23",,,,,,,,,,,
+"420574","Arizona State University-Polytechnic","2015","Not applicable","74790","58","80","35","490","600","520","630","21","27",,,
+"433387","Western Governors University","2015","Not applicable","40914","14",,,,,,,,,"334173995","128661164",
+"433660","Florida Gulf Coast University","2015","Not applicable","70542","43","61","33","490","570","480","570","22","26",,,
+"438151","Stevens-Henager College","2015","Not applicable","21816","14",,,,,,,,,"10694169","3113683",
+"438498","Stratford University","2015","Not applicable","42237","0",,,,,,,,,,,
+"438586","American InterContinental University-Atlanta","2015","Not applicable","54756","31",,,,,,,,,,,
+"439057","Argosy University-Seattle","2015","Not applicable","56178","0",,,,,,,,,,,
+"440031","Keck Graduate Institute","2015","Not applicable","99414",,,,,,,,,,"21523088","7981888","55322440"
+"440411","Marlboro College Graduate & Professional Studies","2015","Not applicable","47115",,,,,,,,,,,,
+"441937","California State University-Channel Islands","2015","Not applicable","79281","57","68","14",,,,,,,,,
+"442569","Grantham University","2015","Not applicable","37089","31",,,,,,,,,,,
+"443128","International Technological University","2015","Not applicable","48609",,,,,,,,,,"15797836","5848586",
+"443766","Strayer University-Tennessee","2015","Not applicable","56439","0",,,,,,,,,,,
+"443784","Strayer University-Pennsylvania","2015","Not applicable","58041","14",,,,,,,,,,,
+"445027","American InterContinental University","2015","Not applicable","52668","28",,,,,,,,,,,
+"445267","Central Methodist University-College of Graduate and Extended Studies","2015","United Methodist","43929",,"45","67",,,,,,,,,
+"446640","Harrisburg University of Science and Technology","2015","Not applicable","74988","6",,,,,,,,,"22790766","6707802",
+"447272","Argosy University-Los Angeles","2015","Not applicable",,"100",,,,,,,,,,,
+"448284","Doane University-Graduate and Professional Studies","2015","Not applicable","47556","0",,,,,,,,,,"6405793",
+"448309","Shorter University-College of Adult & Professional Programs","2015","Southern Baptist","35874","23","48","23",,,,,,,,"2432231",
+"448840","University of South Florida-St Petersburg","2015","Not applicable","79101","38","47","25","510","600","500","570","22","26",,,
+"449038","Strayer University-Florida","2015","Not applicable","58950","22",,,,,,,,,,,
+"449339","American Public University System","2015","Not applicable","41931","31",,,,,,,,,,,
+"450544","Argosy University-San Diego","2015","Not applicable",,"0",,,,,,,,,,,
+"450766","LIU Riverhead","2015","Not applicable",,,,,,,,,,,,"1486609",
+"450933","Columbia Southern University","2015","Not applicable","39636","27",,,,,,,,,,,
+"451671","University of South Florida-Sarasota-Manatee","2015","Not applicable","71253",,"34","56","530","610","530","600","22","26",,,
+"452090","Argosy University-Salt Lake City","2015","Not applicable","47250","0",,,,,,,,,,,
+"453163","Strayer University-North Carolina","2015","Not applicable","60966","14",,,,,,,,,,,
+"455992","Vermont College of Fine Arts","2015","Not applicable",,,,,,,,,,,"9729359","2586457","511373"
+"456542","Geisinger Commonwealth School of Medicine","2015","Not applicable",,,,,,,,,,,"33103628","14893697","1184831"
+"458919","Strayer University-Georgia","2015","Not applicable","57438","17",,,,,,,,,,,
+"459727","Touro University Worldwide","2015","Not applicable","59814",,,,,,,,,,"5608932","2022113",
+"460075","California University of Management and Sciences","2015","Not applicable","41130",,,,,,,,,,"3305237","1077469",
+"475121","South University–Savannah Online","2015","Not applicable","53829","2",,,,,,,,,,,
+"475811","Universidad Internacional Iberoamericana","2015","Not applicable","14175",,,,,,,,,,"4322682","2153932",
+"476975","Colorado State University-Global Campus","2015","Not applicable","40770",,,,,,,,,,,,
+"479956","Pennsylvania State University-World Campus","2015","Not applicable","40932","25","61","51","470","570","440","560","21","25",,,
+"480198","Warner Pacific College Adult Degree Program","2015","Church of God",,"31",,,,,,,,,,,
+"480569","Florida Institute of Technology-Online","2015","Not applicable","60579",,,,,,,,,,,"4883797",
+"482422","DeVry University-Arizona","2015","Not applicable","66240","30","84","88",,,,,,,,,
+"482431","DeVry University-California","2015","Not applicable","61848","29","88","74",,,,,,,,,
+"482440","DeVry University-Colorado","2015","Not applicable","52074","12","86","83",,,,,,,,,
+"482459","DeVry University-Florida","2015","Not applicable","60714","28","78","78",,,,,,,,,
+"482468","DeVry University-Georgia","2015","Not applicable","64845","16","84","92",,,,,,,,,
+"482477","DeVry University-Illinois","2015","Not applicable","65259","20","78","91",,,,,,,,,
+"482538","DeVry University-Missouri","2015","Not applicable","58914","30","86","74",,,,,,,,,
+"482556","DeVry University-New Jersey","2015","Not applicable","71991","19","87","75",,,,,,,,,
+"482574","DeVry University-Ohio","2015","Not applicable","67311","31","86","82",,,,,,,,,
+"482608","DeVry University-Pennsylvania","2015","Not applicable","60219","28","86","95",,,,,,,,,
+"482635","DeVry University-Texas","2015","Not applicable","65799","16","94","77",,,,,,,,,
+"482680","University of North Georgia","2015","Not applicable","51426","53","96","54","460","560","450","560","19","24",,,
+"482705","Northeastern University Professional Advancement Network","2015","Not applicable","64296",,,,,,,,,,,,
+"483036","Texas A & M University-Central Texas","2015","Not applicable","67842",,,,,,,,,,,,
+"484631","University of Phoenix-California","2015","Not applicable","56115","17",,,,,,,,,,,
+"484640","University of Phoenix-Colorado","2015","Not applicable",,"18",,,,,,,,,,,
+"484668","University of Phoenix-Florida","2015","Not applicable",,"17",,,,,,,,,,,
+"484677","University of Phoenix-Georgia","2015","Not applicable",,"13",,,,,,,,,,,
+"484686","University of Phoenix-Louisiana","2015","Not applicable",,"11",,,,,,,,,,,
+"484695","University of Phoenix-Michigan","2015","Not applicable",,"9",,,,,,,,,,,
+"484710","University of Phoenix-Nevada","2015","Not applicable",,"20",,,,,,,,,,,
+"484738","University of Phoenix-Oklahoma","2015","Not applicable",,"11",,,,,,,,,,,
+"484747","University of Phoenix-Tennessee","2015","Not applicable",,"15",,,,,,,,,,,
+"484765","University of Phoenix-Virginia","2015","Not applicable",,"5",,,,,,,,,,,
+"484905","University of North Texas at Dallas","2015","Not applicable","80316",,"58","20","400","480","430","507","16","21",,,
+"486901","Milligan College","2015","Christian Churches and Churches of Christ","50706","63","65","48","473","590","503","600","22","28","25583407","8593150","28861580"
+"487524","Husson University","2015","Not applicable","63063","44","80","32","430","530","430","540","18","23","50644461","18287732","14092894"
+"490805","Purdue University Northwest","2015",,,,,,,,,,,,,,

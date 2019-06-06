@@ -1,0 +1,755 @@
+"unitid","institution name","year","IC2009.Religious affiliation","DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks","DRVGR2009.Graduation rate - Bachelor degree within 6 years, total","DRVIC2009.Percent admitted - total","DRVIC2009.Admissions yield - total","IC2009.SAT Critical Reading 25th percentile score","IC2009.SAT Critical Reading 75th percentile score","IC2009.SAT Math 25th percentile score","IC2009.SAT Math 75th percentile score","IC2009.ACT Composite 25th percentile score","IC2009.ACT Composite 75th percentile score","F0809_F2.Total expenses","F0809_F2.Instruction-Total amount","F0809_F2.Value of endowment assets at the end of the fiscal year"
+"100654","Alabama A & M University","2009","Not applicable","60739","29","47","39","400","470","380","470","16","19",,,
+"100690","Amridge University","2009","Churches of Christ","32937","0","88","100",,,,,,,"8867841","3148163","174805"
+"100724","Alabama State University","2009","Not applicable","62468","22","46","35","360","440","360","450","15","18",,,
+"100830","Auburn University at Montgomery","2009","Not applicable","65019","28","95","65",,,,,"18","23",,,
+"101189","Faulkner University","2009","Churches of Christ","58441","35","58","43","440","570","440","530","18","23","36005570","14526032","14361385"
+"101480","Jacksonville State University","2009","Not applicable","59945","35","88","49","400","500","400","510","17","22",,,
+"101587","University of West Alabama","2009","Not applicable","52400","35","62","68",,,,,"18","34",,,
+"101709","University of Montevallo","2009","Not applicable","59155","45","69","49",,,,,"20","25",,,
+"101879","University of North Alabama","2009","Not applicable","62694","40","82","54","400","460","360","470","18","24",,,
+"102049","Samford University","2009","Baptist","69263","74","84","38","520","645","520","650","21","28","121097466","57178281","249542197"
+"102368","Troy University","2009","Not applicable","56789","38","66","73",,,,,"18","23",,,
+"102377","Tuskegee University","2009","Not applicable","57095","41","59","43","390","500","380","490","17","22","115530127","33217981","72587796"
+"102553","University of Alaska Anchorage","2009","Not applicable","72131","27","72","69","440","480","430","560","17","24",,,
+"102632","University of Alaska Southeast","2009","Not applicable","65399","31",,,,,,,,,,,
+"102669","Alaska Pacific University","2009","Not applicable","54883","48","63","83","510","630","490","600","21","26","17210698","6378275","50420638"
+"105367","Ottawa University-Phoenix","2009","American Baptist","50538",,,,,,,,,,,,
+"105589","Prescott College","2009","Not applicable","42114","30","81","26","530","650","470","580","19","27","15904116","6576584","722325"
+"106458","Arkansas State University-Main Campus","2009","Not applicable","55893","37","77","55","410","540","440","570","18","24",,,
+"106467","Arkansas Tech University","2009","Not applicable","52375","40","94","59","370","530","460","620","20","26",,,
+"106485","University of Arkansas at Monticello","2009","Not applicable","47424","25",,,,,,,,,,,
+"106704","University of Central Arkansas","2009","Not applicable","56076","41","58","62",,,,,"20","28",,,
+"107044","Harding University","2009","Churches of Christ","57951","61","73","67","490","630","490","640","21","28","96701838","42232360","81312963"
+"107071","Henderson State University","2009","Not applicable","52005","35","31","100","420","530","460","610","19","26",,,
+"107141","John Brown University","2009","Not applicable","53644","64","73","50","520","660","510","640","22","28","37566662","11979114","53424114"
+"107983","Southern Arkansas University Main Campus","2009","Not applicable","51148","31","74","41","410","540","470","560","18","24",,,
+"110361","California Baptist University","2009","Southern Baptist","66244","58","74","45","450","570","440","560","19","24","75777441","30063706","10474019"
+"110413","California Lutheran University","2009","Evangelical Lutheran Church","75916","63","62","20","490","580","510","610","22","26","69471566","25450747","41759078"
+"110422","California Polytechnic State University-San Luis Obispo","2009","Not applicable","80419","72","33","31","530","630","570","680","24","29",,,
+"110486","California State University-Bakersfield","2009","Not applicable","75358","38","61","30","390","490","400","520","15","20",,,
+"110495","California State University-Stanislaus","2009","Not applicable","75717","50","66","31","420","530","420","540","17","22",,,
+"110510","California State University-San Bernardino","2009","Not applicable","78784","45","24","77","390","500","400","510","16","20",,,
+"110529","California State Polytechnic University-Pomona","2009","Not applicable","84742","53","53","20","440","560","480","610","19","25",,,
+"110538","California State University-Chico","2009","Not applicable","78675","58","80","21","450","550","460","570","19","24",,,
+"110547","California State University-Dominguez Hills","2009","Not applicable","77890","35","50","17","360","450","350","460","14","18",,,
+"110574","California State University-East Bay","2009","Not applicable","80363","48","72","24","390","500","390","510","15","21",,,
+"110583","California State University-Long Beach","2009","Not applicable","79673","54","42","23","440","550","460","580","18","24",,,
+"110592","California State University-Los Angeles","2009","Not applicable","82133","34","77","14","370","470","370","490","15","19",,,
+"110608","California State University-Northridge","2009","Not applicable","78545","44","75","27","400","520","400","530","16","21",,,
+"110617","California State University-Sacramento","2009","Not applicable","76865","44","67","22","410","520","420","550","17","22",,,
+"111948","Chapman University","2009","Christian Church (Disciples of Christ)","97116","73","56","30","547","661","568","678","25","29","155421448","81069509","134926000"
+"112075","Concordia University-Irvine","2009","Lutheran Church - Missouri Synod","52774","65","62","28","460","560","450","570","19","25","39317154","13298389","10413026"
+"113698","Dominican University of California","2009","Roman Catholic","68046","50","53","18","460","560","470","560","20","25","43292430","20944654","17239459"
+"114813","Fresno Pacific University","2009","Mennonite Brethren Church","56507","63","51","69","420","540","420","560","18","24","39023112","14784681","8352264"
+"115083","Golden Gate University-San Francisco","2009","Not applicable","101458","0","88","71",,,,,,,"55713870","18618798","25775251"
+"115728","Holy Names University","2009","Roman Catholic","67919","35","77","37","390","478","398","493","16","20","18711286","6176211","7783524"
+"115755","Humboldt State University","2009","Not applicable","75789","42","75","16","470","590","460","580","19","25",,,
+"116712","John F. Kennedy University","2009","Not applicable","53151",,,,,,,,,,"25257505","9634475","1086569"
+"117627","La Sierra University","2009","Seventh Day Adventists","61786","32","53","46","420","560","410","560","17","22","53846605","16730031","15403362"
+"117751","The Master's University and Seminary","2009","Interdenominational","70885","61","51","97","480","630","480","610","22","27","29670836","11227070","9569497"
+"117946","Loyola Marymount University","2009","Roman Catholic","94474","80","59","25","530","630","550","650","24","28","269980623","109108196","298570817"
+"118888","Mills College","2009","Not applicable","100482","62","57","19","530","650","500","600","22","27","62265540","21334648","156570854"
+"119058","Middlebury Institute of International Studies at Monterey","2009","Not applicable","62061",,,,,,,,,,"31461000","11729000","9113000"
+"119173","Mount Saint Mary's University","2009","Roman Catholic","69531","67","82","42","410","510","380","510","17","21","54179416","17157983","65362751"
+"119605","National University","2009","Not applicable","67056","35",,,,,,,,,"160030739","59024762","284483003"
+"120184","Notre Dame de Namur University","2009","Roman Catholic","64688","58","79","15","390","520","400","510","16","21","27042563","7894701","8943534"
+"120537","Hope International University","2009","Christian Churches and Churches of Christ","47102","27","39","47","420","520","427","542","20","25","19729128","5278639","4662835"
+"121309","Point Loma Nazarene University","2009","Church of the Nazarene","78526","73","74","29","500","610","490","620","21","27","75869748","24550955","23625752"
+"121691","University of Redlands","2009","Not applicable","75835","68","70","25","520","610","540","630","22","26","107916085","44431848","89621311"
+"122755","San Jose State University","2009","Not applicable","83966","46","66","23","430","540","450","580","18","24",,,
+"122931","Santa Clara University","2009","Roman Catholic","102019","85","58","21","550","650","570","680","25","30","251943000","107549000","528892000"
+"123457","Simpson University","2009","Christ and Missionary Alliance Church","52120","43","59","37","440","550","420","530","18","24","16987764","6015321","3042312"
+"123554","Saint Mary's College of California","2009","Roman Catholic","86427","59","79","22","490","590","490","600","20","26","103393226","43162788","107593335"
+"123572","Sonoma State University","2009","Not applicable","76932","53","81","17","450","550","460","570","20","24",,,
+"123651","Vanguard University of Southern California","2009","Assemblies of God Church","62233","55","79","43","460","540","450","540",,,"41849209","17236229","4959397"
+"125897","Woodbury University","2009","Not applicable","77033","44","70","29","390","520","400","530","17","23","32529017","12772964","10799498"
+"126182","Adams State University","2009","Not applicable","51785","32","57","42","400","550","420","545","17","22",,,
+"126580","University of Colorado Colorado Springs","2009","Not applicable","64794","43","64","37","480","590","490","600","21","26",,,
+"126669","Colorado Christian University","2009","Undenominational","55394","41","28","50",,,,,,,"32907539","11405545","1825491"
+"126827","Colorado Technical University-Colorado Springs","2009","Not applicable","61138","48",,,,,,,,,,,
+"127565","Metropolitan State University of Denver","2009","Not applicable","58412","21","75","54","450","550","420","550","18","22",,,
+"127653","Naropa University","2009","Not applicable","44434","46","64","39",,,,,,,"17637536","6217310","3605300"
+"127918","Regis University","2009","Roman Catholic","63887","65","80","24","480","600","480","600","22","26","116060667","39368513","30895818"
+"128106","Colorado State University-Pueblo","2009","Not applicable","57386","27","97","31","420","520","420","530","18","22",,,
+"128391","Western State Colorado University","2009","Not applicable","56146","39","72","30","450","550","450","550","19","24",,,
+"128498","Albertus Magnus College","2009","Roman Catholic","51828","46","84","27","420","455","415","435",,,"25218146","9215378","2629700"
+"128744","University of Bridgeport","2009","Not applicable","67101","30","55","10","400","490","410","500",,,"73673000","29905000","9985000"
+"128771","Central Connecticut State University","2009","Not applicable","76446","49","54","35","460","550","470","560",,,,,
+"129215","Eastern Connecticut State University","2009","Not applicable","73817","51","62","42","470","550","480","560",,,,,
+"129242","Fairfield University","2009","Roman Catholic","86027","85","59","17","520","610","540","630","23","27","156152000","48850000","203162000"
+"129428","Rensselaer at Hartford","2009","Not applicable","97036",,,,,,,,,,"21935000","5822000","6561000"
+"129941","University of New Haven","2009","Not applicable","77262","51","47","34","450","550","450","570","19","25","107799487","41689448","12286283"
+"130183","Post University","2009","Not applicable","61914","28","57","34","360","470","360","470","15","22",,,
+"130226","Quinnipiac University","2009","Not applicable","93355","75","69","17","500","580","510","610","22","26","189042998","75623116","192579287"
+"130253","Sacred Heart University","2009","Roman Catholic","69580","66","65","20","471","580","503","596",,,"121868961","42951848","67364074"
+"130314","University of Saint Joseph","2009","Roman Catholic","66794","46","84","19","440","520","440","520","18","20","39473000","11921000","15503000"
+"130493","Southern Connecticut State University","2009","Not applicable","76925","42","71","31","440","480","430","480",,,,,
+"130776","Western Connecticut State University","2009","Not applicable","80541","42","62","39","460","540","450","540",,,,,
+"130934","Delaware State University","2009","Not applicable","66511","34","37","25","400","480","390","480","15","19",,,
+"131399","University of the District of Columbia","2009","Not applicable","76409","12",,,,,,,,,,,
+"131450","Gallaudet University","2009","Not applicable","93516","40","69","75",,,,,"15","20","134855670","50280872","149166604"
+"131803","Strayer University-District of Columbia","2009","Not applicable","53529","19",,,,,,,,,,,
+"131876","Trinity Washington University","2009","Roman Catholic","57894","38","55","41",,,,,,,"25293465","7740721","16597649"
+"132657","Lynn University","2009","Not applicable","48884","35","62","23","410","510","410","530","17","21","65270175","20554824","17667819"
+"133553","Embry-Riddle Aeronautical University-Daytona Beach","2009","Not applicable","68083","57","81","30","460","580","490","630","21","27","265454000","132527000","53822492"
+"134079","Florida Southern College","2009","United Methodist","60472","55","69","33","470","580","470","580","20","25","51165303","12278900","55869214"
+"134149","Everest University-Pompano Beach","2009","Not applicable","24084","19","69","100",,,,,,,,,
+"134237","Full Sail University","2009","Not applicable","35085",,,,,,,,,,,,
+"134945","Jacksonville University","2009","Not applicable","63519","41","54","18","470","560","470","560","19","25","72744904","23736847","23268557"
+"135081","Keiser University-Ft Lauderdale","2009","Not applicable","46715",,"74","100",,,,,,,,,
+"136172","University of North Florida","2009","Not applicable","60511","49","64","34","510","610","510","600","21","24",,,
+"136330","Palm Beach Atlantic University","2009","Interdenominational","61712","53","69","44","470","580","450","550","20","26","62114913","22326466","56934880"
+"136950","Rollins College","2009","Not applicable","78394","66","62","25","550","650","550","650",,,"97082000","35569000","266349000"
+"137032","Saint Leo University","2009","Roman Catholic","61728","43","76","31","440","530","450","550","20","24","100184169","36217367","11167780"
+"137476","St Thomas University","2009","Roman Catholic","82473","36","91","36","390","490","380","490","16","21","50439743","18959178","12006314"
+"137546","Stetson University","2009","Not applicable","79180","62","53","20","500","600","490","600","21","26","107849442","42922551","112264320"
+"137564","Southeastern University","2009","Assemblies of God Church","57052","48",,,,,,,,,"45276789","10594062","3750803"
+"137847","The University of Tampa","2009","Not applicable","69905","57","60","23","480","570","490","580","21","25","106034472","35483423","21546086"
+"138716","Albany State University","2009","Not applicable","55283","42","30","38","410","480","400","470","17","19",,,
+"138789","Armstrong State University","2009","Not applicable","59256","30","66","61","450","540","440","550","18","23",,,
+"139144","Berry College","2009","Not applicable","61919","59","67","35","520","640","510","610","22","28","68051672","24320718","566087442"
+"139199","Brenau University","2009","Not applicable","55282","51","38","12","450","540","420","520",,,"32004410","16441714","23615183"
+"139311","Clayton  State University","2009","Not applicable","62283","29","62","53","440","550","430","540","18","22",,,
+"139366","Columbus State University","2009","Not applicable","59832","33","59","61","430","550","420","540","17","22",,,
+"139579","South University-Savannah","2009","Not applicable","59898","38","82","44",,,,,,,,,
+"139719","Fort Valley State University","2009","Not applicable","48382","31","47","40","365","541","369","480","16","23",,,
+"139764","Georgia Southwestern State University","2009","Not applicable","57131","35","70","52","440","530","440","530","18","21",,,
+"139861","Georgia College & State University","2009","Not applicable","57665","48","62","48","520","600","520","600","22","25",,,
+"140818","Piedmont College","2009","United Church of Christ","53731","42","60","30","448","540","430","550","18","23","27110813","13377489","41337470"
+"140960","Savannah State University","2009","Not applicable","56621","29",,,,,,,,,,,
+"141167","Thomas University","2009","Not applicable","46767","63",,,,,,,,,"10232146","4396664","3181467"
+"141486","Chaminade University of Honolulu","2009","Roman Catholic","59668","43","95","27","420","520","420","520","18","22","34584509","11645599","7147803"
+"141565","University of Hawaii at Hilo","2009","Not applicable","74998","31","56","49","410","520","420","540","17","24",,,
+"141644","Hawaii Pacific University","2009","Not applicable","67421","39","82","26","430","550","420","530","18","23","95162614","29659702","60538004"
+"142461","Northwest Nazarene University","2009","Church of the Nazarene","51326","54",,,,,,,,,"35728363","14416783","19412771"
+"143118","Aurora University","2009","Not applicable","61046","49","71","36","460","540","480","550","20","24","53186062","18270697","33428028"
+"143358","Bradley University","2009","Not applicable","71470","77","74","24","480","600","510","640","22","27","129814212","64110558","177220749"
+"144005","Chicago State University","2009","Not applicable","64351","14","56","34",,,,,"16","19",,,
+"144281","Columbia College Chicago","2009","Not applicable","69468","37",,,,,,,,,"222875929","119615508","88455494"
+"144351","Concordia University-Chicago","2009","Lutheran Church - Missouri Synod","60349","48","52","25","460","580","460","570","19","24","46870000","24791668","11731088"
+"144892","Eastern Illinois University","2009","Not applicable","66340","58","68","32",,,,,"19","24",,,
+"144962","Elmhurst College","2009","United Church of Christ","67238","70","70","30","460","560","480","610","21","27","65784020","23960272","72708893"
+"145336","Governors State University","2009","Not applicable","71720",,,,,,,,,,,,
+"145372","Greenville University","2009","Free Methodist","48618","45","78","35","435","585","410","560","20","27","23148028","9378537","11339440"
+"146339","Judson University","2009","Baptist","59628","54","71","44","490","600","520","610","20","26","21851818","10112498","7300719"
+"146612","Lewis University","2009","Roman Catholic","70745","60","74","33","420","530","470","580","20","25","80426570","36521229",
+"147013","McKendree University","2009","United Methodist","57601","58","69","34","410","590","420","560","19","25","31093461","13607918","20729319"
+"147660","North Central College","2009","United Methodist","67340","65","67","29","460","630","490","633","22","27","53572973","19956767","71298252"
+"147679","North Park University","2009","Evangelical Covenant Church of America","58866","49","71","35","490","600","460","550","19","25","50926276","15917688","49188724"
+"147776","Northeastern Illinois University","2009","Not applicable","58151","20","74","36",,,,,"16","21",,,
+"147828","Olivet Nazarene University","2009","Church of the Nazarene","55588","53","81","66",,,,,"20","27","62328965","20573636","13649444"
+"148131","Quincy University","2009","Roman Catholic","44784","42","66","29","420","480","430","540","19","24","21790766","6420413","10975094"
+"148335","Robert Morris University Illinois","2009","Not applicable","60341","73","81","40",,,,,,,"87326797","18330284","40326020"
+"148405","Rockford University","2009","Not applicable","50200","44","83","23","445","560","400","513","20","24","20474726","6077555","9251527"
+"148487","Roosevelt University","2009","Not applicable","72281","45","78","28","505","635","465","565","19","25","111341345","42831450","61542828"
+"148496","Dominican University","2009","Roman Catholic","63329","72","71","34","450","580","410","560","20","25","49612977","24222431","14520044"
+"148584","University of St Francis","2009","Roman Catholic","59438","59","50","35","490","530","420","485","21","26","39416180","18471501","23387728"
+"148627","Saint Xavier University","2009","Roman Catholic","69129","53","25","14","512","580","487","597","20","25","76420932","31661666","10036538"
+"148654","University of Illinois at Springfield","2009","Not applicable","61411","67","58","37",,,,,"20","26",,,
+"149231","Southern Illinois University-Edwardsville","2009","Not applicable","64374","46","84","33",,,,,"20","25",,,
+"149772","Western Illinois University","2009","Not applicable","68208","59","64","31",,,,,"19","23",,,
+"150066","Anderson University","2009","Church of God","54169","61","69","34","460","570","470","580","22","26","50374000","19365000","19596000"
+"150145","Bethel College-Indiana","2009","Missionary Church Inc","48261","57",,,,,,,,,"30115123","12139983","5697919"
+"150163","Butler University","2009","Not applicable","67227","76","79","19","520","630","540","650","25","30","118130000","50594000","113058000"
+"150172","Calumet College of Saint Joseph","2009","Roman Catholic","47502","32",,,,,,,,,"13214600","4235566","2880231"
+"150534","University of Evansville","2009","United Methodist","65984","64","86","27","510","610","510","628","22","28","65428186","26453155","63494108"
+"150677","Grace College and Theological Seminary","2009","Brethren Church","49354","57","97","21","460","600","470","590","21","28","22480958","7716948","8043124"
+"151102","Indiana University-Purdue University-Fort Wayne","2009","Not applicable","61155","23","96","64","420","530","430","550","18","24",,,
+"151263","University of Indianapolis","2009","United Methodist","58036","51","72","27","450","560","460","570","19","25","83579965","37656550","54272503"
+"151306","University of Southern Indiana","2009","Not applicable","57376","34","88","45","420","530","430","540","18","23",,,
+"151342","Indiana University-South Bend","2009","Not applicable","54740","27","80","66","420","520","420","530","17","23",,,
+"151360","Indiana University-Northwest","2009","Not applicable","60919","23","79","71","400","500","390","500","16","22",,,
+"151379","Indiana University-Southeast","2009","Not applicable","62712","26","85","65","420","520","420","520","17","22",,,
+"151388","Indiana University-East","2009","Not applicable","53205","19","74","63","400","510","420","510","17","22",,,
+"151786","Marian University","2009","Roman Catholic","49003","49","54","32","450","540","450","560","19","23","32514208","12917884","13383838"
+"151801","Indiana Wesleyan University-Marion","2009","Wesleyan","57424","67","79","51","480","590","480","590","21","27","136391938","53053250","52496237"
+"152248","Purdue University-Calumet Campus","2009","Not applicable","63878","28","63","60","410","510","410","520",,,,,
+"152336","University of Saint Francis-Fort Wayne","2009","Roman Catholic","51087","52","50","42","430","550","450","560","19","24","31219660","16315745","9134245"
+"152600","Valparaiso University","2009","Lutheran Church in America","70097","76","91","25","480","630","500","620","22","29","107370978","40765112","140753139"
+"153269","Drake University","2009","Not applicable","75129","74","74","24","510","640","530","660","24","29","113040885","35021287","115406123"
+"153278","University of Dubuque","2009","Presbyterian Church (USA)","50312","38","75","41","440","530","440","540","18","23","35172707","8897335","54124752"
+"153366","Graceland University-Lamoni","2009","Other (none of the above)","48221","50","88","42","420","540","420","560","18","23","37295508","14451447","39308668"
+"153861","Maharishi University of Management","2009","Not applicable","13776","50","49","94",,,,,,,"26882000","5249000","8356000"
+"154004","Morningside College","2009","United Methodist","53462","47","67","27",,,,,"20","25","28193691","8711562","31131926"
+"154013","Mount Mercy University","2009","Roman Catholic","53626","65","78","53",,,,,"20","24","24928077","9194196","16034256"
+"154022","Ashford University","2009","Not applicable","44976","29","92","49",,,,,"18","21",,,
+"154095","University of Northern Iowa","2009","Not applicable","65332","67","85","56","440","610","470","660","21","26",,,
+"154235","Saint Ambrose University","2009","Roman Catholic","60310","65","95","29",,,,,"20","25","61194818","24335871","47068993"
+"154493","Upper Iowa University","2009","Not applicable","51339","35","65","31",,,,,"17","22","40020119","15007778","6109093"
+"154590","William Penn University","2009","Friends","41899","29","55","59","370","490","400","520","17","23","20629975","5769086","6868176"
+"154688","Baker University","2009","United Methodist","52343","54","56","36","453","575","433","563","21","26","42302795","16941277","26830106"
+"155025","Emporia State University","2009","Not applicable","57191","41","87","61",,,,,"19","25",,,
+"155061","Fort Hays State University","2009","Not applicable","53453","48","92","40",,,,,"18","24",,,
+"155089","Friends University","2009","Not applicable","55525","36","66","51","420","660","450","610","19","25","34242000","11580205","35616000"
+"155335","Newman University","2009","Roman Catholic","49301","43","42","19","430","530","420","570","19","27","21752609","8125769","14393930"
+"155520","MidAmerica Nazarene University","2009","Church of the Nazarene","48001","57","73","54","430","570","400","530","20","26","28084246","10690128","5914361"
+"155681","Pittsburg State University","2009","Not applicable","60517","51","80","55",,,,,"19","24",,,
+"155812","University of Saint Mary","2009","Roman Catholic","44017","37","70","32","410","550","430","580","19","24","14218685","4130153","8253062"
+"155900","Southwestern College","2009","United Methodist","49188","45","90","45","380","540","430","550","19","24","23429245","7605120","18150370"
+"156082","Washburn University","2009","Not applicable","67002","41","100","52",,,,,"19","24",,,
+"156213","Asbury University","2009","Not applicable","52279","65","56","36","510","650","490","630","21","24","27377149","10498767","27615065"
+"156286","Bellarmine University","2009","Roman Catholic","66367","65","53","19","480","600","510","600","22","27","51444673","22222864","29046479"
+"156365","Campbellsville University","2009","Southern Baptist","46977","38","69","36","410","570","420","600","18","23","29333511","10513354","7270329"
+"156620","Eastern Kentucky University","2009","Not applicable","60715","37","72","48",,,,,"18","24",,,
+"157216","Lindsey Wilson College","2009","United Methodist","50218","27",,,,,,,,,"25671503","9227977","15131606"
+"157377","Midway University","2009","Christian Church (Disciples of Christ)","47325","66","47","64","440","480","470","540","18","22","15111685","7689914","8993814"
+"157386","Morehead State University","2009","Not applicable","55941","40","55","43","420","560","430","590","19","24",,,
+"157401","Murray State University","2009","Not applicable","59951","50","86","50",,,,,"19","25",,,
+"157447","Northern Kentucky University","2009","Not applicable","64054","32","69","48","420","540","430","540","19","24",,,
+"157793","Sullivan University","2009","Not applicable","46285","69",,,,,,,,,,,
+"157809","Thomas More College","2009","Roman Catholic","54262","50","93","32","440","560","430","550","20","25","31224252","6576067","11497408"
+"157863","Union College","2009","United Methodist","40137","27","28","54","415","455","438","508","17","21","17253790","5930230","15214993"
+"157951","Western Kentucky University","2009","Not applicable","59766","49","94","47","420","550","440","560","18","24",,,
+"159009","Grambling State University","2009","Not applicable","57794","29","33","64","380","470","380","480","16","19",,,
+"159416","Louisiana State University-Shreveport","2009","Not applicable","53665","20","76","71","510","590","470","600","20","24",,,
+"159568","Louisiana College","2009","Southern Baptist","47189","45","51","46","420","600","420","600","17","24","19675268","8336106","23909210"
+"159656","Loyola University New Orleans","2009","Roman Catholic","73661","59","58","33","570","670","550","660","24","29","109456144","40545283","239504000"
+"159717","McNeese State University","2009","Not applicable","60009","35","77","61","440","540","480","590","19","23",,,
+"159966","Nicholls State University","2009","Not applicable","51995","35","78","84",,,,,"19","23",,,
+"160038","Northwestern State University of Louisiana","2009","Not applicable","55763","36","81","60","420","530","430","568","18","23",,,
+"160612","Southeastern Louisiana University","2009","Not applicable","58059","31","49","83",,,,,"19","24",,,
+"160621","Southern University and A & M College","2009","Not applicable","57374","30","57","62",,,"383","508","17","20",,,
+"160630","Southern University at New Orleans","2009","Not applicable","51240","8",,,,,,,,,,,
+"160904","Xavier University of Louisiana","2009","Roman Catholic","66794","45","67","35","420","530","410","530","18","24","90660790","21726734","92693948"
+"161457","University of New England","2009","Not applicable","61957","49","80","23","480","570","490","590","21","26","94633586","35667613","21235531"
+"161518","Saint Joseph's College of Maine","2009","Roman Catholic","52501","59","81","26","430","530","440","540",,,"30220519","12850614","9103034"
+"161554","University of Southern Maine","2009","Not applicable","74913","37","84","27","450","560","450","550","18","23",,,
+"161563","Thomas College","2009","Not applicable","48307","41","82","40","400","500","450","510",,,"10711430","2634133","5738427"
+"161873","University of Baltimore","2009","Not applicable","98267",,"65","42","420","540","410","540","1","22",,,
+"162007","Bowie State University","2009","Not applicable","65599","39","49","42","400","480","390","470",,,,,
+"162210","Washington Adventist University","2009","Seventh Day Adventists","45750","24",,,,,,,,,"23384169","8468629","3521588"
+"162283","Coppin State University","2009","Not applicable","64166","14","43","28","400","470","380","460",,,,,
+"162584","Frostburg State University","2009","Not applicable","67412","49","59","39","430","530","430","530","17","22",,,
+"162760","Hood College","2009","Not applicable","58664","70","72","22","490","600","470","590","20","25","38765775","12936309","47488121"
+"163046","Loyola University Maryland","2009","Roman Catholic","81022","83","66","16","530","630","540","640","24","28","166176815","56946617","122605187"
+"163204","University of Maryland-University College","2009","Not applicable","54917","10",,,,,,,,,,,
+"163462","Mount St. Mary's University","2009","Roman Catholic","61340","73","84","19","470","580","460","590","21","25","55893925","16526789","35687220"
+"163578","Notre Dame of Maryland University","2009","Roman Catholic","63784","67","65","35","450","590","450","570","18","22","36331893","16352289","26320988"
+"163851","Salisbury University","2009","Not applicable","65295","66","54","32","520","600","520","620","21","26",,,
+"164076","Towson University","2009","Not applicable","65365","73","63","25","490","580","493","590","21","24",,,
+"164173","Stevenson University","2009","Not applicable","64121","58","57","22","450","560","450","560","18","22","63087323","25275852","39684423"
+"164492","Anna Maria College","2009","Roman Catholic","50800","55","71","26","400","500","390","500","18","21","20005165","6282652","431268"
+"164562","Assumption College","2009","Roman Catholic","62922","66","79","17","480","580","490","590","20","25","63288523","20618396","62729684"
+"164632","Bay Path University","2009","Not applicable","61505","57","66","33","380","600","370","590","16","26","24080672","7957477","18747154"
+"164739","Bentley University","2009","Not applicable","101277","89","43","33","540","630","600","680","25","28","178380000","66137000","158396000"
+"165024","Bridgewater State University","2009","Not applicable","68028","54","61","32","460","560","470","560","20","24",,,
+"165167","Cambridge College","2009","Not applicable","65132","0",,,,,,,,,"46533513","20024070","9856294"
+"165529","Curry College","2009","Not applicable","73845","48","75","19","420","510","420","520","18","22","60776400","23094033","35666489"
+"165644","Eastern Nazarene College","2009","Church of the Nazarene","51381","40","64","35","410","570","400","570","16","24","22635471","6561822","11656760"
+"165662","Emerson College","2009","Not applicable","75936","78","42","26","570","670","540","640","24","29","110349302","38898128","52151621"
+"165699","Endicott College","2009","Not applicable","68422","72","49","30","500","570","500","590","20","25","58605608","15619486","21109882"
+"165820","Fitchburg State University","2009","Not applicable","68041","52","64","33","440","550","460","560","18","23",,,
+"165866","Framingham State University","2009","Not applicable","65129","52","64","34","468","560","480","560","20","23",,,
+"166391","Lasell College","2009","Not applicable","63922","45","46","34","450","530","440","540","18","22","34992562","9890981","21743323"
+"166692","Massachusetts Maritime Academy","2009","Not applicable","73862","63","50","56","470","570","500","600","21","25",,,
+"166850","Merrimack College","2009","Roman Catholic","67243","70","79","18",,,,,,,"55134096","19488356","28045769"
+"167394","College of Our Lady of the Elms","2009","Roman Catholic","51738","50","85","32","420","510","410","500","16","23","18075710","6416600","7066750"
+"167729","Salem State University","2009","Not applicable","68528","43","58","31","440","540","440","530","15","17",,,
+"167783","Simmons College","2009","Not applicable","77387","70","57","18","500","590","490","600","21","26","116720497","55997025","125099"
+"167899","Springfield College","2009","Not applicable","67861","68","69","35","450","560","460","570",,,"93525801","46158204","39088328"
+"168227","Wentworth Institute of Technology","2009","Not applicable","69238","55","63","38","470","560","510","610","20","25","85886430","31121864","66779877"
+"168254","Western New England University","2009","Not applicable","84019","54","81","18","470","560","490","600","21","25","83994051","27055261","34085492"
+"168263","Westfield State University","2009","Not applicable","65193","58","58","37","460","550","470","560","19","23",,,
+"168290","Wheelock College","2009","Not applicable","66288","62","75","23","440","550","430","540","18","24","31163049","13453540","35555577"
+"168430","Worcester State University","2009","Not applicable","67306","44","59","33","460","550","470","560","19","23",,,
+"168786","Aquinas College","2009","Roman Catholic","47105","56","80","23",,,,,"20","26","34423854","11801099","21168152"
+"169479","Davenport University","2009","Not applicable","56098","20","84","42",,,,,,,"106216325","29472616","8209124"
+"169716","University of Detroit Mercy","2009","Roman Catholic","72210","52","64","30","450","580","470","580","21","26","124254875","50898720","17588427"
+"169910","Ferris State University","2009","Not applicable","66206","46","55","35",,,,,"18","24",,,
+"169983","Kettering University","2009","Not applicable","68990","59","64","20","530","650","600","690","24","29","57017487","21731654","48634603"
+"170037","Cornerstone University","2009","Interdenominational","49177","53","79","82","490","570","480","560","20","26","35814492","11754121","4577239"
+"170082","Grand Valley State University","2009","Not applicable","61685","61","81","35","490","610","520","640","22","26",,,
+"170675","Lawrence Technological University","2009","Not applicable","68684","48","51","37",,,,,"20","27","59969259","25687050","22478426"
+"170806","Madonna University","2009","Roman Catholic","60205","31","74","36","480","670","460","630","20","24","36248457","18304207","21324031"
+"170842","Marygrove College","2009","Roman Catholic","53732","17","51","37",,,,,"15","19","25620366","10346874","1365047"
+"171137","University of Michigan-Dearborn","2009","Not applicable","78841","49","67","37","495","633","530","680","21","27",,,
+"171146","University of Michigan-Flint","2009","Not applicable","65665","45","82","35","380","568","425","548","18","24",,,
+"171456","Northern Michigan University","2009","Not applicable","63101","45","73","41",,,,,"19","24",,,
+"172051","Saginaw Valley State University","2009","Not applicable","64679","38","86","33",,,,,"18","24",,,
+"172264","Siena Heights University","2009","Roman Catholic","49006","40","66","35",,,,,"17","21","22790772","7249336","6206592"
+"172334","Spring Arbor University","2009","Free Methodist","47192","58","78","24","475","595","470","595","20","26","45125953","20659906","7715108"
+"173045","Augsburg University","2009","Evangelical Lutheran Church","58655","59","52","38","450","590","473","628","19","25","69033102","29861111","26221136"
+"173124","Bemidji State University","2009","Not applicable","69761","46","81","46",,,,,"19","24",,,
+"173160","Bethel University","2009","Baptist","63888","72","78","45","513","678","510","668","21","28","95215933","36617637","23362500"
+"173328","Concordia University-Saint Paul","2009","Lutheran Church - Missouri Synod","44711","50","56","30","490","610","470","540","18","24","35244637","12287164","16477698"
+"173665","Hamline University","2009","United Methodist","70166","66","75","24","505","630","480","590","21","27","86562727","32869052","59412281"
+"173920","Minnesota State University-Mankato","2009","Not applicable","71922","51","89","42",,,,,"20","24",,,
+"173984","Argosy University-Twin Cities","2009","Not applicable","59040",,,,,,,,,,,,
+"174020","Metropolitan State University","2009","Not applicable","69645","14","100","32",,,,,,,,,
+"174233","University of Minnesota-Duluth","2009","Not applicable","67645","52","71","37","480","590","480","620","21","26",,,
+"174358","Minnesota State University Moorhead","2009","Not applicable","66799","43","77","47","420","530","450","560","19","24",,,
+"174491","University of Northwestern-St Paul","2009","Other Protestant","54456","61","96","43","520","650","460","610","21","27","62907927","17792878","10005714"
+"174783","Saint Cloud State University","2009","Not applicable","72738","49","87","45",,,,,"19","24",,,
+"174817","Saint Mary's University of Minnesota","2009","Roman Catholic","58858","55","72","32","503","560","463","605","19","26","59019833","24458388","30070636"
+"174899","The College of Saint Scholastica","2009","Roman Catholic","55294","70","85","34","460","610","490","670","21","26","59879134","25602821","21246095"
+"175005","St Catherine University","2009","Roman Catholic","56528","63","67","29","515","708","493","680","21","26","78560733","31060559","37156443"
+"175078","Southwest Minnesota State University","2009","Not applicable","70143","39","65","35",,,,,"19","24",,,
+"175272","Winona State University","2009","Not applicable","68794","51","71","39","440","600","510","640","21","25",,,
+"175342","Alcorn State University","2009","Not applicable","53505","38","40","36","390","470","400","460","16","19",,,
+"175421","Belhaven University","2009","Presbyterian Church (USA)","47827","48","50","87","490","610","460","570","19","24","37932467","7250123","3966820"
+"175616","Delta State University","2009","Not applicable","52773","45","24","80",,,,,"17","22",,,
+"176035","Mississippi University for Women","2009","Not applicable","48860","41","42","38","410","640","390","530","18","24",,,
+"176044","Mississippi Valley State University","2009","Not applicable","51011","35","30","23",,,,,"15","19",,,
+"176053","Mississippi College","2009","Southern Baptist","62298","52","62","44","450","600","470","600","20","27","58526512","26461869","50829960"
+"176479","William Carey University","2009","Baptist","45753","48","93","32","420","490","490","650","21","28","31150467","9455182","8419493"
+"176628","Avila University","2009","Roman Catholic","53892","44","43","27","535","560","463","543","20","25","22954078","10381083","7164534"
+"176965","University of Central Missouri","2009","Not applicable","61293","48","62","51",,,,,"18","23",,,
+"177065","Columbia College","2009","Christian Church (Disciples of Christ)","60021","41","47","32","490","580","550","680","20","26","62388890","38892309","45159549"
+"177214","Drury University","2009","Not applicable","59867","52","77","49",,,,,"20","28","54678209","21139537","55003732"
+"177339","Evangel University","2009","Assemblies of God Church","43674","45","74","50","470","590","460","580","20","25","30257649","12239185","6268837"
+"177418","Fontbonne University","2009","Roman Catholic","54832","52","85","41",,,,,"20","25","38560141","18796974","15283799"
+"177940","Lincoln University","2009","Not applicable","50015","25",,,,,,,,,,,
+"178244","Missouri Baptist University","2009","Baptist","44959","45","59","46","450","500","400","550","19","24","21013869","9746865","2686809"
+"178615","Truman State University","2009","Not applicable","60262","71","72","40","540","660","560","660","25","30",,,
+"178624","Northwest Missouri State University","2009","Not applicable","56246","52","70","41",,,"480","560","20","25",,,
+"178721","Park University","2009","Not applicable","59354","39","70","53",,,,,"20","26","72312887","35609199","44818687"
+"179043","Rockhurst University","2009","Roman Catholic","56804","68","76","26","530","650","530","640","22","28","112819543","14298484","29867864"
+"179326","Southwest Baptist University","2009","Southern Baptist","46385","46","92","31","410","560","450","600","20","26","32883478","13592692","11981495"
+"179548","Stephens College","2009","Not applicable","42673","52","72","48","510","600","460","548","19","25","20579228","8942952","22446517"
+"179557","Southeast Missouri State University","2009","Not applicable","57897","46","92","47","440","570","460","580","20","25",,,
+"179566","Missouri State University-Springfield","2009","Not applicable","60179","55","52","57",,,,,"21","27",,,
+"179894","Webster University","2009","Not applicable","68890","66","83","38","530","645","490","630","20","27","169668091","71355687","49863206"
+"179964","William Woods University","2009","Christian Church (Disciples of Christ)","46086","44","83","24","460","600","440","565","19","24","25455436","10175564","11435937"
+"180179","Montana State University-Billings","2009","Not applicable","53121","26","100","60","460","580","460","590","18","24",,,
+"180814","Bellevue University","2009","Not applicable","54615","21",,,,,,,,,"63291691","21220525","29882484"
+"180948","Chadron State College","2009","Not applicable","53866","38",,,,,,,,,,,
+"180984","Concordia University-Nebraska","2009","Lutheran Church - Missouri Synod","52152","61","75","30","440","590","430","640","21","28","23950575","6931519","22403652"
+"181002","Creighton University","2009","Roman Catholic","73546","75","82","27","520","640","540","650","24","29","397536000","119618707","225445000"
+"181215","University of Nebraska at Kearney","2009","Not applicable","61276","59","77","44","400","660","370","700","20","25",,,
+"181446","Nebraska Wesleyan University","2009","United Methodist","54208","66","82","33",,,,,"23","27","33645000","13059000","35999045"
+"181534","Peru State College","2009","Not applicable","54150","38",,,,,,,,,,,
+"181604","College of Saint Mary","2009","Roman Catholic","50293","37","42","50",,,,,"18","23","16905224","4393173","5871338"
+"181783","Wayne State College","2009","Not applicable","56795","50",,,,,,,,,,,
+"182458","Sierra Nevada College","2009","Not applicable","63168","38","55","53","400","560","440","580","19","23","16181328","3324682","3448300"
+"182795","Franklin Pierce University","2009","Not applicable","56349","45","81","20","440","540","440","540","18","21","50101771","19139584","6052938"
+"182980","New England College","2009","Not applicable","57541","43","80","18","380","500","370","500",,,"27118649","8523168","6526068"
+"183026","Southern New Hampshire University","2009","Not applicable","74035","7","90","17","430","520","440","540","18","24","85885212","35697651","8535215"
+"183062","Keene State College","2009","Not applicable","70963","58","71","34","450","550","450","550",,,,,
+"183080","Plymouth State University","2009","Not applicable","69657","55","70","33","430","530","440","530","18","23",,,
+"183211","Rivier University","2009","Roman Catholic","57447","50","81","33","430","510","420","530","17","21","28965439","12212637","23012712"
+"183910","Caldwell University","2009","Roman Catholic","66581","47","57","28","480","575","450","615",,,"33155641","10312851","4664103"
+"183974","Centenary University","2009","United Methodist","56137","52","89","40","410","510","420","510","16","20","45444000","13494000","2602000"
+"184603","Fairleigh Dickinson University-Metropolitan Campus","2009","Not applicable","75770","40","61","21","420","520","430","540",,,"174017193","64571539","19401794"
+"184612","Felician University","2009","Roman Catholic","63307","33","72","18","380","480","380","490","17","21","36615729","12443473","4077476"
+"184694","Fairleigh Dickinson University-Florham Campus","2009","Not applicable","71565","52","62","28","460","550","460","570",,,,,
+"184773","Georgian Court University","2009","Roman Catholic","63679","55","62","40",,,,,,,"48540880","13528868","33343437"
+"185129","New Jersey City University","2009","Not applicable","91008","38","35","52","360","460","370","480",,,,,
+"185262","Kean University","2009","Not applicable","89772","45","67","41","400","500","410","520",,,,,
+"185572","Monmouth University","2009","Not applicable","75318","61","62","24","490","570","510","600","22","26","130714100","45275478","41918000"
+"186201","Ramapo College of New Jersey","2009","Not applicable","85089","0","51","36","500","590","520","610",,,,,
+"186283","Rider University","2009","Not applicable","93851","61","75","19","460","560","470","580","19","24","135221000","53268000","44019000"
+"186371","Rutgers University-Camden","2009","Not applicable","99390","62","49","13","488","590","500","600",,,,,
+"186432","Saint Peter's University","2009","Roman Catholic","68428","52","48","16","420","510","420","530","17","24","55271722","17505081","20395874"
+"186618","College of Saint Elizabeth","2009","Roman Catholic","64829","62","83","42","385","500","370","490",,,"31526685","12503258","13458485"
+"186876","Stockton University","2009","Not applicable","84234","66","61","31","470","570","480","590","19","23",,,
+"187046","Thomas Edison State University","2009","Not applicable",,,,,,,,,,,,,
+"187134","The College of New Jersey","2009","Not applicable","86378","86","46","30","560","660","590","690",,,,,
+"187444","William Paterson University of New Jersey","2009","Not applicable","94443","52","65","32","440","530","450","550",,,,,
+"187648","Eastern New Mexico University-Main Campus","2009","Not applicable","53598","29","67","52","410","540","420","540","17","23",,,
+"187897","New Mexico Highlands University","2009","Not applicable","52845","19",,,,,,,,,,,
+"187967","New Mexico Institute of Mining and Technology","2009","Not applicable","67113","46","79","72","530","650","570","680","23","28",,,
+"188182","University of the Southwest","2009","Not applicable","36704","4","42","66","289","472","300","530","16","24","7333943","2750843","480201"
+"188207","Southwestern College","2009","Not applicable","37306",,,,,,,,,,"1719260","953287",
+"188304","Western New Mexico University","2009","Not applicable","49372","12",,,,,,,,,,,
+"188641","Alfred University","2009","Not applicable","64977","69","70","26","490","600","510","600","22","27","68538198","26979124","74771194"
+"189705","Canisius College","2009","Roman Catholic","74494","68","76","28","500","610","510","630","22","27","94769480","36029362","71790755"
+"190114","Metropolitan College of New York","2009","Not applicable","53118","41","51","38",,,,,,,"22852904","6683101","416087"
+"190512","CUNY Bernard M Baruch College","2009","Not applicable","94207","60","23","34","490","600","550","660",,,,,
+"190549","CUNY Brooklyn College","2009","Not applicable","88160","43","35","24","440","560","480","590",,,,,
+"190558","College of Staten Island CUNY","2009","Not applicable","84127","45","99","33","450","540","460","560",,,,,
+"190567","CUNY City College","2009","Not applicable","93782","35","37","27","430","550","460","590",,,,,
+"190594","CUNY Hunter College","2009","Not applicable","91221","44","28","26","480","580","510","610",,,,,
+"190600","CUNY John Jay College of Criminal Justice","2009","Not applicable","82826","42","62","40","420","500","430","520",,,,,
+"190637","CUNY Lehman College","2009","Not applicable","86051","31","32","24","410","490","420","500",,,,,
+"190664","CUNY Queens College","2009","Not applicable","86839","52","38","28","470","560","500","590",,,,,
+"190716","D'Youville College","2009","Not applicable","55292","53","87","20","440","550","460","570","20","24","42424027","18714191","19605231"
+"190725","Daemen College","2009","Not applicable","56440","52","62","33","440","540","460","580","20","25","34123141","15266856","5120013"
+"190761","Dominican College of Blauvelt","2009","Not applicable","63339","35","73","35","400","490","400","500","17","20","31363137","11104534","803387"
+"191126","Fashion Institute of Technology","2009","Not applicable","84686",,"40","66",,,,,,,,,
+"191931","Iona College","2009","Roman Catholic","79839","62","58","19","541","642","553","651",,,"82901529","32023996","21495471"
+"191968","Ithaca College","2009","Not applicable","68908","77","74","21","530","630","530","640","23","28","188197281","77853278","165324374"
+"192192","Keuka College","2009","Baptist","59226","53","77","40",,,,,,,"30249063","9951226","5813684"
+"192323","Le Moyne College","2009","Roman Catholic","72774","71","67","20","490","580","505","610","20","26","60639931","25024907","83613889"
+"192439","LIU Brooklyn","2009","Not applicable","72988","18","60","35","380","500","380","540","16","23","167827957","84103479","0"
+"192448","LIU Post","2009","Not applicable","78233","41","78","21","440","540","430","570","19","20","171057180","73347127","0"
+"192703","Manhattan College","2009","Roman Catholic","80654","76","65","21","490","580","500","615","21","25","86860726","27984070","42844985"
+"192749","Manhattanville College","2009","Not applicable","69251","58","53","21","520","640","510","610","22","26","62972888","19243244","10253298"
+"192819","Marist College","2009","Not applicable","67458","83","36","29","520","620","540","640","23","28","127498898","46949349","103542266"
+"192925","Medaille College","2009","Not applicable","57262","56","72","41","400","500","420","520","18","22","39892666","16428376","647131"
+"193016","Mercy College","2009","Not applicable","69918","25","60","50",,,,,,,"94553369","38462302","20392677"
+"193292","Molloy College","2009","Not applicable","77617","64","56","44","440","520","450","550",,,"58480258","34779876","21692135"
+"193308","Monroe College","2009","Not applicable","60731","74","63","81",,,,,,,,,
+"193353","Mount Saint Mary College","2009","Roman Catholic","68661","51","72","25","450","540","460","560","19","23","45630418","13305973","4453890"
+"193399","College of Mount Saint Vincent","2009","Roman Catholic","63383","55","67","25","440","530","430","520",,,"34317228","11912426","6008992"
+"193584","Nazareth College","2009","Not applicable","66834","72","77","29",,,,,,,"64521709","26947946","45279841"
+"193645","The College of New Rochelle","2009","Not applicable","68779","34","56","54","460","540","450","530",,,"60011204","18675726","17934845"
+"193973","Niagara University","2009","Roman Catholic","65325","65","80","29","490","590","470","570","19","25","72596608","23786717","52799358"
+"194091","New York Institute of Technology","2009","Not applicable","94029","49","81","32","430","530","460","580","19","24","204471536","94682334","44959875"
+"194161","Nyack College","2009","Christ and Missionary Alliance Church","55227","41","99","96","390","520","370","510","17","22","42397770","17933415","6670130"
+"194958","Roberts Wesleyan College","2009","Free Methodist","54547","67","66","30","470","590","480","610","21","27","33855723","17963448",
+"195128","The Sage Colleges","2009","Not applicable","50291","70","76","35","550","590","530","590","24","25",,,
+"195164","St Bonaventure University","2009","Roman Catholic","55602","67","84","29","460","560","460","570","20","25","52292147","17903133","38551397"
+"195234","The College of Saint Rose","2009","Not applicable","61280","66",,,,,,,,,"82451682","41965041","22595286"
+"195243","St. Thomas Aquinas College","2009","Not applicable","75556","49","84","26","420","510","420","540","17","24","27713658","11517991","23087865"
+"195544","St. Joseph's College-New York","2009","Not applicable","73138","78","71","28","450","560","440","550","17","22","15151000","6563000","7665000"
+"196112","SUNY Polytechnic Institute","2009","Not applicable","79924","50","37","30","480","570","520","600","22","25",,,
+"196121","SUNY College at Brockport","2009","Not applicable","70644","62","45","28","470","560","500","590","21","25",,,
+"196130","SUNY Buffalo State","2009","Not applicable","71370","48","43","32","450","540","460","540",,,,,
+"196149","SUNY Cortland","2009","Not applicable","63460","67","40","24","510","590","480","560","20","24",,,
+"196158","SUNY at Fredonia","2009","Not applicable","66839","63","52","35","500","590","510","600","21","26",,,
+"196167","SUNY College at Geneseo","2009","Not applicable","70181","78","35","26","610","700","630","690","28","30",,,
+"196176","State University of New York at New Paltz","2009","Not applicable","66573","69","39","24","520","600","510","600",,,,,
+"196185","SUNY Oneonta","2009","Not applicable","61983","64","39","22","500","580","520","600","22","25",,,
+"196194","SUNY College at Oswego","2009","Not applicable","67677","57","47","28","530","590","520","600","21","25",,,
+"196200","SUNY College at Potsdam","2009","Not applicable","62104","56","66","28","470","570","470","570","20","24",,,
+"196237","SUNY College at Old Westbury","2009","Not applicable","77438","37","51","24","450","530","460","550","20","24",,,
+"196246","SUNY College at Plattsburgh","2009","Not applicable","67812","58","48","33","470","560","480","580","20","24",,,
+"196264","SUNY Empire State College","2009","Not applicable","62154","16","66","69",,,,,,,,,
+"196291","SUNY Maritime College","2009","Not applicable","64725","52","64","40","480","550","510","600","20","24",,,
+"196592","Touro College","2009","Not applicable","59673","59","56","76",,,,,,,"259059000","107827740","1901000"
+"196680","Excelsior College","2009","Not applicable",,,,,,,,,,,"58623016","10393044","449412"
+"197045","Utica College","2009","Not applicable","61519","49","78","25","410","510","420","520","18","23","55722917","21214901","16399738"
+"197197","Wagner College","2009","Lutheran Church in America","66471","68","66","28","520","640","530","650","23","28","61291091","20659390","44936783"
+"197869","Appalachian State University","2009","Not applicable","69825","64","58","36","530","620","550","630","22","26",,,
+"198136","Campbell University","2009","Baptist","53964","58","36","51","440","560","460","580","19","24","77151274","35797191","80170986"
+"198507","Elizabeth City State University","2009","Not applicable","67383","46","70","40","370","450","370","460","15","18",,,
+"198516","Elon University","2009","United Church of Christ","71826","78","42","32","560","650","570","660","25","29","141121837","66212013","82145408"
+"198543","Fayetteville State University","2009","Not applicable","67671","32","65","38","380","460","400","470","15","19",,,
+"198835","Lenoir-Rhyne University","2009","Evangelical Lutheran Church","54262","54","77","18","430","540","460","570",,,"30200387","10878007","51921403"
+"198969","Methodist University","2009","United Methodist","52314","39","66","24","430","540","440","560","18","22","36052448","13306949","12886830"
+"199032","Montreat College","2009","Presbyterian Church (USA)","43873","31","47","46","450","560","450","560","19","26","17007089","4593556","9056850"
+"199157","North Carolina Central University","2009","Not applicable","73292","44","70","46","380","460","380","470","15","19",,,
+"199218","University of North Carolina Wilmington","2009","Not applicable","71747","69","59","38","530","610","550","630","22","26",,,
+"199281","University of North Carolina at Pembroke","2009","Not applicable","62462","34","55","49","420","510","430","530","16","19",,,
+"199306","Pfeiffer University","2009","United Methodist","54610","42","55","35","430","520","440","540","17","22","24578762","9636564","11843108"
+"199412","Queens University of Charlotte","2009","Presbyterian Church (USA)","58850","0","76","24","470","580","480","580","20","26","39712385","17921631","49243902"
+"199759","Southeastern Baptist Theological Seminary","2009",,,,,,,,,,,,,,
+"199962","Wingate University","2009","Baptist","56826","53","52","15","440","545","460","570","19","25","37651227","14583632","22403555"
+"199999","Winston-Salem State University","2009","Not applicable","70751","36","54","62","390","470","400","470","15","19",,,
+"200004","Western Carolina University","2009","Not applicable","67956","49","51","33","460","550","480","570","19","23",,,
+"200217","University of Mary","2009","Roman Catholic","49990","51","78","43","410","500","440","560","20","25","37054471","13418006","23427690"
+"200253","Minot State University","2009","Not applicable","54201","34","82","74","430","510","420","530","19","24",,,
+"201195","Baldwin Wallace University","2009","United Methodist","65337","68","67","32","480","610","490","593","21","26","84825353","34274716","95786717"
+"201548","Capital University","2009","Evangelical Lutheran Church","71975","62","75","23","480","590","480","600","21","27","71729324","33591585","49443635"
+"202763","The University of Findlay","2009","Church of God","60962","55","72","28","460","570","480","590","20","26","72921968","36281156","17457165"
+"203085","Heidelberg University","2009","United Church of Christ","52864","54","69","25","420","560","450","560","18","24","28328790","10094118","29952656"
+"203368","John Carroll University","2009","Roman Catholic","68316","75","81","24","480","580","480","600","21","26","86213719","32692264","131423642"
+"203580","Lake Erie College","2009","Not applicable","50809","42","56","39","430","530","420","550","17","22","24082135","6540268","5982263"
+"203757","Lourdes University","2009","Roman Catholic","53452","17","80","41",,,,,,,"22299122","9744366","5687793"
+"203775","Malone University","2009","Friends","56137","61","71","42","470","593","460","590","19","26","38197102","15120856","14957897"
+"204194","Mount Vernon Nazarene University","2009","Church of the Nazarene","53456","51","72","48","470","570","470","590","19","25","38989901","16293363","10933121"
+"204200","Mount Saint Joseph University","2009","Roman Catholic","53804","55","70","37","430","520","430","540","19","24","35861670","13112813","19384081"
+"204264","Muskingum University","2009","Presbyterian Church (USA)","60481","55","78","30","430","580","430","560","19","24","34704007","15853401","47186000"
+"204468","Notre Dame College","2009","Roman Catholic","46848","51","50","29","420","520","430","560","17","22","20550062","6928247","6107642"
+"204617","Ohio Dominican University","2009","Roman Catholic","53864","44","59","20",,,,,"19","23","34862668","9523935","17767527"
+"204936","Otterbein University","2009","United Methodist","61884","62","78","22","470","590","470","570","20","26","57881439","26135161","55465267"
+"205957","Franciscan University of Steubenville","2009","Roman Catholic","59198","73","77","41","540","650","500","630","23","28","54516828","15596020","27863665"
+"206048","Tiffin University","2009","Not applicable","53445","43","64","21","430","528","433","528","18","23","25487309","7152304","4366832"
+"206349","Ursuline College","2009","Roman Catholic","54296","46","90","43","410","510","400","530","19","23","22664896","12180440","18573310"
+"206437","Walsh University","2009","Roman Catholic","51063","60","79","42","440","530","460","560","19","24","39185238","14031713","7189515"
+"206622","Xavier University","2009","Roman Catholic","68804","77","73","22","530","620","510","610","23","28","136877748","50957061","89935499"
+"206695","Youngstown State University","2009","Not applicable","72463","34",,,,,,,,,,,
+"206835","Oklahoma Wesleyan University","2009","Wesleyan","46876","38",,,,,,,,,"13851686","5613475","2656893"
+"206862","Southern Nazarene University","2009","Church of the Nazarene","51639","49",,,,,,,,,"40277812","16286909","19370694"
+"206914","Cameron University","2009","Not applicable","50692","20",,,,,,,,,,,
+"206941","University of Central Oklahoma","2009","Not applicable","63165","36","75","57",,,,,"19","24",,,
+"207041","East Central University","2009","Not applicable","52043","32","93","76","365","555","385","565","17","24",,,
+"207209","Langston University","2009","Not applicable","56823","27",,,,,,,,,,,
+"207263","Northeastern State University","2009","Not applicable","53615","30","71","60",,,,,"18","23",,,
+"207306","Northwestern Oklahoma State University","2009","Not applicable","50238","31","100","40","390","493","400","550","17","22",,,
+"207324","Oklahoma Christian University","2009","Churches of Christ","58018","51","56","49","470","640","480","610","20","27","50162152","15352285","20082891"
+"207458","Oklahoma City University","2009","United Methodist","63796","56","78","44","510","630","510","620","23","27","71837735","36434855","65336803"
+"207582","Oral Roberts University","2009","Other Protestant","51937","52","65","49","480","600","460","610","20","25","92340360","21677326","37839098"
+"207847","Southeastern Oklahoma State University","2009","Not applicable","58592","30","82","75",,,,,"18","23",,,
+"207865","Southwestern Oklahoma State University","2009","Not applicable","54904","31","92","71",,,,,"18","24",,,
+"208646","Eastern Oregon University","2009","Not applicable","56043","31","72","52","410","530","410","510","19","22",,,
+"208822","George Fox University","2009","Friends","57004","66","69","39","490","610","480","610","21","26","56710710","26061823","16045963"
+"209108","Marylhurst University","2009","Roman Catholic","43792","13",,,,,,,,,"20353700","7049657","11486520"
+"209409","Northwest Christian University","2009","Christian Church (Disciples of Christ)","44112","35","52","14","450","560","450","550","20","23","11654403","2644399","9699434"
+"209612","Pacific University","2009","Not applicable","62766","59","78","26","500","600","510","620","21","27","77237459","29522846","39608085"
+"209825","University of Portland","2009","Roman Catholic","65812","75","74","16","530","640","550","650",,,"83583000","35458000","70900000"
+"210146","Southern Oregon University","2009","Not applicable","56455","31","89","50","450","580","440","560",,,,,
+"210331","Corban University","2009","Baptist","49192","56","57","42","500","630","495","610","20","26","17055408","4769958","1580108"
+"210429","Western Oregon University","2009","Not applicable","54172","39","88","50","420","540","430","550","17","22",,,
+"210739","DeSales University","2009","Roman Catholic","64142","69","73","26","490","600","480","590","20","28","53932917","20544835","35566594"
+"210775","Alvernia University","2009","Roman Catholic","56534","54","78","26","438","540","440","550","17","21","40942323","14006433","12952080"
+"211088","Arcadia University","2009","Presbyterian Church (USA)","71026","61","61","17","510","610","500","600","21","27","66496000","28964000","40152000"
+"211158","Bloomsburg University of Pennsylvania","2009","Not applicable","76321","64","59","29","460","550","470","570",,,,,
+"211352","Cabrini University","2009","Roman Catholic","58768","52","75","18","430","520","428","510",,,"52029802","20197899","9268618"
+"211361","California University of Pennsylvania","2009","Not applicable","79109","53","63","46","430","520","440","530",,,,,
+"211431","Carlow University","2009","Roman Catholic","60172","45","70","31","440","530","430","510","19","23","35671876","16047218","10621882"
+"211556","Chatham University","2009","Not applicable","61902","58","68","30",,,,,,,"43802184","13165281","43533695"
+"211583","Chestnut Hill College","2009","Roman Catholic","53585","44","72","17","460","540","470","540","19","20","32094712","11608498","4533720"
+"211644","Clarion University of Pennsylvania","2009","Not applicable","80309","53","68","44","410","520","420","530",,,,,
+"211981","Delaware Valley University","2009","Not applicable","62063","50","72","36","450","550","460","560","20","25","45630737","14389840","13255402"
+"212115","East Stroudsburg University of Pennsylvania","2009","Not applicable","75488","59","71","29","440","520","450","540",,,,,
+"212133","Eastern University","2009","American Baptist","58227","65","71","40","480","600","480","590","19","23","82232687","26795377","11313634"
+"212160","Edinboro University of Pennsylvania","2009","Not applicable","77007","46","73","44","410","520","410","520","16","22",,,
+"212601","Gannon University","2009","Roman Catholic","63290","63","84","26","440","560","450","590","19","26","64142000","26725000","28757000"
+"212656","Geneva College","2009","Reformed Presbyterian Church","56455","59","84","36","470","600","470","600","19","25","35293238","14503647","25441711"
+"212832","Gwynedd Mercy University","2009","Roman Catholic","61464","69","60","28","450","550","440","530",,,"32755000","13832000","7353000"
+"212984","Holy Family University","2009","Roman Catholic","64585","62","74","42","420","510","420","510","19","21","41587740","19249016","8922638"
+"213321","King's College","2009","Roman Catholic","62302","68","75","30","460","550","470","560",,,"50512882","18950035","44187391"
+"213349","Kutztown University of Pennsylvania","2009","Not applicable","71431","51","66","100","440","530","430","530","17","22",,,
+"213367","La Salle University","2009","Roman Catholic","77489","73","71","24","450","560","450","560","18","24","120793892","43577228","52640955"
+"213507","Lebanon Valley College","2009","United Methodist","64791","75","81","28",,,,,,,"44265341","16427625","42222080"
+"213598","Lincoln University","2009","Not applicable",,"37","31","25","370","450","360","440","15","19","57828792","17400944","19451758"
+"213613","Lock Haven University","2009","Not applicable","75777","53","73","37","420","510","420","520","17","22",,,
+"213783","Mansfield University of Pennsylvania","2009","Not applicable","77741","42","73","39","420","530","420","530","18","23",,,
+"213826","Marywood University","2009","Roman Catholic","66428","71","72","34","480","570","480","570",,,"61313470","21219701","28098258"
+"213987","Mercyhurst University","2009","Roman Catholic","53106","68","74","31","470","570","470","580","21","25","70136520","28896671","21305000"
+"214041","Millersville University of Pennsylvania","2009","Not applicable","79916","61","53","35","480","570","490","590",,,,,
+"214069","Misericordia University","2009","Roman Catholic","63545","73","69","36","470","550","480","570","20","25","41408705","14871300","16932852"
+"214272","Neumann University","2009","Roman Catholic","55979","45","94","23","410","490","400","490",,,"40284045","13127422","13457034"
+"214607","Pennsylvania State University-Penn State Great Valley","2009","Not applicable","94016",,,,,,,,,,,,
+"214713","Pennsylvania State University-Penn State Harrisburg","2009","Not applicable","76790","67","73","23","450","560","470","590","21","24",,,
+"215099","Jefferson (Philadelphia University + Thomas Jefferson University)","2009","Not applicable","73480","60","71","27","490","570","490","600","21","26","81676392","32007563","18620289"
+"215114","Cairn University-Langhorne","2009","Not applicable","53333","57","94","52","480","580","455","560","19","26","21336374","6226448","7674355"
+"215442","Point Park University","2009","Not applicable","65355","53","72","24","470","570","450","560","19","24","66280958","33788365","20598887"
+"215691","Rosemont College","2009","Roman Catholic","45781","62","47","30","400","510","400","490",,,"17376040","4412328","11523870"
+"215743","Saint Francis University","2009","Roman Catholic","57450","70","75","36","470","570","470","590","21","27","52097368","16346542","20148146"
+"215770","Saint Joseph's University","2009","Roman Catholic","80823","77","82","22","510","600","510","620","21","26","190114354","62889401","124131383"
+"215929","University of Scranton","2009","Roman Catholic","74416","81","72","18","510","600","520","620","22","26","124154565","46487670",
+"215947","Seton Hill University","2009","Roman Catholic","59417","59","66","26",,,,,,,"32703304","10867993","20102744"
+"216010","Shippensburg University of Pennsylvania","2009","Not applicable","79168","63","71","36","450","540","450","550",,,,,
+"216038","Slippery Rock University of Pennsylvania","2009","Not applicable","78196","58","59","45","460","550","470","570","19","24",,,
+"216694","Waynesburg University","2009","Presbyterian Church (USA)","56252","59","71","29","450","540","450","560",,,"35857288","14950448","37417943"
+"216764","West Chester University of Pennsylvania","2009","Not applicable","75884","65","49","34","480","560","490","580",,,,,
+"216931","Wilkes University","2009","Not applicable","73027","63","75","27","460","570","460","600",,,"73705994","36018758","29448828"
+"217059","York College of Pennsylvania","2009","Not applicable","74476","65","56","18","510","620","490","570","20","24","78161970","31426667","48835658"
+"217165","Bryant University","2009","Not applicable","101170","76","45","32","510","600","560","630","23","26","118106000","33286000","120210000"
+"217235","Johnson & Wales University-Providence","2009","Not applicable","62052","53","71","25",,,,,,,"305530566","99181092","192317807"
+"217402","Providence College","2009","Roman Catholic","80087","88","60","19","530","630","530","640","23","28","130394491","44474400","116264000"
+"217420","Rhode Island College","2009","Not applicable","65260","45","71","42","420","530","420","530","17","21",,,
+"217518","Roger Williams University","2009","Not applicable","87593","61","61","18","495","580","510","600",,,"126820000","55075000","52736000"
+"217536","Salve Regina University","2009","Roman Catholic","69440","68","65","15","500","580","500","590","22","26","59323000","18872000","33450000"
+"217633","Anderson University","2009","Baptist","51878","54","69","36","440","580","450","580","18","24","26328850","7702462","24856993"
+"217688","Charleston Southern University","2009","Baptist","50906","34","64","30","500","570","500","600","21","27","41643511","14261153","10900181"
+"217749","Bob Jones University","2009","Other Protestant","32230","58",,,,,,,,,"122785507","22273997","6883968"
+"217776","Southern Wesleyan University","2009","Wesleyan","48622","41","89","29","460","550","450","550","18","23","23650565","10117462","3214439"
+"217819","College of Charleston","2009","Not applicable","64707","64","64","31","570","650","570","650","23","26",,,
+"217864","Citadel Military College of South Carolina","2009","Not applicable","68583","76","75","40","500","590","510","600","19","22",,,
+"217925","Columbia International University","2009","Not applicable","41613","52","67","55","510","630","470","570","20","25","28381211","5677698","4319433"
+"217934","Columbia College","2009","United Methodist","49003","40","73","29","440","570","430","540","19","23","23428980","10025478","17117399"
+"217961","Converse College","2009","Not applicable","41898","64","68","38","480","590","480","580","20","25","26318094","9633342","72882585"
+"218061","Francis Marion University","2009","Not applicable","60198","39","56","41","430","530","430","530","18","22",,,
+"218441","North Greenville University","2009","Southern Baptist","48222","52","55","55","440","660","470","630","21","29","25839709","9148127","12712282"
+"218724","Coastal Carolina University","2009","Not applicable","60787","46","69","32","460","540","480","560","20","23",,,
+"218733","South Carolina State University","2009","Not applicable","60547","36","75","30","370","470","370","470","15","18",,,
+"218964","Winthrop University","2009","Not applicable","63233","60","71","37","470","580","490","590","20","25",,,
+"219046","Black Hills State University","2009","Not applicable","55611","29","70","54",,,,,"19","23",,,
+"219082","Dakota State University","2009","Not applicable","59392","42","94","51",,,,,"19","25",,,
+"219198","Mount Marty College","2009","Roman Catholic","48466","41","78","45",,,,,"19","24","12862567","5567488","12125500"
+"219259","Northern State University","2009","Not applicable","57308","45","84","38","390","540","450","580","18","24",,,
+"219383","University of Sioux Falls","2009","American Baptist","47622","50","96","41","390","510","410","500","20","26","20368207","7709607","15176753"
+"219602","Austin Peay State University","2009","Not applicable","54021","31","88","58","460","560","450","580","19","24",,,
+"219709","Belmont University","2009","Baptist","70766","70","77","40","540","640","530","640","23","29","102875904","41640450","73889757"
+"219718","Bethel University","2009","Cumberland Presbyterian","41607","45","54","60","420","530","475","565","17","23","29951844","15024310","8080601"
+"219790","Bryan College-Dayton","2009","Interdenominational","47054","51","74","54","520","660","480","610","20","28","15640399","4523100","5582404"
+"219806","Carson-Newman University","2009","Baptist","47059","55","74","23",,,"460","472","20","25","38762856","13475286","41733724"
+"219833","Christian Brothers University","2009","Roman Catholic","52781","53","59","32","470","590","500","610","22","27","38075207","9960691","23189458"
+"219949","Cumberland University","2009","Not applicable","43959","34","57","52","410","510","450","560","20","24","17135262","5401896","7818638"
+"220215","Freed-Hardeman University","2009","Churches of Christ","54013","60","99","64","485","628","483","590","20","26","37149297","13769088","24404087"
+"220516","King University","2009","Presbyterian Church (USA)","43390","54","62","36","430","560","430","570","20","25","22052020","8152716","21984655"
+"220552","South College","2009","Not applicable","50612","0","100","100",,,,,,,,,
+"220613","Lee University","2009","Church of God","46614","48","65","73","480","610","460","600","20","27","50610343","20400468","7799848"
+"220631","Lincoln Memorial University","2009","Not applicable","48247","43","69","33","440","570","460","580","18","24","53419004","21367309","22589102"
+"221661","Southern Adventist University","2009","Seventh Day Adventists","42189","50","71","56","450","570","430","560","19","26","59849688","20907988","19253523"
+"221740","The University of Tennessee-Chattanooga","2009","Not applicable","61833","42","79","42",,,,,"20","25",,,
+"221768","The University of Tennessee-Martin","2009","Not applicable","57168","49","75","52",,,,,"20","25",,,
+"221953","Tusculum College","2009","Presbyterian Church (USA)","42508","40","72","19",,,"463","560","19","24","27230644","6758245","14038945"
+"222178","Abilene Christian University","2009","Churches of Christ","61683","61","49","54","480","600","490","620","21","27","105210745","31748005","239532858"
+"222628","Amberton University","2009","Undenominational","56134",,,,,,,,,,"7427000","2529646","16268447"
+"222831","Angelo State University","2009","Not applicable","59160","31","96","52","410","520","430","540","18","23",,,
+"224004","Concordia University-Texas","2009","Lutheran Church - Missouri Synod","57093","36","53","41","440","560","450","580","19","24","26027069","8438736","11085852"
+"224323","University of Dallas","2009","Roman Catholic","57252","73","92","33","560","700","530","650","23","30","50720469","23306255","40673223"
+"224545","Texas A&M University-Texarkana","2009","Not applicable","69054",,,,,,,,,,,,
+"225247","Hardin-Simmons University","2009","Baptist","60263","50","38","65","450","560","480","600","20","25","39712135","18478159","102371153"
+"225399","Houston Baptist University","2009","Southern Baptist","62764","46","42","16","460","570","470","590","20","25","52689178","17870671","72177268"
+"225414","University of Houston-Clear Lake","2009","Not applicable","69374",,,,,,,,,,,,
+"225432","University of Houston-Downtown","2009","Not applicable","62441","12",,,,,,,,,,,
+"225502","University of Houston-Victoria","2009","Not applicable","73982",,,,,,,,,,,,
+"225627","University of the Incarnate Word","2009","Roman Catholic","66983","43","66","32","430","550","440","560","18","23","84725638","34678513","61133621"
+"226152","Texas A & M International University","2009","Not applicable","65309","37","53","40","390","480","410","510","15","20",,,
+"226231","LeTourneau University","2009","Interdenominational","52668","48","59","53","510","640","550","658","22","29","52277520","19415467","5197172"
+"226383","Lubbock Christian University","2009","Churches of Christ","50480","43","66","37","430","560","440","540","18","24","27508108","8604517","10675071"
+"226471","University of Mary Hardin-Baylor","2009","Baptist","59304","51","43","24","430","550","450","560","20","28","47086784","18936205","61858027"
+"226833","Midwestern State University","2009","Not applicable","60933","30","88","37","450","550","460","570","18","23",,,
+"227331","Our Lady of the Lake University","2009","Roman Catholic","61884","38","63","32","390","500","410","510","16","21","42753777","16158803","21359618"
+"227845","Saint Edward's University","2009","Roman Catholic","69537","66","66","38","520","620","510","610","22","27","88520278","31422141","43236250"
+"227863","University of St Thomas","2009","Roman Catholic","74322","47","80","41","510","620","610","630","23","27","49244191","21153221","47610029"
+"228149","St. Mary's University","2009","Roman Catholic","77259","57","76","29","470","570","470","590","20","25","80413342","30274224","116474827"
+"228325","Southwestern Assemblies of God University","2009","Assemblies of God Church","44992","47","37","90",,,,,,,"20996214","8148534","2909175"
+"228431","Stephen F Austin State University","2009","Not applicable","59428","44","73","37","420","530","440","540","18","23",,,
+"228501","Sul Ross State University","2009","Not applicable","56125","23",,,,,,,,,,,
+"228529","Tarleton State University","2009","Not applicable","57634","38","52","62","420","520","440","540","18","23",,,
+"228802","The University of Texas at Tyler","2009","Not applicable","61476","35","74","57","470","590","490","600","20","25",,,
+"229018","The University of Texas of the Permian Basin","2009","Not applicable","61672","32","90","52","440","550","460","570","18","23",,,
+"229160","Texas Wesleyan University","2009","United Methodist","72486","31","65","56","440","530","430","550","18","21","50458634","24588755","39720781"
+"229267","Trinity University","2009","Presbyterian Church (USA)","78926","79","59","26","590","700","610","690","27","31","93277879","33239768","850738577"
+"229780","Wayland Baptist University","2009","Southern Baptist","46557","37","99","63","410","540","430","570","18","23","47469614","28215256","58079072"
+"229814","West Texas A & M University","2009","Not applicable","59992","38","72","47","430","550","450","560","18","23",,,
+"230603","Southern Utah University","2009","Not applicable","57043","43","72","53","450","580","440","580","18","25",,,
+"230737","Utah Valley University","2009","Not applicable","59821","23",,,,,,,,,,,
+"230782","Weber State University","2009","Not applicable","60441","43",,,,,,,,,,,
+"230807","Westminster College","2009","Not applicable","67786","56","82","35","510","620","500","630","22","27","54177300","23123002","47981373"
+"230852","Champlain College","2009","Not applicable","67269","57","77","24","510","610","510","600","21","26","58149136","17956113","9539160"
+"230889","Goddard College","2009","Not applicable","43647","50","100","71",,,,,,,"11097997","4188537","579816"
+"230898","Green Mountain College","2009","United Methodist","51258","44","62","24","490","610","460","570",,,"18979025","5597240","2874525"
+"230913","Johnson State College","2009","Not applicable","64726","29","85","37","420","530","400","530","17","22",,,
+"230995","Norwich University","2009","Not applicable","64410","54","65","31","470","580","480","590","20","25","143819000","21892000",
+"231712","Christopher Newport University","2009","Not applicable","68138","58","60","27","560","640","560","640","22","27",,,
+"232043","Eastern Mennonite University","2009","Mennonite Church","51516","61","71","40","460","600","470","620","22","28","29465319","13802089","14882988"
+"232265","Hampton University","2009","Not applicable","55333","52",,,,,,,,,"148545800","39960380","193534107"
+"232423","James Madison University","2009","Not applicable","68073","81","65","63","520","620","540","630","22","26",,,
+"232566","Longwood University","2009","Not applicable","59295","58","70","34","500","570","490","570","21","24",,,
+"232609","Lynchburg College","2009","Christian Church (Disciples of Christ)","61241","63","68","19","460","560","450","570","18","23","53768083","21274898","62177036"
+"232672","Mary Baldwin University","2009","Presbyterian Church (USA)","60798","42","62","17","440","560","430","540","17","23","27574391","12838677","27951878"
+"232681","University of Mary Washington","2009","Not applicable","66761","75","74","27","540","650","520","620","23","28",,,
+"232706","Marymount University","2009","Roman Catholic","70559","56","83","26","440","540","420","530","18","22","57657777","22133621","17893281"
+"232937","Norfolk State University","2009","Not applicable","65196","32","63","36","380","460","380","460","17","20",,,
+"233277","Radford University","2009","Not applicable","63709","57","71","33","460","550","460","550","19","23",,,
+"233684","Strayer University-Virginia","2009",,,,,,,,,,,,,,
+"234155","Virginia State University","2009","Not applicable","65552","44","65","30","380","460","380","460",,,,,
+"234827","Central Washington University","2009","Not applicable","62570","56","79","40","440","540","440","550","18","23",,,
+"234915","City University of Seattle","2009","Not applicable","55212","29",,,,,,,,,"42349274","17502062",
+"235097","Eastern Washington University","2009","Not applicable","59595","47","83","49","420","530","430","540","17","23",,,
+"235167","The Evergreen State College","2009","Not applicable","64048","58","95","34","500","640","460","590","20","26",,,
+"235316","Gonzaga University","2009","Roman Catholic","73516","83","78","28","540","630","550","650","24","29","164413757","58260072","109494145"
+"235422","Heritage University","2009","Not applicable","50422","15",,,,,,,,,"15543973","6413615","7888413"
+"236133","Northwest University","2009","Assemblies of God Church","53065","50","75","48","440","570","440","560","17","24","24456235","6980016","9252855"
+"236230","Pacific Lutheran University","2009","Evangelical Lutheran Church","64076","68","78","36","480","610","500","610","23","28","94111230","38263629","61752223"
+"236452","Saint Martin's University","2009","Roman Catholic","52831","55","79","31","430","550","440","560","16","24","29594302","9891824","14646608"
+"236595","Seattle University","2009","Roman Catholic","76027","74","66","21","520","640","530","640","23","29","173232063","87206729","151180031"
+"236896","Walla Walla University","2009","Seventh Day Adventists","43564","47","98","63",,,,,"20","27","44559420","18121108","11663485"
+"237011","Western Washington University","2009","Not applicable","66503","69","73","38","500","620","510","610","21","27",,,
+"237066","Whitworth University","2009","Presbyterian Church (USA)","66415","73","53","18","540","650","540","640","24","29","58433329","22959923","73191175"
+"237312","University of Charleston","2009","Not applicable","55175","44","79","29","440","530","430","520","19","24","27974268","9912061","28118335"
+"237330","Concord University","2009","Not applicable","52089","39","60","52","395","593","347","616","18","27",,,
+"237367","Fairmont State University","2009","Not applicable","56606","37","88","29","410","530","420","540","18","23",,,
+"237525","Marshall University","2009","Not applicable","60080","46","83","84","450","560","440","560","19","25",,,
+"237783","Salem International University","2009","Not applicable","33150","35",,,,,,,,,,,
+"237969","West Virginia Wesleyan College","2009","United Methodist","48789","54","81","36","420","540","440","568","19","25","25734107","7593949","30728982"
+"238078","Wheeling Jesuit University","2009","Roman Catholic","50532","4","74","27","470","560","460","560","20","25","36113328","8061284","12884534"
+"238193","Alverno College","2009","Roman Catholic","53446","38","85","53",,,,,"17","22","40777945","13258620","16699740"
+"238458","Carroll University","2009","Presbyterian Church (USA)","56084","68","69","42",,,,,"21","26","45332645","15129234","28642169"
+"238616","Concordia University-Wisconsin","2009","Lutheran Church - Missouri Synod","61934","54","64","29",,,,,"19","25","51248978","24367310","40099028"
+"238980","Lakeland University","2009","United Church of Christ","57168","42","91","25","480","620","490","600","18","23","33400754","11842091","9227352"
+"239080","Marian University","2009","Roman Catholic","57890","41","83","38",,,,,"17","22","32065066","12192431","7089575"
+"239318","Milwaukee School of Engineering","2009","Not applicable","71920","55","67","37","500","640","530","590","24","29","62162260","27308186","33722431"
+"239390","Mount Mary University","2009","Roman Catholic","50617","40","50","40",,,,,"16","22","19953530","8381380","8961338"
+"239743","Silver Lake College of the Holy Family","2009","Roman Catholic","31974","48","74","27",,,,,"16","24","10833029","5063746","4814378"
+"240107","Viterbo University","2009","Roman Catholic","54365","50","87","33",,,,,"20","25","35620824","16948428","23942485"
+"240189","University of Wisconsin-Whitewater","2009","Not applicable","60025","56","83","43","450","570","460","620","20","24",,,
+"240268","University of Wisconsin-Eau Claire","2009","Not applicable","59597","65","68","40",,,,,"23","26",,,
+"240277","University of Wisconsin-Green Bay","2009","Not applicable","57285","52","90","39",,,,,"20","25",,,
+"240329","University of Wisconsin-La Crosse","2009","Not applicable","59877","69","67","39",,,,,"23","27",,,
+"240365","University of Wisconsin-Oshkosh","2009","Not applicable","59292","51","83","43",,,,,"20","24",,,
+"240392","Herzing University-Madison","2009","Not applicable","46204","39","100","100",,,,,,,,,
+"240417","University of Wisconsin-Stout","2009","Not applicable","58171","55","91","52",,,,,"19","23",,,
+"240462","University of Wisconsin-Platteville","2009","Not applicable","56947","56","96","51",,,,,"20","25",,,
+"240471","University of Wisconsin-River Falls","2009","Not applicable","61475","55","89","51",,,,,"20","24",,,
+"240480","University of Wisconsin-Stevens Point","2009","Not applicable","57424","61","80","41",,,,,"21","25",,,
+"240754","University of Guam","2009","Not applicable","65009","27",,,,,,,,,,,
+"241100","American University of Puerto Rico","2009","Not applicable","25327","31",,,,,,,,,"12958430","3701146",
+"241225","Universidad Central de Bayamon","2009","Roman Catholic","27207","26","38","70",,,,,,,"11785465","5760327","2045190"
+"241377","Caribbean University-Bayamon","2009","Not applicable","18410","18",,,,,,,,,"21646153","5482004","239153"
+"241395","Pontifical Catholic University of Puerto Rico-Arecibo","2009","Roman Catholic","32604","11","66","46",,,,,,,,,
+"241739","Universidad Metropolitana","2009","Not applicable","35595","14","53","47","350","478","363","476",,,"59839491","30559850","13323709"
+"242617","Inter American University of Puerto Rico-San German","2009","Not applicable","35709","26","84","74",,,,,,,"28309605","17917691","0"
+"242626","Inter American University of Puerto Rico-Aguadilla","2009","Not applicable","34670","20","81","61",,,,,,,"15835196","9192229","0"
+"242635","Inter American University of Puerto Rico-Arecibo","2009","Not applicable","34370","19","34","96",,,,,,,"17349995","11230778","0"
+"242662","Inter American University of Puerto Rico-Ponce","2009","Not applicable","34416","18","58","55",,,,,,,"20783743","12285616","0"
+"243081","Ponce Health Sciences University","2009","Not applicable","38004",,,,,,,,,,"22684014","6868326",
+"243197","University of Puerto Rico-Mayaguez","2009","Not applicable","72250","44","77","96","528","633","551","698",,,,,
+"243346","Universidad Del Este","2009","Not applicable","34379","16","45","63","350","478","353","471",,,"51590866","25330969","8878005"
+"243443","Universidad del Sagrado Corazon","2009","Roman Catholic","35920","40","37","42",,,,,,,"38585184","13362589","14483114"
+"243665","University of the Virgin Islands","2009","Not applicable","63318","25","68","63","350","448","310","420","14","17",,,
+"245838","Antioch University-Los Angeles","2009","Not applicable","56472",,,,,,,,,,,,
+"245865","Antioch University-New England","2009","Not applicable","48032",,,,,,,,,,,,
+"245883","Antioch University-Seattle","2009","Not applicable","47276",,"82","100",,,,,,,,,
+"245892","Antioch University-Midwest","2009","Not applicable","50408",,,,,,,,,,,,
+"245953","Mid-America Christian University","2009","Church of God","50014","17",,,,,,,,,"12130566","2694504","2487338"
+"251312","South University-Columbia","2009","Not applicable","50433","0","59","90",,,,,,,,,
+"260901","Kaplan University-Davenport Campus","2009","Not applicable","42336","25",,,,,,,,,,,
+"262086","Brandman University","2009","Christian Church (Disciples of Christ)","68166",,,,,,,,,,"59929545","24711961",
+"363907","Caribbean University-Ponce","2009","Not applicable","18490","45",,,,,,,,,"2957260","748941","25661"
+"366711","California State University-San Marcos","2009","Not applicable","78770","47","73","22","430","530","440","550","18","23",,,
+"366748","Argosy University-Hawaii","2009","Not applicable","58275",,,,,,,,,,,,
+"367884","Hodges University","2009","Not applicable","46660","31","78","90",,,,,,,"24256829","9019937","2981297"
+"377555","University of Washington-Bothell Campus","2009","Not applicable","85606",,"76","43","460","560","490","590","20","24",,,
+"377564","University of Washington-Tacoma Campus","2009","Not applicable","82626",,"92","47","420","560","430","560","16","26",,,
+"380465","University of Phoenix-Utah","2009","Not applicable","30532","24",,,,,,,,,,,
+"405997","University of Phoenix-New Mexico","2009","Not applicable","25286","31",,,,,,,,,,,
+"407009","Arizona State University-West","2009",,,,,,,,,,,,,,
+"409698","California State University-Monterey Bay","2009","Not applicable","71075","42","71","14","440","550","440","550","18","23",,,
+"420042","University of Phoenix-Hawaii","2009","Not applicable","33413","20",,,,,,,,,,,
+"420574","Arizona State University-Polytechnic","2009",,,,,,,,,,,,,,
+"433387","Western Governors University","2009","Not applicable","39609","23","45","63",,,,,,,"72827958","31955069",
+"433660","Florida Gulf Coast University","2009","Not applicable","63331","45","65","37","470","550","480","560","20","23",,,
+"438151","Stevens-Henager College","2009","Not applicable","37403","0",,,,,,,,,,,
+"438498","Stratford University","2009","Not applicable","43018","0",,,,,,,,,,,
+"438586","American InterContinental University-Atlanta","2009","Not applicable","52574","18","99","100",,,,,,,,,
+"439057","Argosy University-Seattle","2009","Not applicable","51921",,,,,,,,,,,,
+"440031","Keck Graduate Institute","2009","Not applicable","109213",,,,,,,,,,"14112654","3369833","45244372"
+"440411","Marlboro College Graduate & Professional Studies","2009","Not applicable","56386",,,,,,,,,,,,
+"441937","California State University-Channel Islands","2009","Not applicable","81857","52","40","20","450","550","440","560","18","24",,,
+"442569","Grantham University","2009","Not applicable","44340","0",,,,,,,,,,,
+"443128","International Technological University","2009","Not applicable",,,,,,,,,,,"4572565","2188550",
+"443766","Strayer University-Tennessee","2009",,,,,,,,,,,,,,
+"443784","Strayer University-Pennsylvania","2009",,,,,,,,,,,,,,
+"445027","American InterContinental University","2009","Not applicable","56272",,"96","100",,,,,,,,,
+"445267","Central Methodist University-College of Graduate and Extended Studies","2009","United Methodist","24233",,,,,,,,,,,,
+"446640","Harrisburg University of Science and Technology","2009","Not applicable","68299",,,,,,,,,,"12265117","2574918",
+"447272","Argosy University-Los Angeles","2009","Not applicable","58048",,,,,,,,,,,,
+"448284","Doane University-Graduate and Professional Studies","2009","United Church of Christ","44131",,,,,,,,,,"5147461","5147461","0"
+"448309","Shorter University-College of Adult & Professional Programs","2009","Southern Baptist","45336","30","75","77",,,,,,,"5592190","4962289","0"
+"448840","University of South Florida-St Petersburg","2009","Not applicable","74075","53","55","56","500","600","490","580","21","25",,,
+"449038","Strayer University-Florida","2009",,,,,,,,,,,,,,
+"449339","American Public University System","2009","Not applicable","38112",,,,,,,,,,,,
+"450544","Argosy University-San Diego","2009","Not applicable","66520",,,,,,,,,,,,
+"450766","LIU Riverhead","2009","Not applicable","69583",,"76","89","440","540","430","570",,,"2971000","1499195","0"
+"450933","Columbia Southern University","2009","Not applicable","37676","8",,,,,,,,,,,
+"451671","University of South Florida-Sarasota-Manatee","2009","Not applicable","71520",,,,,,,,,,,,
+"452090","Argosy University-Salt Lake City","2009","Not applicable","61897",,,,,,,,,,,,
+"453163","Strayer University-North Carolina","2009",,,,,,,,,,,,,,
+"455992","Vermont College of Fine Arts","2009","Not applicable",,,,,,,,,,,"5767520","1287748","420077"
+"456542","Geisinger Commonwealth School of Medicine","2009","Not applicable",,,,,,,,,,,"21546717","0","619448"
+"458919","Strayer University-Georgia","2009",,,,,,,,,,,,,,
+"459727","Touro University Worldwide","2009",,,,,,,,,,,,,,
+"460075","California University of Management and Sciences","2009",,,,,,,,,,,,,,
+"475121","South University–Savannah Online","2009",,,,,,,,,,,,,,
+"475811","Universidad Internacional Iberoamericana","2009",,,,,,,,,,,,,,
+"476975","Colorado State University-Global Campus","2009",,,,,,,,,,,,,,
+"479956","Pennsylvania State University-World Campus","2009",,,,,,,,,,,,,,
+"480198","Warner Pacific College Adult Degree Program","2009",,,,,,,,,,,,,,
+"480569","Florida Institute of Technology-Online","2009",,,,,,,,,,,,,,
+"482422","DeVry University-Arizona","2009",,,,,,,,,,,,,,
+"482431","DeVry University-California","2009",,,,,,,,,,,,,,
+"482440","DeVry University-Colorado","2009",,,,,,,,,,,,,,
+"482459","DeVry University-Florida","2009",,,,,,,,,,,,,,
+"482468","DeVry University-Georgia","2009",,,,,,,,,,,,,,
+"482477","DeVry University-Illinois","2009",,,,,,,,,,,,,,
+"482538","DeVry University-Missouri","2009",,,,,,,,,,,,,,
+"482556","DeVry University-New Jersey","2009",,,,,,,,,,,,,,
+"482574","DeVry University-Ohio","2009",,,,,,,,,,,,,,
+"482608","DeVry University-Pennsylvania","2009",,,,,,,,,,,,,,
+"482635","DeVry University-Texas","2009",,,,,,,,,,,,,,
+"482680","University of North Georgia","2009",,,,,,,,,,,,,,
+"482705","Northeastern University Professional Advancement Network","2009",,,,,,,,,,,,,,
+"483036","Texas A & M University-Central Texas","2009",,,,,,,,,,,,,,
+"484631","University of Phoenix-California","2009",,,,,,,,,,,,,,
+"484640","University of Phoenix-Colorado","2009",,,,,,,,,,,,,,
+"484668","University of Phoenix-Florida","2009",,,,,,,,,,,,,,
+"484677","University of Phoenix-Georgia","2009",,,,,,,,,,,,,,
+"484686","University of Phoenix-Louisiana","2009",,,,,,,,,,,,,,
+"484695","University of Phoenix-Michigan","2009",,,,,,,,,,,,,,
+"484710","University of Phoenix-Nevada","2009",,,,,,,,,,,,,,
+"484738","University of Phoenix-Oklahoma","2009",,,,,,,,,,,,,,
+"484747","University of Phoenix-Tennessee","2009",,,,,,,,,,,,,,
+"484765","University of Phoenix-Virginia","2009",,,,,,,,,,,,,,
+"484905","University of North Texas at Dallas","2009",,,,,,,,,,,,,,
+"486901","Milligan College","2009",,,,,,,,,,,,,,
+"487524","Husson University","2009",,,,,,,,,,,,,,
+"490805","Purdue University Northwest","2009",,,,,,,,,,,,,,
