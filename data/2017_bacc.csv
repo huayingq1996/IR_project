@@ -1,0 +1,552 @@
+"unitid","institution name","year","HD2017.Carnegie Classification 2015: Basic","IC2017.Religious affiliation","DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks","DRVGR2017.Graduation rate - Bachelor degree within 6 years, total","DRVADM2017.Percent admitted - total","DRVADM2017.Admissions yield - total","ADM2017.SAT Evidence-Based Reading and Writing 25th percentile score","ADM2017.SAT Evidence-Based Reading and Writing 75th percentile score","ADM2017.SAT Math 25th percentile score","ADM2017.SAT Math 75th percentile score","ADM2017.ACT Composite 25th percentile score","ADM2017.ACT Composite 75th percentile score","F1617_F2.Total expenses","F1617_F2.Instruction-Total amount","F1617_F2.Value of endowment assets at the end of the fiscal year"
+"100812","Athens State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","74160",,,,,,,,,,,,
+"100937","Birmingham Southern College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","69967","66","62","22","520","630","510","630","23","29","47596268","14763232","53528445"
+"101073","Concordia College Alabama","2017","Baccalaureate Colleges: Diverse Fields","Lutheran Church - Missouri Synod","48678","5",,,,,,,,,"9784349","3436643","53210"
+"101116","South University-Montgomery","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","43470","5",,,,,,,,,,,
+"101435","Huntingdon College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","61657","37","56","25","490","595","500","580","19","24","22159981","7257017","48175439"
+"101541","Judson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Baptist","53392","32","51","26",,,,,"18","25","9523190","3591600","16146614"
+"101675","Miles College","2017","Baccalaureate Colleges: Diverse Fields","Christian Methodist Episcopal","39897","21",,,,,,,,,"31452545","8033891","20938945"
+"101693","University of Mobile","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","44570","45","47","32","460","560","450","540","20","25","28492888","9065421","21912486"
+"101912","Oakwood University","2017","Baccalaureate Colleges: Diverse Fields","Seventh Day Adventist","44398","48","47","32","460","570","430","530","17","22","51255099","11210666","15646791"
+"102234","Spring Hill College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","59846","53","46","10","515","600","510","585","21","26","44559266","11215305","19718042"
+"102270","Stillman College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","41765","28","48","7",,,,,,,"13888623","2821679","17847927"
+"102298","Talladega College","2017","Baccalaureate Colleges: Diverse Fields","United Church of Christ","48842","49",,,,,,,,,"15616205","4052199","2423263"
+"104090","Brookline College-Phoenix","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52868","35",,,,,,,,,,,
+"104586","Embry-Riddle Aeronautical University-Prescott","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","81585","60","77","41","560","670","570","680","23","29",,"30969000","37359164"
+"105899","Arizona Christian University","2017","Baccalaureate Colleges: Diverse Fields","Undenominational","46677","47","64","40","430","540","420","540","15","21","14519641","2901618","1054850"
+"106342","Lyon College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","59216","52","64","18","510","602","520","632","22","28","22976054","6791270","61060242"
+"106412","University of Arkansas at Pine Bluff","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52615","29","47","25","448","545","435","515","16","20",,,
+"106713","Central Baptist College","2017","Baccalaureate Colleges: Diverse Fields","Baptist","48205","23","68","53","420","555","468","535","18","22","11361850","2559292","3219881"
+"107080","Hendrix College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","68416","75","80","29","560","710","540","700","24","31","55679937","17753185","201015739"
+"107512","Ouachita Baptist University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Southern Baptist","57572","64","71","37","540","640","480","620","21","28","44047533","15276774","108181009"
+"107558","University of the Ozarks","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","58697","51","89","29","470","590","460","590","18","23","21627064","6367409","110874110"
+"107600","Philander Smith College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","47713","30",,,,,,,,,"19867060","3900648","10772648"
+"107877","Williams Baptist College","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","49385","42","62","34",,,,,"18","22","9310808","3510863","14344290"
+"108092","University of Arkansas-Fort Smith","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61825","29",,,,,,,,,,,
+"111188","California State University Maritime Academy","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","85057","64","66","29",,,,,,,,,
+"112084","San Diego Christian College","2017","Baccalaureate Colleges: Diverse Fields","Undenominational","54878","57","62","27","430","500","420","480","16","22","13419129","3984881","692631"
+"112260","Claremont McKenna College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","127201","90","10","53","660","740","680","770","30","34","115518000","38640000","784363000"
+"112394","Cogswell College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","70655","37","64","49",,,,,,,,,
+"115409","Harvey Mudd College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","119495","96","15","36","720","770","750","800","33","35","65387878","28503483","298858771"
+"115773","Humphreys University-Stockton and Modesto Campuses","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","48801","48",,,,,,,,,"9218847","3206241","202446"
+"116846","American Jewish University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Jewish","68070","29","83","29",,,,,,,"24622259","3685242","22193737"
+"118541","Marymount California University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","64991","23",,,,,,,,,"27630770","6967280","10714170"
+"120254","Occidental College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","100185","84","42","20","650","720","630","720","27","32","116996130","41910067","413429864"
+"120865","Pacific Union College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Seventh Day Adventist","54893","48","50","21","480","590","470","560","18","24","48237121","14408057","25775589"
+"121257","Pitzer College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","98676","83","16","43",,,,,,,"59843015","23562365","136599113"
+"121345","Pomona College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","119330","93","8","54","690","760","680","770","30","34","169082000","64678000","2165208000"
+"122728","William Jessup University","2017","Baccalaureate Colleges: Diverse Fields","Other Protestant","63095","64","66","31","500","605","500","610","21","26","29990152","8713140","2879082"
+"123165","Scripps College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","102061","88","33","34","660","730","630","730","29","33","67841630","33049320","336706779"
+"124292","Thomas Aquinas College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","79978","79","72","65","630","710","570","670","25","30","18631497","5774614","22505507"
+"125727","Westmont College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","68217","70","85","23","580","700","550","680","23","30","61492135","23021032","84027561"
+"125763","Whittier College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","74559","69","74","12","510","620","500","600","21","27","76810490","31968104","97214988"
+"126678","Colorado College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","101015","88","15","44",,,,,,,"149137196","58866341","743175057"
+"127185","Fort Lewis College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","64233","40","83","19","520","600","500","610","20","25",,,
+"127556","Colorado Mesa University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60591","33","82","33","480","600","478","590","18","24",,,
+"127680","National American University-Colorado Springs","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","41256","0",,,,,,,,,,,
+"128328","United States Air Force Academy","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","81392","78","12","97","600","690","610","700","28","32",,,
+"128780","Charter Oak State College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable",,,,,,,,,,,,,
+"128902","Connecticut College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","89118","85","38","22",,,,,,,"116156000","39022000","299116000"
+"129774","Mitchell College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61879","41","78","14",,,,,,,"20303205","3455240","8615022"
+"130590","Trinity College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","93490","81","34","28","620","710","640","710","28","32","145292051","54557035","584499394"
+"130624","United States Coast Guard Academy","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","92265","79","15","95","570","670","610","673","26","31",,,
+"130697","Wesleyan University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","109377","90","16","38",,,,,,,"211512000","97234000","967177000"
+"131098","Wesley College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","42162","17","62","24","330","530","420","520","15","20","32725883","11073951","3409223"
+"132602","Bethune-Cookman University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","58270","37",,,,,,,,,"97089640","25281889","42323284"
+"133492","Eckerd College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","67950","70","73","17","540","650","520","610","23","29","75081395","29491343","55878164"
+"133526","Edward Waters College","2017","Baccalaureate Colleges: Diverse Fields","African Methodist Episcopal","45752","32","60","17","400","480","390","490","15","18","23483795","4895966","1680649"
+"133711","Flagler College-St Augustine","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","57752","55","57","27","510","610","440","530","21","26","58183429","19866672","57063118"
+"133979","Florida Memorial University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","63816","38","27","18",,,,,,,"35572911","7620091","5925333"
+"135610","Trinity International University-Florida","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Free Church of America","62658","0",,,,,,,,,"3891039","1350052","332658"
+"138275","Warner University","2017","Baccalaureate Colleges: Diverse Fields","Church of God","35425","36","41","50","410","520","420","530","16","20","17738497","4223675","6158630"
+"138293","Webber International University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","39717","30","49","39","460","555","455","540","17","20","12906428","1951461","5399123"
+"138600","Agnes Scott College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","82355","66","66","25",,,,,,,"55209213","17164695","229886873"
+"138868","Point University","2017","Baccalaureate Colleges: Diverse Fields","Christian Churches and Churches of Christ","55777","27","35","56","430","530","440","530","16","21","27976874","8220101","4276413"
+"139205","Brewton-Parker College","2017","Baccalaureate Colleges: Diverse Fields","Baptist","37779","22","99","57","430","530","440","530","14","18","9370575","2395392","7675732"
+"139393","Covenant College","2017","Baccalaureate Colleges: Arts & Sciences Focus","The Presbyterian Church in America","67861","69","95","40","590","690","540","660","24","30","30200123","10629668","39286339"
+"139630","Emmanuel College","2017","Baccalaureate Colleges: Diverse Fields","Pentecostal Holiness Church","44328","44","43","55","480","560","470","550","17","22","17306636","3690776","1405001"
+"140234","LaGrange College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","50640","41","57","31","510","600","500","580","20","24","31174038","12903564","50950801"
+"140340","Herzing University-Atlanta","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","51515","11","86","46",,,,,,,"9505854","3748034",
+"140553","Morehouse College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","56580","55","74","35","480","590","470","570","18","23","88718904","24710823","141428584"
+"140696","Oglethorpe University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","60576","47","58","27","570","670","540","640","22","28","26976652","8904936","31724904"
+"140720","Paine College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","42666","16","32","12","380","470","360","460","14","18","14346852","6753466","11644778"
+"140872","Reinhardt University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","53222","37","89","29","470","580","460","550","18","23","29794031","9855049","41641189"
+"140988","Shorter University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","44472","40","53","29","440","550","440","540","17","24","30750553","8042861","14090077"
+"141060","Spelman College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73975","74","40","16","550","625","520","590","22","26","96384235","29359615","366226708"
+"141185","Toccoa Falls College","2017","Baccalaureate Colleges: Diverse Fields","Christ and Missionary Alliance Church","49310","53","59","44","480","600","440","550","18","23","20814125","4773427","2834401"
+"141237","Truett McConnell University","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","37224","38","95","40","470","570","450","550","18","23","18596179","5486141","6232317"
+"141325","Wesleyan College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","60555","56","47","51","530","610","490","580","21","24","18540116","7345900","61484558"
+"141361","Young Harris College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","55712","37","53","32","490","600","488","570","20","25","34525571","10081376","100849321"
+"141981","University of Hawaii-West Oahu","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","83194","39","79","34","440","560","430","550","16","20",,,
+"142294","The College of Idaho","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","62884","67","76","21",,,,,,,"33294448","9911258","100311510"
+"142328","Lewis-Clark State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","54343","23","100","32","470","560","460","540","17","22",,,
+"142522","Brigham Young University-Idaho","2017","Baccalaureate Colleges: Diverse Fields","Latter Day Saints (Mormon Church)","81771","51","95","55","500","600","490","580","20","25","279765000","170249000","103023000"
+"143084","Augustana College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","69949","75","59","18",,,,,,,"74983650","25035434","159524918"
+"143288","Blackburn College","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","54976","48","60","26","428","538","390","460","18","23","14691243","3763651","22074568"
+"144883","East-West University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","59793","12","41","19",,,,,"15","19","11800032","2655785",
+"144971","Eureka College","2017","Baccalaureate Colleges: Diverse Fields","Christian Church (Disciples of Christ)","51166","44","62","22","480","610","480","560","19","24","16047931","4380258","20299082"
+"145646","Illinois Wesleyan University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73108","78","61","17","590","690","605","705","24","29","75267682","33712213","235602540"
+"145691","Illinois College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","66881","60","55","11",,,,,,,"33739697","9713393","137538362"
+"146393","Kendall College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","51554","26","71","57",,,,,,,,,
+"146427","Knox College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","64412","76","72","15",,,,,,,"50249096","18836746","143246261"
+"146481","Lake Forest College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","78508","72","53","16",,,,,,,"53959712","16787382","87796299"
+"146825","MacMurray College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","52946","42","60","22","480","578","500","550","18","22","13972604","4571836","15504608"
+"147244","Millikin University","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","53924","61","65","21","550","640","530","620","19","26","51699772","20993428","108424026"
+"147341","Monmouth College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","61145","58","67","17","470","560","430","530","20","25","38766607","14692289","109758138"
+"148016","Principia College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","68103","84","91","70","523","663","510","630","20","27","42478401","11656774","377459721"
+"149505","Trinity Christian College","2017","Baccalaureate Colleges: Diverse Fields","Interdenominational","61620","69","83","26","545","595","510","600","19","26","29094292","11415749","10751611"
+"149781","Wheaton College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Undenominational","81754","89","85","40","630","720","600","690","27","32","125095328","42548582","446375583"
+"150400","DePauw University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85921","81","67","17","560","650","550","680","24","29","114166367","49427038","669139147"
+"150455","Earlham College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Friends","54584","68","52","20","610","700","580","700","25","30","61445870","28317137","425494674"
+"150604","Franklin College","2017","Baccalaureate Colleges: Arts & Sciences Focus","American Baptist","58339","62","78","19","500","610","510","590","19","25","28481507","9803317","84607136"
+"150668","Goshen College","2017","Baccalaureate Colleges: Diverse Fields","Mennonite Church","49064","72","64","28","490","623","490","610","19","28","29939564","9515388","107351416"
+"150756","Hanover College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","70303","71","84","15","540","640","530","620","22","27","36259342","15240461","142055184"
+"150774","Holy Cross College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","46160","40","74","15","510","680","500","660","22","30","13439826","3166107","2064458"
+"150941","Huntington University","2017","Baccalaureate Colleges: Diverse Fields","United Brethren Church","57172","60","81","30","490","590","460","580","20","24","28858123","11002585","26953827"
+"151333","Indiana University-Kokomo","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","55021","39","70","49","480","570","470","550","17","22",,,
+"151777","Manchester University","2017","Baccalaureate Colleges: Diverse Fields","Church of Brethren","65441","55","61","15",,,,,,,"45474269","14687553","60186210"
+"151810","Martin University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","43188","6",,,,,,,,,"6006416","1119078",
+"152099","Oakland City University","2017","Baccalaureate Colleges: Diverse Fields","General Baptist","47348","49","71","24","469","583","480","570","18","24","25126091","8937008","5046151"
+"152266","Purdue University-North Central Campus","2017","Baccalaureate Colleges: Diverse Fields",,,,,,,,,,,,,,
+"152363","Saint Josephs College","2017","Baccalaureate Colleges: Diverse Fields",,,,,,,,,,,,,,
+"152381","Saint Mary-of-the-Woods College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","46711","57","76","30","450","550","440","520","18","23","19222696","8493913","13339557"
+"152390","Saint Mary's College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","66929","79","78","25","530","630","500","620","23","29","59902271","23747553","177882580"
+"152530","Taylor University","2017","Baccalaureate Colleges: Diverse Fields","Interdenominational","60320","79","87","31","530","650","515","640","22","29","65083000","23265570","87026000"
+"152567","Trine University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67928","55","70","24","480","570","490","590","22","28","55011335","18720343","32027839"
+"152673","Wabash College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","78114","77","63","28","530","630","540","650","23","28","51317829","14314404","340245157"
+"152992","Briar Cliff University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","51726","42",,,,,,,,,"23786410","7950366","13015759"
+"153001","Buena Vista University","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","63992","60","64","22","498","573","488","570","19","24","44211992","15689460","135029495"
+"153108","Central College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Reformed Church in America","64796","69","70","11","480","610","470","610","21","26","45422100","16427312","76453480"
+"153126","Clarke University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","54701","63","63","22","470","583","500","565","20","25","25933048","9287342","26910533"
+"153144","Coe College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","64164","69","56","10","533","648","540","678","22","28","40888280","14392460","91285572"
+"153162","Cornell College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","64366","68","65","20","550","675","550","665","23","29","38945967","13603081","74501908"
+"153250","Dordt College","2017","Baccalaureate Colleges: Diverse Fields","Christian Reformed Church","57090","64","72","36","530","660","520","660","22","28","39598682","14918270","40990427"
+"153375","Grand View University","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","58283","50","93","44","440","560","450","590","18","23","35858321","11527401","22563514"
+"153384","Grinnell College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","99531","87","29","26","640","740","670","770","30","34","125816000","44609000","1871046000"
+"153621","Iowa Wesleyan University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","54454","27","50","9","430","480","450","500","18","21","14868040","3888362","17218501"
+"153825","Loras College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","57276","68","95","31","505","575","528","598","20","26","38800423","10118392","33468602"
+"153834","Luther College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","69091","80","65","19","503","640","520","665","23","28","79637743","30566367","161084410"
+"154101","Northwestern College","2017","Baccalaureate Colleges: Diverse Fields","Reformed Church in America","58585","68","68","21","490","600","505","635","21","27","28416908","9798289","49413216"
+"154350","Simpson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","58643","68","84","29","540","630","530","590","21","27","40540478","15460169","84607132"
+"154518","Waldorf University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","45002","29","72","29","470","560","460","550","18","22",,,
+"154527","Wartburg College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","59440","65","77","14","470","563","478","603","21","27","49935792","15251342","73859094"
+"154712","Benedictine College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","63134","63","97","19",,,,,"22","28","48962800","14655359","24371014"
+"154721","Bethany College","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","38168","47","67","31","440","520","450","540","18","23","15480241","3660247","4856798"
+"154749","Bethel College-North Newton","2017","Baccalaureate Colleges: Arts & Sciences Focus","Other (none of the above)","48895","42","56","25",,,,,,,"13845396","3651244","18557369"
+"154855","Central Christian College of Kansas","2017","Baccalaureate Colleges: Diverse Fields","Free Methodist","32483","17","39","42","460","600","430","520","17","22","12766267","5978975","6139342"
+"155414","Kansas Wesleyan University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","52158","32","54","42","460","550","470","540","19","24","16683250","3988606","27152173"
+"155511","McPherson College","2017","Baccalaureate Colleges: Diverse Fields","Church of Brethren","53954","36","48","39","550","630","480","550","20","24","16727487","5583206","46071827"
+"155627","Ottawa University-Ottawa","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","55534","46","80","23","440","570","460","510","18","22","38381729","7190188","15313348"
+"155636","Ottawa University-Kansas City","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","46500",,,,,,,,,,,,
+"155937","Sterling College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","39733","39","52","24","450","530","450","540","18","22","14714742","3255940","16992335"
+"155973","Tabor College","2017","Baccalaureate Colleges: Diverse Fields","Mennonite Brethren Church","43038","38","53","36","460","530","470","520","18","24","14744232","3353280","9446276"
+"156189","Alice Lloyd College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","43492","100","26","15","490","540","450","490","18","23","14246296","2843862","40783945"
+"156295","Berea College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","71757","66","35","72","480","590","490","610","22","27","104699869","25473035","1150360300"
+"156356","Brescia University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","48099","39","42","8",,,,,"19","23","14162108","6053244","12948728"
+"156408","Centre College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","74384","82","76","21","590","680","580","730","26","31","64297703","25329278","314331271"
+"156745","Georgetown College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Baptist","54740","53","67","18",,,,,"20","26","32887796","8570508","39606258"
+"157058","Kentucky State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","56621","21","45","34","418","500","448","520","17","21",,,
+"157076","Kentucky Wesleyan College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","47548","32","58","24","480","560","460","540","19","26","17024871","3341470","36092016"
+"157100","Kentucky Christian University","2017","Baccalaureate Colleges: Diverse Fields","Christian Churches and Churches of Christ","43051","33","40","55","490","530","500","530","18","22","12318649","2685004","6281284"
+"157535","University of Pikeville","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","54751","31","100","12","440","520","440","540","18","23","48041882","13530001","21869115"
+"157818","Transylvania University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Christian Church (Disciples of Christ)","67267","76","95","19",,,,,,,"37226391","10972796","179227848"
+"158477","Centenary College of Louisiana","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","63982","48","62","33","520","600","510","610","22","28","25451943","7081220","131640857"
+"158802","Dillard University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","55490","40","41","13","320","540","470","490","18","21","45519226","14457384","77597098"
+"159382","Louisiana State University-Alexandria","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","52032","8","31","70","440","540","350","580","18","22",,,
+"160065","University of Holy Cross","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","60652","52","46","10",,,,,"18","22","15240586","6705526","32088414"
+"160959","College of the Atlantic","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73426","66","68","28",,,,,,,"24599516","4753979","55284304"
+"160977","Bates College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","98638","92","22","42",,,,,,,"112073881","40154643","293832686"
+"161004","Bowdoin College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","107911","95","14","51",,,,,,,"160575000","55472000","1455909000"
+"161086","Colby College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","78225","92","16","31","670","740","670","760","31","33","144738000","47579000","775129000"
+"161217","University of Maine at Augusta","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67890","15",,,,,,,,,,,
+"161226","University of Maine at Farmington","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","62874","51","83","27",,,,,,,,,
+"161235","University of Maine at Fort Kent","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60821","30","97","24","450","560","450","530","17","22",,,
+"161244","University of Maine at Machias","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","57053","34",,,,,,,,,,,
+"161299","Maine Maritime Academy","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","100279","68","80","40","490","590","500","590","18","24",,,
+"161341","University of Maine at Presque Isle","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","59345","26","95","13",,,,,,,,,
+"161572","Unity College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","55162","66","89","22",,,,,,,"16865560","4401971","14241075"
+"162654","Goucher College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73876","66","79","15",,,,,,,"71360000","25458290","209577000"
+"163912","St Mary's College of Maryland","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","67661","78","82","25","540","650","530","640","22","28",,,
+"163921","Sojourner-Douglass College","2017","Baccalaureate Colleges: Diverse Fields",,,,,,,,,,,,,,
+"163976","St. John's College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85131","67","54","30","630","710","650","740","26","32","29425336","10601502","92672130"
+"164155","United States Naval Academy","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","105743","91","8","87","560","680","590","690",,,,,
+"164216","Washington College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","72779","76","48","14",,,,,,,"69264513","22578308","212154998"
+"164270","McDaniel College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","63129","68","85","19","540","620","520","610","21","28","64386000","23725000","120714000"
+"164465","Amherst College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","116808","95","13","39","700","770","700","790","32","34","194996830","56020989","2248140501"
+"164720","Becker College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","70176","39","69","11","490","590","480","570","20","26","45888779","10847429","4828270"
+"165671","Emmanuel College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","79718","66","73","11","560","640","530","610","24","29","63084613","17529540","136562851"
+"165936","Gordon College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Interdenominational","72480","70","89","16","540","650","510","640","22","29","63496189","19433084","49942959"
+"166018","Hampshire College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85471","62","63","22",,,,,,,"56266686","20169892","53457479"
+"166124","College of the Holy Cross","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","100274","92","40","31",,,,,,,"175760995","65176772","748948135"
+"166939","Mount Holyoke College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","92736","86","51","30","640","713","630","750","29","33","144095874","53765617","729438097"
+"166948","Mount Ida College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","62647","41","75","22",,,,,,,"47093868","12826984","15662287"
+"167251","Newbury College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","58332","39","75","8",,,,,,,"18962849","5408725","500000"
+"167288","Massachusetts College of Liberal Arts","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","82570","54","77","19","480","580","490","610","19","27",,,
+"167455","Pine Manor College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","49337","25","51","32",,,,,,,"17830621","5235405","9416876"
+"167792","Bard College at Simon's Rock","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","66043",,"66","74",,,,,,,"22702786","7381797","5729392"
+"167835","Smith College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","108792","88","32","37",,,,,,,"232421807","84902629","1767465922"
+"167996","Stonehill College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","83741","80","72","15",,,,,,,"92843039","32853687","194142067"
+"168218","Wellesley College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","111342","89","22","48","690","760","670","770","30","33","229345000","97834000","1930752000"
+"168281","Wheaton College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85665","78","48","17","590","680","560","670","26","30","79572812","29347429","205048131"
+"168342","Williams College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","112972","94","15","44","710","780","690","790","31","35","236756631","100645876","2383499723"
+"168528","Adrian College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","70616","52","60","18","480","580","470","568","19","25","48057512","14191537","35135415"
+"168546","Albion College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","67624","57","71","19","510","610","500","590","20","26","57104868","17620890","176849628"
+"168591","Alma College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","65335","68","64","13","520","630","510","600","20","27","49521882","17109191","120712604"
+"169080","Calvin College","2017","Baccalaureate Colleges: Diverse Fields","Christian Reformed Church","77323","72","83","33","560","660","540","670","23","30","122174868","50152661","145671768"
+"169363","Concordia University-Ann Arbor","2017","Baccalaureate Colleges: Diverse Fields","Lutheran Church - Missouri Synod","45969","26","46","24",,,,,"19","24","20814848","8609849","11558864"
+"170286","Hillsdale College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Undenominational","60595","85","41","43","660","730","620","710","28","32","116674365","41464681","574576618"
+"170301","Hope College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Reformed Church in America","73587","80","74","24","550","660","540","660","24","29","118045935","38408240","210474676"
+"170532","Kalamazoo College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","72151","86","73","18","600","690","580","690","26","30","57551759","23760796","226973570"
+"170639","Lake Superior State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60430","46","58","49","550","665","523","595","19","25",,,
+"170967","Rochester College","2017","Baccalaureate Colleges: Diverse Fields","Churches of Christ","54635","40","100","42","450","560","410","550","16","23","13496069","4809159","3757734"
+"171599","Olivet College","2017","Baccalaureate Colleges: Diverse Fields","United Church of Christ","54235","51","70","36",,,,,,,"22221054","6060632","19255282"
+"171881","Kuyper College","2017","Baccalaureate Colleges: Diverse Fields","Other Protestant","47279","48","66","38","510","580","490","570","19","26","5886058","2658270","1920897"
+"172440","Finlandia University","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","45267","31","36","16","370","520","420","520","17","23","12917103","4063825","4946914"
+"173142","Bethany Lutheran College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Other (none of the above)","58065","52","79","44","540","630","520","600","20","25","18577938","7355517","43295521"
+"173258","Carleton College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","104405","94","21","38","680","760","680","770","31","34","138089424","59944375","828168145"
+"173300","Concordia College at Moorhead","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","65507","70","62","20","505","655","550","650","22","28","80153044","26592782","118793941"
+"173647","Gustavus Adolphus College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","64821","80","68","18",,,,,,,"81013409","35159031","166790145"
+"173902","Macalester College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","92899","87","41","23","660","740","640","740","29","32","114089000","42922000","748833000"
+"174075","University of Minnesota-Crookston","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","65384","54","69","22","470","580","490","560","19","24",,,
+"174251","University of Minnesota-Morris","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","65192","59","64","17","560","680","590","710","22","28",,,
+"174394","Sanford-Brown College-Mendota Heights","2017","Baccalaureate Colleges: Diverse Fields",,,,,,,,,,,,,,
+"174437","North Central University","2017","Baccalaureate Colleges: Diverse Fields","Assemblies of God Church","60092","38","91","42","450","680","450","690","17","28","23435144","6220911","3417070"
+"174747","College of Saint Benedict","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","76908","82","81","32","530","630","480","590","22","28","64376295","23966123","72144466"
+"174792","Saint Johns University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","76116","74","80","36","490","590","480","600","22","27","72823859","25447537","179747004"
+"174844","St Olaf College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","78535","88","43","31","580","690","570","710","25","31","123578472","54846415","499443476"
+"174862","Crown College","2017","Baccalaureate Colleges: Diverse Fields","Christ and Missionary Alliance Church","43753","65","51","32","410","550","420","555","18","25","17364581","3321811","8251066"
+"175430","Blue Mountain College","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","45997","61","100","62","545","588","533","560","18","23","9550269","4226723","15605635"
+"175980","Millsaps College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","68678","67","49","11","560","660","550","660","22","28","40047006","13369231","100760165"
+"176318","Rust College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","41054","39","43","11",,,,,,,"17453976","3436517","35353789"
+"176406","Tougaloo College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Church of Christ","44765","50","75","12","430","580","440","600","16","24","24086872","4430340","13008688"
+"176947","Central Methodist University-College of Liberal Arts and Sciences","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","55511","51","96","33","460","523","568","590","20","25","34236749","18038577","48347000"
+"177144","Culver-Stockton College","2017","Baccalaureate Colleges: Diverse Fields","Christian Church (Disciples of Christ)","50705","48","55","17","470","540","470","540","18","23","19928964","4666124","25201241"
+"177542","Hannibal-LaGrange University","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","43259","54","55","45",,,,,,,"16681404","4850920","8112739"
+"177551","Harris-Stowe State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","39136","7",,,,,,,,,,,
+"178341","Missouri Southern State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","53519","33","95","40",,,,,"19","24",,,
+"178369","Missouri Valley College","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","41248","29","54","32",,,,,,,"20633032","5560305","6505804"
+"178387","Missouri Western State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60392","29",,,,,,,,,,,
+"178697","College of the Ozarks","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Christian","66687","72","13","84","560","620","528","615","21","26","51575235","16855097","459301807"
+"179946","Westminster College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","56919","65","90","19","500","600","515","575","21","26","25615821","6387217","50049164"
+"179955","William Jewell College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","62183","59","48","25","440","630","550","610","23","28","35825474","11425835","62331324"
+"180106","Carroll College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","57351","72","78","14","540","640","540","630","22","28","38649282","11748100","53525693"
+"180258","University of Providence","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","49457","47","62","29",,,,,,,"18563589","4525397","13178238"
+"180416","Montana Tech of the University of Montana","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67968","42","92","39","540","630","575","670","22","27",,,
+"180522","Montana State University-Northern","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","51553","29","100","44",,,,,,,,,
+"180595","Rocky Mountain College","2017","Baccalaureate Colleges: Diverse Fields","United Church of Christ","56795","52","64","31","450","590","460","560","20","25","24220018","9065722","29772840"
+"180692","The University of Montana-Western","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","58922","50","61","56","480","590","490","550","16","22",,,
+"181020","Doane University-Arts & Sciences","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","62721","63","65","19",,,,,"20","25","43221763","13169895","111740812"
+"181093","Grace University","2017","Baccalaureate Colleges: Diverse Fields","Interdenominational","40522","41","46","26",,,,,"18","21","6723999","4625044","1959264"
+"181127","Hastings College","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","55529","55","68","23","480","570","490","580","20","25","30848220","9921878","98159961"
+"181330","Midland University","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","51707","49","64","33","460","538","460","530","18","23","26558725","6683675","16396619"
+"181738","Union College","2017","Baccalaureate Colleges: Diverse Fields","Seventh Day Adventist","49046","54","60","17","505","600","460","550","19","26","25531409","9435526","19720334"
+"181853","York College","2017","Baccalaureate Colleges: Diverse Fields","Churches of Christ","47691","44","48","52","440","550","450","540","18","24","10076558","2381986","15062584"
+"182634","Colby-Sawyer College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","65332","57","87","12",,,,,,,"33844943","9533596","36057802"
+"183071","University of New Hampshire at Manchester","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85808","41","61","42","530","620","520","600",,,,,
+"183239","Saint Anselm College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","79792","80","76","18","580","650","560","650","24","28","76172989","26395772","134654646"
+"183257","Granite State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","48876","11",,,,,,,,,,,
+"183275","Thomas More College of Liberal Arts","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","50178","65","100","41","630","700","500","610",,,"2652907","865154","49603"
+"183822","Bloomfield College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","75356","32","64","19","420","520","420","520","15","18","45395754","16613994","14403500"
+"184348","Drew University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","81997","62","63","18",,,,,,,"96592000","31257000","108728000"
+"189088","Bard College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","93001","74","58","16",,,,,,,"161964296","76391432","148777189"
+"189097","Barnard College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","120730","93","15","51","660","760","650","740","30","33","157388000","60263000","327160000"
+"189848","Cazenovia College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","62776","54","92","10",,,,,,,"25249107","9810655","9369148"
+"190099","Colgate University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","107736","91","28","32","660","730","650","770","31","33","191602065","72118834","881302522"
+"190248","Concordia College-New York","2017","Baccalaureate Colleges: Diverse Fields","Lutheran Church - Missouri Synod","50382","46","76","18","480","560","450","580","18","24","30413259","8932838","11536847"
+"190372","Cooper Union for the Advancement of Science and Art","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","112440","83","13","57","650","740","660","790","28","34","82496134","31820285","798919435"
+"190646","CUNY Medgar Evers College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","95455","23",,,,,,,,,,,
+"190655","CUNY New York City College of Technology","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","92914","26","77","23",,,,,,,,,
+"190691","CUNY York College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","94328","29","44","19","440","520","440","520",,,,,
+"190983","Elmira College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","51169","60","85","11",,,,,,,"42387556","11491087","41362910"
+"191205","Five Towns College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","45919","31","91","59",,,,,,,,,
+"191515","Hamilton College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","109837","94","24","35","680","750","680","760","31","33","139321000","61710000","954714000"
+"191533","Hartwick College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","70925","54","89","13","460","540","460","560","21","26","49257607","17985076","74348341"
+"191621","Hilbert College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","51527","51","87","17",,,,,,,"16350034","5470460","6975505"
+"191630","Hobart William Smith Colleges","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85543","81","64","23","580","670","570","660","25","30","106719799","36504523","214412048"
+"191676","Houghton College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Wesleyan","56080","73","91","36","540","670","520","650","22","29","32635053","10197753","50905080"
+"192864","Marymount Manhattan College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","78291","49","80","13","475","610","430","590","21","27","58405740","21311112","19814639"
+"194392","Paul Smiths College of Arts and Science","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52260","52","73","22",,,,,,,"27303696","6473616","29535080"
+"195173","St Francis College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","82911","47","63","20","480","570","470","550","20","24","52841196","19881276","75753294"
+"195216","St Lawrence University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85595","85","48","25","605","685","600","680","26","30","124439635","42950427","295884037"
+"195304","Sarah Lawrence College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","88481","79","53","21","650","730","590","680","27","31","78358428","35811119","105236499"
+"195474","Siena College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","77165","78","78","13",,,,,,,"101272723","31205765","129067735"
+"195526","Skidmore College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","86968","87","25","27","610","700","595","700","27","31","159908000","57984000","363024000"
+"196042","Farmingdale State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","72737","53","59","36","490","570","490","570","19","23",,,
+"196219","SUNY at Purchase College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","64894","67","74","25","530","630","490","570","20","26",,,
+"196866","Union College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","101634","85","37","23",,,,,,,"133635829","49618336","427600000"
+"197027","United States Merchant Marine Academy","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","91862","81","22","68","580","620","630","660","26","28",,,
+"197036","United States Military Academy","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","85448","86","10","98","585","690","600","710","23","28",,,
+"197133","Vassar College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","104649","90","24","34","670","750","660","750","30","33","185714000","78036000","1002570163"
+"197230","Wells College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","62449","47","80","10",,,,,,,"22825162","4680946","35882515"
+"197911","Barton College","2017","Baccalaureate Colleges: Diverse Fields","Christian Church (Disciples of Christ)","54529","53","39","19","480","570","470","570","18","23","25484840","8152066","28178934"
+"197984","Belmont Abbey College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","44062","43","99","27","490","560","490","590","18","24","29509203","7731742","9306363"
+"197993","Bennett College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","42747","37","89","9","400","480","380","450","14","17","15898423","4687396","12644610"
+"198066","Brevard College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","45606","32","45","22",,,,,,,"17622330","5328947","25336006"
+"198215","Catawba College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61238","43","42","25","460","520","470","580","18","23","53499783","11439425","61876000"
+"198303","Chowan University","2017","Baccalaureate Colleges: Diverse Fields","Southern Baptist","62087","26","60","20","390","480","390","475","14","17","28195454","8081523","26085049"
+"198385","Davidson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","106405","91","20","45","660","740","650","730","30","33","123869196","38512976","727473298"
+"198598","Greensboro College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","54955","16","41","25","470","570","460","570","17","22","18184514","6022764","22863395"
+"198613","Guilford College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Friends","55199","53","91","20",,,,,,,"46276552","14123794","79291744"
+"198695","High Point University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","66241","63","81","15","530","620","520","620","21","27","158154231","50849020","56668533"
+"198756","Johnson C Smith University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","56684","44","38","13","370","490","378","470","14","19","43534097","11798538","66566444"
+"198808","Lees-McRae College","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","42483","32","71","24",,,,,,,"18818552","5433113","22606504"
+"198862","Livingstone College","2017","Baccalaureate Colleges: Diverse Fields","African Methodist Episcopal Zion Church","46184","26","37","13","380","460","375","460","13","16","29485669","7301710",
+"198899","Mars Hill University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","46554","31","58","27","460","550","460","550","17","22","33738413","8599873","47882761"
+"198950","Meredith College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","65427","63","69","33","510","610","490","585","20","25","56212672","21069084","104762705"
+"199069","University of Mount Olive","2017","Baccalaureate Colleges: Diverse Fields","Original Free Will Baptist","64219","43","49","22","430","538","440","528","17","22","41181595","11267528","33816305"
+"199111","University of North Carolina at Asheville","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","76317","62","80","23","550","650","530","610","22","28",,,
+"199209","North Carolina Wesleyan College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","53903","31","53","22","440","530","430","530","16","21","30297043","9989690","10618137"
+"199272","William Peace University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","50170","39","59","22","480","570","470","560","17","23","23090954","3850984","35605878"
+"199582","Saint Augustine's University","2017","Baccalaureate Colleges: Diverse Fields","Protestant Episcopal","48023","31","76","12","380","470","380","480","13","16","29792838","7205500","15731770"
+"199607","Salem College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Moravian Church","54994","57","57","27","510","660","510","640","23","29","28384725","9979961","57875976"
+"199643","Shaw University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","46791","18","53","8",,,,,,,"48268768","11933951","10505698"
+"199698","St. Andrews University","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","45751","33","41","42","430","610","403","568","16","23","17487878","3581548","6739626"
+"199865","Warren Wilson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","52117","53","79","18","610","670","530","615","25","29","28975359","9446655","53133452"
+"200059","Dickinson State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60548","29","99","51","440","505","433","560","18","23",,,
+"200156","University of Jamestown","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","58878","53","65","31","460","520","480","530","19","24","23962746","9852779","35583120"
+"200226","Mayville State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","49628","34","48","71",,,,,"18","23",,,
+"200572","Valley City State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","54021","35","76","65","460","560","520","560","18","23",,,
+"201371","Bluffton University","2017","Baccalaureate Colleges: Diverse Fields","Mennonite Church","54921","51","49","24","425","540","435","543","18","24","23053525","8622582","24237362"
+"201654","Cedarville University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","65716","72","71","30","580","680","550","670","23","29","85607191","35810791","29310271"
+"201690","Central State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","58953","20","48","11","370","440","340","440","15","18",,,
+"201964","Ohio Christian University","2017","Baccalaureate Colleges: Diverse Fields","Other Protestant","12008","34",,,,,,,,,"37018066","14020478","5294584"
+"202514","Defiance College","2017","Baccalaureate Colleges: Diverse Fields","United Church of Christ","51739","39","56","21","360","490","340","470","18","22","15331625","4780168","15169488"
+"202523","Denison University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","79874","86","37","22","600","690","600","690","28","31","123718846","43387834","797248887"
+"203128","Hiram College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","56439","56","64","15","480","610","460","590","18","24","32773385","9898478","74938994"
+"203535","Kenyon College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","78032","91","34","24","640","730","623","730","29","33","113338187","43150629","238192748"
+"203845","Marietta College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61707","59","67","25","475","615","485","600","20","25","40722422","15123738","76865482"
+"204185","University of Mount Union","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","72106","62","81","33","490","610","490","590","20","25","57463834","23495056","138789000"
+"204501","Oberlin College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","97005","86","34","28","650","720","630","730","28","33","186817686","89179700","879535245"
+"204635","Ohio Northern University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","77362","73","66","23","550","630","580","680","22","28","91794342","39751612","162025243"
+"204671","Ohio State University-Lima Campus","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","83184","38",,,,,,,,,,,
+"204909","Ohio Wesleyan University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","77382","70","71","15",,,,,,,"70005827","25921922","221302091"
+"205443","Shawnee State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","64875","24","69","35","518","620","500","615","18","24",,,
+"206330","Urbana University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","47667","21","71","68",,,,,"17","23","12386000","2970000",
+"206491","Wilberforce University","2017","Baccalaureate Colleges: Diverse Fields","African Methodist Episcopal","44655","26","48","10","390","490","390","490","14","18","16906566","2547818","8141313"
+"206507","Wilmington College","2017","Baccalaureate Colleges: Diverse Fields","Friends","52287","58","84","15","490","640","480","620","19","24","25498787","8222325","37118706"
+"206525","Wittenberg University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Lutheran Church in America","64827","67","72","10",,,,,,,"52163632","19942080","106594725"
+"206589","The College of Wooster","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","76281","77","56","18","570","680","580","700","24","30","92120031","30006400","294316001"
+"206613","Wright State University-Lake Campus","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","82774","33","99","65","480","530","450","500","18","23",,,
+"207351","Oklahoma Panhandle State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","39987","25",,,,,,,,,,,
+"207403","Oklahoma Baptist University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","60264","59","65","21","490","590","470","560","20","26","45839613","14925260","126016164"
+"207661","Rogers State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","46943","25",,,,,,,,,,,
+"207689","St. Gregory's University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic",,,,,,,,,,,,,
+"207722","University of Science and Arts of Oklahoma","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","49727","31","52","37","395","500","420","510","19","24",,,
+"207856","Southwestern Christian University","2017","Baccalaureate Colleges: Diverse Fields","Pentecostal Holiness Church","41921","26","77","88","428","573","388","575","16","20","9305229","3079949","505113"
+"209056","Lewis & Clark College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","87492","80","71","12","620","710","590","680","27","31","122570018","51958516","221922307"
+"209065","Linfield College-McMinnville Campus","2017","Baccalaureate Colleges: Arts & Sciences Focus","American Baptist","66061","78","81","21","510","610","510","600","20","26","65931944","29211285","113840908"
+"209506","Oregon Institute of Technology","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67425","44","61","41","520","620","520","610","21","26",,,
+"209922","Reed College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","93972","80","36","21","670","740","640","760","30","33","92746830","33766584","542928693"
+"210304","Warner Pacific College","2017","Baccalaureate Colleges: Diverse Fields","Church of God","54010","38","95","13",,,,,,,"19296477","7668778","12432903"
+"210401","Willamette University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","93893","73","89","11",,,,,,,"98601000","38276000","240702000"
+"210492","Bryn Athyn College of the New Church","2017","Baccalaureate Colleges: Arts & Sciences Focus","Other (none of the above)","67901","49","88","46","480","590","460","550","19","23",,"3724354","58756970"
+"210571","Albright College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","58604","53","50","11",,,,,,,"54428540","21936611","67742285"
+"210669","Allegheny College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","75025","75","68","14","580","670","560","650","23","29","77063260","25759378","204512720"
+"210906","The Art Institutes of York-PA","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,,,
+"211273","Bryn Mawr College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","98398","83","38","32","650","730","660","770","29","33","123769000","49050000","852743000"
+"211291","Bucknell University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","100432","90","31","31","620","700","630","720","28","31","231833000","85707000","800765000"
+"211468","Cedar Crest College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67129","50","63","28","480","600","460","570","19","26","33642339","13223903","31961793"
+"211477","Central Penn College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","48091","34","79","48",,,,,,,,,
+"211608","Cheyney University of Pennsylvania","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","89369","26",,,,,,,,,,,
+"212009","Dickinson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","82228","83","49","21",,,,,,,"130742025","46272958","412810071"
+"212197","Elizabethtown College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Church of Brethren","77645","75","74","18","540","640","530","640","22","27","66976896","30200134","76065139"
+"212577","Franklin and Marshall College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","87175","86","34","28",,,,,,,"138275961","56343267","367933000"
+"212674","Gettysburg College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","86356","84","46","25",,,,,,,"128367266","44910211","313816062"
+"212805","Grove City College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Undenominational",,"83","80","45","537","587","534","662","23","32","75409523","30836871","112774893"
+"212911","Haverford College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","88227","93","20","39","700","760","690","770","31","34","106788655","36371501","502942006"
+"213251","Juniata College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","72716","84","71","21",,,,,,,"55806576","18731495","115779230"
+"213303","Keystone College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61493","39","94","15",,,,,,,"26887457","10584838","7764036"
+"213358","La Roche College","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","63360","51","97","20","480","590","470","550","18","23","29978590","9174053","5742494"
+"213385","Lafayette College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","106287","90","31","26","630","710","630","730","28","31","167080000","60209000","833069000"
+"213668","Lycoming College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","68096","67","64","23","490","600","498","600","21","25","44564168","14654460","200823000"
+"213996","Messiah College","2017","Baccalaureate Colleges: Diverse Fields","Interdenominational","77320","81","77","34","560","660","540","650","22","29","97714538","37584786","134388110"
+"214157","Moravian College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Moravian Church","70828","63","76","21","510","610","500","600","21","27","68030460","28492807","111317447"
+"214175","Muhlenberg College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","79964","86","48","25","580","680","560","660","25","30","101648703","45056712","272864962"
+"214591","Pennsylvania State University-Penn State Erie-Behrend College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","80874","66","89","29","520","610","530","640","22","27",,,
+"214625","Pennsylvania State University-Penn State New Kensington","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","74530","45","77","31","490","580","500","600","18","29",,,
+"214634","Pennsylvania State University-Penn State Shenango","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","62796","32","74","32","490","560","460","550","17","23",,,
+"214643","Pennsylvania State University-Penn State Wilkes-Barre","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","71928","60","82","29","490","580","495","590","18","25",,,
+"214652","Pennsylvania State University-Penn State Worthington Scranton","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","73481","37","78","38","470","570","460","570","17","25",,,
+"214670","Pennsylvania State University-Penn State Lehigh Valley","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","65913","54","85","23","490","600","490","620","21","27",,,
+"214689","Pennsylvania State University-Penn State Altoona","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","69899","65","92","25","500","590","500","590","21","26",,,
+"214698","Pennsylvania State University-Penn State Beaver","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","74718","47","81","29","490","595","495","600","20","28",,,
+"214704","Pennsylvania State University-Penn State Berks","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","76254","57","86","33","490","590","490","600","21","26",,,
+"214731","Pennsylvania State University-Penn State Brandywine","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","77284","42","87","30","470","590","480","610","19","27",,,
+"214786","Pennsylvania State University-Penn State Greater Allegheny","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73890","45","82","24","470","590","490","600","18","24",,,
+"214801","Pennsylvania State University-Penn State Abington","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","73138","49","85","24","480","580","490","620","21","27",,,
+"214810","Pennsylvania State University-Penn State Schuylkill","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","75606","37","76","37","450","570","450","540","16","25",,,
+"214829","Pennsylvania State University-Penn State York","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","76984","55","82","24","500","600","530","680","23","26",,,
+"214883","Peirce College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","64428","0",,,,,,,,,"18813411","6427559","996102"
+"215266","University of Pittsburgh-Bradford","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67476","43","54","17","490","590","490","570","20","24",,"12433451","231589"
+"215275","University of Pittsburgh-Greensburg","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","63073","31","73","23","510","590","510","590","19","25",,"9601800","5386255"
+"215284","University of Pittsburgh-Johnstown","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","64656","47","76","26","510","590","510","590","20","25",,"18772355","42186384"
+"215798","Saint Vincent College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","67767","69","62","30","510","610","510","600","20","26","55248013","17208916","98817264"
+"216278","Susquehanna University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","72833","71","70","15",,,,,,,"81665928","26753859","161178061"
+"216287","Swarthmore College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","116373","94","11","39","690","760","690","780","31","34","161332000","57318000","1955532000"
+"216357","Thiel College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","57946","47","63","14","440","550","440","560","17","24","27982593","8432931","33657060"
+"216524","Ursinus College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","79614","77","78","15","560","660","550","650","24","30","64286733","21568484","147660622"
+"216542","University of Valley Forge","2017","Baccalaureate Colleges: Diverse Fields","Assemblies of God Church","53423","46","53","36",,,,,,,"19213855","3891478","2633381"
+"216667","Washington & Jefferson College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","74194","70","48","13",,,,,,,"56237668","20247744","137230668"
+"216807","Westminster College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","62378","70","72","16","500","620","490","600","20","27","39487844","13035309","117825639"
+"217013","Wilson College","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian Church (USA)","61299","51","59","23","480","570","460","540","21","26","24543786","6177391","56424032"
+"217624","Allen University","2017","Baccalaureate Colleges: Arts & Sciences Focus","African Methodist Episcopal","47773","24",,,,,,,,,"13768248","2989638","312884"
+"217721","Benedict College","2017","Baccalaureate Colleges: Diverse Fields","Baptist","53124","26",,,,,,,,,"54645167","9379051","24998716"
+"217873","Claflin University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","62511","53","41","13","390","570","390","560","14","23","48519862","19084498","26003205"
+"217907","Coker College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","53636","47","62","25","470","560","450","540","17","21","24845597","7179915","29223521"
+"217998","Erskine College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Reformed Presbyterian Church","43053","60","55","29","480","570","480","540","19","24","17379655","4601674","38602664"
+"218070","Furman","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","88438","81","61","23","600","690","590","690","26","31","150361493","59281737","661046233"
+"218229","Lander University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","55072","42","48","37","480","560","460","540","17","23",,,
+"218238","Limestone College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","47728","24","50","25","480","560","480","550","17","22","40894959","14575452","19187979"
+"218399","Morris College","2017","Baccalaureate Colleges: Diverse Fields","Baptist","49557","21",,,,,,,,,"19113772","6497388","11206991"
+"218414","Newberry College","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","50649","52","58","34","460","580","460","550","17","22","26218989","7497918","16483153"
+"218539","Presbyterian College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","69892","68","65","19","510","620","510","630","21","27","42920195","14900686","90184620"
+"218645","University of South Carolina-Aiken","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","62479","41","53","35","470","570","450","550","18","23",,,
+"218654","University of South Carolina-Beaufort","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","65775","27","64","34","480","560","450","530","17","22",,,
+"218742","University of South Carolina-Upstate","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61470","43","58","40","470","560","450","540","17","22",,,
+"218919","Voorhees College","2017","Baccalaureate Colleges: Diverse Fields","Protestant Episcopal","49688","29","53","4",,,,,,,"12654561","3185439","7080852"
+"218973","Wofford College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","71890","81","69","21","570","660","550","650","29","30","67872380","20469934","194389675"
+"219000","Augustana University","2017","Baccalaureate Colleges: Diverse Fields","Evangelical Lutheran Church","61124","71","68","36","530","630","540","660","23","29","51238548","23497396","75492914"
+"219091","Dakota Wesleyan University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","53473","48","76","38","360","600","390","570","20","24","16848420","4384000","28493450"
+"219204","National American University-Rapid City","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","54886","8",,,,,,,,,,,
+"220181","Fisk University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","49724","49","45","11","520","650","420","610","16","22","27645959","6325679","20062281"
+"220206","Welch College","2017","Baccalaureate Colleges: Diverse Fields","Free Will Baptist Church","52761","52",,,,,,,,,"5686762","1631816","2595378"
+"220598","Lane College","2017","Baccalaureate Colleges: Diverse Fields","Christian Methodist Episcopal","45818","21","48","14",,,,,"14","17","24559694","5752889","5131230"
+"220604","Le Moyne-Owen College","2017","Baccalaureate Colleges: Diverse Fields","Multiple Protestant Denomination","43483","14","100","36",,,,,"14","17","17341411","4220672","12866276"
+"220701","Martin Methodist College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","51560","33","99","36",,,,,"18","23","17724961","6701418","14643134"
+"220710","Maryville College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","59941","59","49","22","460","580","470","570","20","27","31546306","8899076","69951350"
+"221351","Rhodes College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","76314","83","51","21","620","720","600","690","27","32","82338611","32441221","342349912"
+"221519","Sewanee-The University of the South","2017","Baccalaureate Colleges: Arts & Sciences Focus","Protestant Episcopal","86314","77","47","23",,,,,,,"104074147","36293180","395006424"
+"221731","Tennessee Wesleyan University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","41416","40","60","40","480","560","470","540","18","24","16010417","5830825","11362132"
+"222983","Austin College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","65344","67","52","18","590","680","570","680","23","29","44759946","16077136","131978357"
+"224527","East Texas Baptist University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","60927","31","54","42","490","570","470","560","18","23","32031359","9282681","71636114"
+"225548","Howard Payne University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","52077","41","59","31","470","560","460","540","19","22","23871917","8684786","56480545"
+"225575","Huston-Tillotson University","2017","Baccalaureate Colleges: Diverse Fields","Multiple Protestant Denomination","47702","23","30","15","420","530","420","520","16","20","21252875","5782964","11287988"
+"225885","Jarvis Christian College","2017","Baccalaureate Colleges: Diverse Fields","Christian Church (Disciples of Christ)","51294","21",,,,,,,,,"18537646","4592648","10539248"
+"226587","McMurry University","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","56032","36","43","31","460","550","470","560","17","22","23303732","9170997","90960972"
+"227429","Paul Quinn College","2017","Baccalaureate Colleges: Diverse Fields","African Methodist Episcopal","49800","19","54","40","360","480","370","470","14","17","10217289","1328444","10424989"
+"228042","Schreiner University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","59560","48","92","31","480","580","480","560","19","24","32066282","9942386","69186376"
+"228343","Southwestern University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","73273","74","43","20","570","670","540","650","23","29","49989720","19026319","255545708"
+"228468","Southwestern Adventist University","2017","Baccalaureate Colleges: Diverse Fields","Seventh Day Adventist","56220","37","62","15","450","610","450","530","18","24","18655326","7358351","11430381"
+"228884","Texas College","2017","Baccalaureate Colleges: Diverse Fields","Christian Methodist Episcopal","37480","10",,,,,,,,,"16547224","2944581","4408307"
+"228981","Texas Lutheran University","2017","Baccalaureate Colleges: Diverse Fields","American Evangelical Lutheran Church","62466","52","49","38","480","580","488","570","19","24","36874927","11608974","94995542"
+"229887","Wiley College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","45009","21",,,,,,,,,"25722004","5786386","7084514"
+"230047","Brigham Young University-Hawaii","2017","Baccalaureate Colleges: Diverse Fields","Latter Day Saints (Mormon Church)","83920","39","37","50","550","633","540","620","22","26","109788000","44094000","97998486"
+"230630","Stevens-Henager College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","36291","27",,,,,,,,,"4289845","1306485",
+"230816","Bennington College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","88757","67","57","27",,,,,,,"40248765","16406989","33798841"
+"230834","Castleton University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","60420","51","82","20","470","570","450","560","17","23",,,
+"230931","Lyndon State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","57820","43","97","19","470","590","460","580","15","22",,,
+"230940","Marlboro College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","43835","52","97","25",,,,,,,"14170530","5004496",
+"230959","Middlebury College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","100489","95","17","42","660","750","660","760","30","34","279050000","88002000","1073976000"
+"231059","Saint Michael's College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","75144","78","85","16",,,,,,,"81126048","22789636","87456440"
+"231077","College of St Joseph","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","39342","29","54","25","480","535","448","548","16","22","6939725","1712421","1640709"
+"231086","Southern Vermont College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","49401","51","91","26",,,,,,,"10870647","2310750","3084450"
+"231095","Sterling College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","32008","42","94","42",,,,,,,"4646316","1691957","940672"
+"231420","Averett University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","54417","40","61","16","420","523","410","510","17","22","25910942","9011011","23522151"
+"231554","Bluefield College","2017","Baccalaureate Colleges: Diverse Fields","Baptist","47197","21","91","15","440","545","430","540","16","23","15028005","3839507","6889434"
+"231581","Bridgewater College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Church of Brethren","59375","61","52","14","500","600","470","570","18","25","47639127","12272446","89237902"
+"232025","Emory & Henry College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","61016","52","72","25","498","590","490","580","19","25","37247227","14163648","88786994"
+"232089","Ferrum College","2017","Baccalaureate Colleges: Diverse Fields","United Methodist","53847","35","72","16","430","540","420","530","15","22","33232447","8175402","51192714"
+"232256","Hampden-Sydney College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","73029","64","55","16","530","635","520","630","21","27","48287259","14658476","158475911"
+"232308","Hollins University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","63305","62","48","11","580","680","530","615","23","28","38005285","14471553","182202213"
+"233295","Randolph-Macon College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","73198","66","62","21","540","630","510","603","21","27","50494912","15240862","152127260"
+"233301","Randolph College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","71807","59","86","14","490","610","460","580","19","25","30395748","10714082","152435000"
+"233374","University of Richmond","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","113116","88","33","24","630","710","640","750","29","32","300111000","83534000","2373506000"
+"233426","Roanoke College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","70195","67","67","16","530","630","510","600","22","27","66184838","23340410","143653267"
+"233611","Southern Virginia University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","58175","27","56","64","375","528","420","560","14","26","19214497","4741656","1283462"
+"233718","Sweet Briar College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","65569","54","93","24","530","630","463","550","20","28","31236327","10983481","76875074"
+"233897","The University of Virginia's College at Wise","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","67502","46","78","39","480","570","460","548","17","23",,,
+"234085","Virginia Military Institute","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","70152","77","53","49","560","640","540","640","23","28",,,
+"234164","Virginia Union University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Baptist","38563","27","44","21","420","520","400","500","15","20","37499016","10793427","32305068"
+"234173","Virginia Wesleyan University","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Methodist","73466","52","70","27","490","590","463","570","19","25","39562770","14499027","56770385"
+"234207","Washington and Lee University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","117613","92","22","39","680","740","670","750","31","33","160919000","73746000","1547135000"
+"236328","University of Puget Sound","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","93952","78","84","12",,,,,,,"118227000","49048000","344560000"
+"237057","Whitman College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","81896","88","52","18","570","690","570","690","28","32","83218746","30641316","518290323"
+"237118","Alderson Broaddus University","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","45076","47","41","18","470","540","460","540","18","23","26065246","5914442","17923351"
+"237181","Bethany College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Christian Church (Disciples of Christ)","53169","46","94","20","430","560","420","550","17","24","23895250","5186501","42310780"
+"237215","Bluefield State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","59805","20","81","47","500","580","460","510","17","21",,,
+"237358","Davis & Elkins College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Presbyterian Church (USA)","50491","45","42","25","450","550","450","550","17","22","20315475","6314807","40984151"
+"237385","Glenville State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52568","41",,,,,,,,,,,
+"237640","Ohio Valley University","2017","Baccalaureate Colleges: Diverse Fields","Churches of Christ","44224","29","29","51","430","550","480","560","18","23","12024359","2066290","1915950"
+"237792","Shepherd University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","64091","42","89","43","490","580","480","570","19","24",,,
+"237899","West Virginia State University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","54332","26","98","13","460","538","440","518","17","22",,,
+"237932","West Liberty University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","57155","48","72","38","390","470","410","480","17","23",,,
+"237950","West Virginia University Institute of Technology","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","64400","21","53","42","490","590","460","590","21","27",,,
+"238333","Beloit College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","65216","86","54","11",,,,,,,"54840660","20264970","159514047"
+"238476","Carthage College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Evangelical Lutheran Church","54421","60","68","14","530","650","510","650","21","27","75839969","33092512","106774647"
+"239017","Lawrence University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","71915","80","61","16","620","730","600","730","25","32","68909660","25293997","318204180"
+"239071","Maranatha Baptist University","2017","Baccalaureate Colleges: Diverse Fields","Baptist","38475","48","73","76","583","650","500","610","20","25","15857738","5609011","242061"
+"239512","Northland College","2017","Baccalaureate Colleges: Arts & Sciences Focus","United Church of Christ","55020","64","61","19",,,,,,,"22374857","6860016","23643533"
+"239628","Ripon College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","66402","68","68","14","520","610","520","650","20","26","28952269","10387966","84460154"
+"239716","Saint Norbert College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","66122","73","79","17","570","630","540","600","22","27","73702815","23014531","108663766"
+"240338","Wisconsin Lutheran College","2017","Baccalaureate Colleges: Diverse Fields","Wisconsin Evangelical Lutheran Synod","55096","67","90","36","518","635","490","643","20","26","32058963","10241889","32941203"
+"240374","University of Wisconsin-Parkside","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","58251","34","61","51",,,,,"18","23",,,
+"240426","University of Wisconsin-Superior","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","57201","43","76","37",,,,,"18","23",,,
+"241128","American University of Puerto Rico","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","26381","41",,,,,,,,,,,
+"241191","Universidad Adventista de las Antillas","2017","Baccalaureate Colleges: Diverse Fields","Seventh Day Adventist","24584","39","96","60",,,,,,,"11106483","4131226","134104"
+"241386","Caribbean University-Carolina","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","19688","26",,,,,,,,,"1022747","280913","256"
+"241720","Colegio Universitario de San Juan","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","31275","23","88","89",,,,,,,,,
+"242644","Inter American University of Puerto Rico-Barranquitas","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","34241","30","56","98",,,,,,,,"6250781",
+"242680","Inter American University of Puerto Rico-Fajardo","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","38996","35","81","98",,,,,,,,"6351986",
+"242699","Inter American University of Puerto Rico-Guayama","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","39519","23","46","90",,,,,,,,"7023373",
+"242705","Inter American University of Puerto Rico-Bayamon","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","41655","29","63","98",,,,,,,,"13447043",
+"243106","University of Puerto Rico-Aguadilla","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","63812","40","71","88","474","581","462","580",,,,,
+"243115","University of Puerto Rico-Arecibo","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61278","49","37","90",,,,,,,,,
+"243133","University of Puerto Rico-Bayamon","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52494","35","61","88",,,,,,,,,
+"243142","University of Puerto Rico-Carolina","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","56305","56","32","76","472","573","440","557",,,,,
+"243151","University of Puerto Rico-Cayey","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","58740","45","76","83","511","604","503","630",,,,,
+"243179","University of Puerto Rico-Humacao","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","53051","51","38","84",,,,,,,,,
+"243212","University of Puerto Rico-Ponce","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","50003","45","33","73",,,,,,,,,
+"243586","Pontifical Catholic University of Puerto Rico-Mayaguez","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","33263","35","99","37",,,,,,,,,
+"243832","EDP University of Puerto Rico Inc-San Juan","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","19849","46","84","46",,,,,,,"21182151","6145819",
+"245652","St. John's College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","83597","65","63","32","630","670","560","680","23","32","23642974","8766549","76896559"
+"245847","Antioch University-Santa Barbara","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","56573",,,,,,,,,,,,
+"262129","New College of Florida","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","74111","65","69","21","620","710","570","670","25","30",,,
+"363916","Caribbean University-Vega Baja","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","19500","18",,,,,,,,,"1116450","306650","279"
+"384254","Beacon College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","46845","72","53","59",,,,,,,"13608115","2508970","83990"
+"385619","Everglades University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","45487","51","73","57",,,,,,,"27635440","8344704",
+"398130","Mt Sierra College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","49626","27","87","75",,,,,,,,,
+"399911","Soka University of America","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","103387","94","37","59","590","670","610","720","27","31","56455000","13973000","1239053000"
+"414823","Johnson & Wales University-North Miami","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","80046","44","78","12",,,,,,,,,
+"414878","Trine University-Regional/Non-Traditional Campuses","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67928","29",,,,,,,,,,,
+"421832","Living Arts College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","33750","31","83","54",,,,,,,,,
+"428259","Ottawa University-Milwaukee","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","45000",,,,,,,,,,,,
+"432241","University of Phoenix-Oregon","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,"14",,,,,,,,,,,
+"437325","Linfield College-Online and Continuing Education","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","66061",,,,,,,,,,,,
+"440466","University of Phoenix-Idaho","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,"13",,,,,,,,,,,
+"441900","Nevada State College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67961","16","84","46",,,,,,,,,
+"443410","DigiPen Institute of Technology","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","73501","43","54","56","577","680","570","680","25","30",,,
+"445319","University of Phoenix-Minnesota","2017","Baccalaureate Colleges: Diverse Fields",,,,,,,,,,,,,,
+"446048","Ave Maria University","2017","Baccalaureate Colleges: Arts & Sciences Focus","Roman Catholic","65807","55","42","27","500","630","480","600","21","27","39127091","9749145","4500611"
+"447050","United States University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","59899","0",,,,,,,,,,,
+"447689","Georgia Gwinnett College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","61992","15",,,,,,,,,,,
+"449870","University of the West","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","51338","50",,,,,,,,,"8616535","3116749","13242726"
+"450085","The Art Institute of Charleston","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","40043","24",,,,,,,,,,,
+"450298","Strayer University-Delaware","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","76107",,,,,,,,,,,,
+"451060","Digital Media Arts College","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,,,
+"454184","The King's College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Interdenominational","80345","52","41","17","590","670","550","630","24","29","22903707","6931682","476964"
+"454582","Ottawa University-Online","2017","Baccalaureate Colleges: Diverse Fields","American Baptist","46500",,,,,,,,,,,,
+"455770","Providence Christian College","2017","Baccalaureate Colleges: Arts & Sciences Focus","Undenominational","47936","57","91","25",,,,,"2","9","5771587","3770985","27426"
+"456621","Strayer University-West Virginia","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,,,
+"457484","Pacific Rim Christian University","2017","Baccalaureate Colleges: Diverse Fields","Other Protestant",,"47","57","79",,,,,,,"1407389","168013",
+"457697","City Vision University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,"474743","81215",
+"458496","The Art Institute of Virginia Beach","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","37116","30",,,,,,,,,,,
+"458973","Strayer University-Texas","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","65463","0",,,,,,,,,,,
+"458982","The Art Institute of San Antonio","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","43030","23",,,,,,,,,,,
+"459268","South University–Virginia Beach","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","54156","20",,,,,,,,,,,
+"459851","Herzing University-Brookfield","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","64021","0","96","32",,,,,,,"5490227","2873721",
+"460783","Remington College-Heathrow Campus","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","44419","44",,,,,,,,,"3067604","1670080",
+"461236","Georgia Christian University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","21250","100",,,,,,,,,"2540858","1283261",
+"461795","North American University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","43245","48",,,,,,,,,"9904483","3230307",
+"462044","Institute for Doctoral Studies in the Visual Arts","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","75839",,,,,,,,,,"1020824","456409",
+"462354","John Paul the Great Catholic University","2017","Baccalaureate Colleges: Diverse Fields","Roman Catholic","59321","61","95","40","540","620","480","570","20","27","6812528","4807712","30000"
+"468015","South University-The Art Institute of Fort Worth","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,,,
+"468024","South University-Novi","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","67308","22",,,,,,,,,,,
+"470092","The Art Institute of Wisconsin","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,,,,,,,,,,,,
+"475200","Whitworth University-Adult Degree Programs","2017","Baccalaureate Colleges: Diverse Fields","Presbyterian","28956",,"63","60",,,,,,,,"1555607",
+"480073","South University-Austin","2017","Baccalaureate Colleges: Arts & Sciences Focus","Not applicable","61214",,,,,,,,,,,,
+"480134","Elizabethtown College School of Continuing and Professional Studies","2017","Baccalaureate Colleges: Diverse Fields","Church of Brethren",,,"93","69",,,,,,,,,
+"481720","South University-High Point","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","59554",,,,,,,,,,,,
+"482158","Middle Georgia State University","2017","Baccalaureate Colleges: Diverse Fields","Not applicable","52353",,"94","25","420","530","400","520","15","23",,,
+"484622","University of Phoenix-Arkansas","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,"7",,,,,,,,,,,
+"484701","University of Phoenix-Missouri","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,"9",,,,,,,,,,,
+"484783","University of Phoenix-Pennsylvania","2017","Baccalaureate Colleges: Diverse Fields","Not applicable",,"13",,,,,,,,,,,
