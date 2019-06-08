@@ -138,5 +138,94 @@ bacc_join <- bacc_join %>%
 # Merge master institutions and baccalaureate colleges datasets 
 bacc_master <- full_join(master_join,bacc_join)
 
+# Create a new variable called religious
+bacc_master <- bacc_master %>%
+  # If Religious affiliation is not "Not applicable", the school is religious. Assign 1 to religious schools
+  # and 0 to non-religious schools
+  mutate(religious = ifelse(`IC2009.Religious affiliation` != "Not applicable" &
+                              `IC2010.Religious affiliation` != "Not applicable" &
+                              `IC2011.Religious affiliation` != "Not applicable" &
+                              `IC2015.Religious affiliation` != "Not applicable" &
+                              `IC2016.Religious affiliation` != "Not applicable" &
+                              `IC2017.Religious affiliation` != "Not applicable", 1, 0)) %>%
+  # Drop Religious affiliation after classification
+  select(-`IC2009.Religious affiliation`,
+         -`IC2010.Religious affiliation`,
+         -`IC2011.Religious affiliation`,
+         -`IC2015.Religious affiliation`,
+         -`IC2016.Religious affiliation`,
+         -`IC2017.Religious affiliation`)
+
+# Add up SAT
+bacc_master <- bacc_master %>%
+  mutate(SAT_25th_2009 = `IC2009.SAT Critical Reading 25th percentile score` + `IC2009.SAT Math 25th percentile score`,
+         SAT_75th_2009 = `IC2009.SAT Critical Reading 75th percentile score` + `IC2009.SAT Math 75th percentile score`,
+         SAT_25th_2010 = `IC2010.SAT Critical Reading 25th percentile score` + `IC2010.SAT Math 25th percentile score`,
+         SAT_75th_2010 = `IC2010.SAT Critical Reading 75th percentile score` + `IC2010.SAT Math 75th percentile score`,
+         SAT_25th_2011 = `IC2011.SAT Critical Reading 25th percentile score` + `IC2011.SAT Math 25th percentile score`,
+         SAT_75th_2011 = `IC2011.SAT Critical Reading 75th percentile score` + `IC2011.SAT Math 75th percentile score`,
+         SAT_25th_2015 = `ADM2015.SAT Critical Reading 25th percentile score` + `ADM2015.SAT Math 25th percentile score`,
+         SAT_75th_2015 = `ADM2015.SAT Critical Reading 75th percentile score`+ `ADM2015.SAT Math 75th percentile score`,
+         SAT_25th_2016 = `ADM2016.SAT Critical Reading 25th percentile score` + `ADM2016.SAT Math 25th percentile score`,
+         SAT_75th_2016 = `ADM2016.SAT Critical Reading 75th percentile score` + `ADM2016.SAT Math 75th percentile score`,
+         SAT_25th_2017 = `ADM2017.SAT Evidence-Based Reading and Writing 25th percentile score` + `ADM2017.SAT Math 25th percentile score`,
+         SAT_75th_2017 = `ADM2017.SAT Evidence-Based Reading and Writing 75th percentile score` + `ADM2017.SAT Math 75th percentile score`) %>%
+  #Drop old SAT data
+  select(-`IC2009.SAT Critical Reading 25th percentile score`,
+         -`IC2009.SAT Critical Reading 75th percentile score`,
+         -`IC2009.SAT Math 25th percentile score`,
+         -`IC2009.SAT Math 75th percentile score`,
+         -`IC2010.SAT Critical Reading 75th percentile score`,
+         -`IC2010.SAT Critical Reading 25th percentile score`,
+         -`IC2010.SAT Math 75th percentile score`,
+         -`IC2010.SAT Math 25th percentile score`,
+         -`IC2011.SAT Critical Reading 75th percentile score`,
+         -`IC2011.SAT Critical Reading 25th percentile score`,
+         -`IC2011.SAT Math 25th percentile score`,
+         -`IC2011.SAT Math 75th percentile score`,
+         -`ADM2015.SAT Critical Reading 25th percentile score`,
+         -`ADM2015.SAT Critical Reading 75th percentile score`,
+         -`ADM2015.SAT Math 25th percentile score`,
+         -`ADM2015.SAT Math 75th percentile score`,
+         -`ADM2016.SAT Critical Reading 25th percentile score`,
+         -`ADM2016.SAT Critical Reading 75th percentile score`,
+         -`ADM2016.SAT Math 25th percentile score`,
+         -`ADM2016.SAT Math 75th percentile score`,
+         -`ADM2017.SAT Evidence-Based Reading and Writing 25th percentile score`,
+         -`ADM2017.SAT Evidence-Based Reading and Writing 75th percentile score`,
+         -`ADM2017.SAT Math 25th percentile score`,
+         -`ADM2017.SAT Math 75th percentile score`)
+
+# If an institution has no data for both SAT and ACT assign 0 to its SAT score. If it returns NA, it suggests
+# the instituion has ACT score but no SAT score. Then we do the conversion. Finally, create a new dummy
+# variable called test_score. Assign 1 if test score is avaiable and 0 if absent.
+test_score_test <- function(ACT, SAT){
+  out <- ifelse(is.na(ACT) & is.na(SAT),0, SAT)
+  return(out)
+}
+
+bacc_master <- bacc_master %>%
+  mutate(SAT_25th_2009 = test_score_test(`IC2009.ACT Composite 25th percentile score`, SAT_25th_2009),
+         SAT_75th_2009 = test_score_test(`IC2009.ACT Composite 75th percentile score`, SAT_75th_2009),
+         SAT_25th_2010 = test_score_test(`IC2010.ACT Composite 25th percentile score`, SAT_25th_2010),
+         SAT_75th_2010 = test_score_test(`IC2010.ACT Composite 75th percentile score`, SAT_75th_2010),
+         SAT_25th_2011 = test_score_test(`IC2011.ACT Composite 25th percentile score`, SAT_25th_2011),
+         SAT_75th_2011 = test_score_test(`IC2011.ACT Composite 75th percentile score`, SAT_75th_2011),
+         SAT_25th_2015 = test_score_test(`ADM2015.ACT Composite 25th percentile score`, SAT_25th_2015),
+         SAT_75th_2015 = test_score_test(`ADM2015.ACT Composite 75th percentile score`, SAT_75th_2015),
+         SAT_25th_2016 = test_score_test(`ADM2016.ACT Composite 25th percentile score`, SAT_25th_2016),
+         SAT_75th_2016 = test_score_test(`ADM2016.ACT Composite 75th percentile score`, SAT_75th_2016),
+         SAT_25th_2017 = test_score_test(`ADM2017.ACT Composite 25th percentile score`, SAT_25th_2017),
+         SAT_75th_2017 = test_score_test(`ADM2017.ACT Composite 75th percentile score`, SAT_75th_2017))
+
+# The following is a function that converts ACT to SAT
+convert <- function(ACT){
+  out <- (FALSE | ACT) * (conversion$SAT[match(ACT, conversion$ACT)]) ^ as.logical(ACT)
+  return(out)
+}
+
+bacc_master <- bacc_master %>%
+  mutate(SAT_25th_2009 = convert(`IC2009.ACT Composite 25th percentile score`))
+
 # Export bacc_master dataset
 write_csv(bacc_master, here("data/bacc_master.csv"))
