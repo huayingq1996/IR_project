@@ -263,7 +263,9 @@ conversion <- read.table(text = "ACT SAT
 10 630
 9  590", header = TRUE)
 
-# For schools only have ACT, convert ACT to SAT. 
+# For schools only have ACT, convert ACT to SAT. I wrote a convert function to do this. If the dummy variable
+# ACT_only is 1 that means the institution only has ACT score. If so, we replace the NA in SAT_xxth_20xx with
+# the corresponding SAT score of its ACT score. Otherwise, we keep the SAT score. 
 convert <- function(ACT_only, ACT, SAT){
   out <- ifelse(ACT_only == 1, conversion$SAT[match(ACT, conversion$ACT)], SAT)
 }
@@ -296,7 +298,14 @@ bacc_master <- bacc_master %>%
          -ACT_25th_2017_only,
          -ACT_75th_2017_only)
 
-# Create a dummy variable marking institutions missing both SAT and ACT
+# Create a dummy variable marking institutions missing both SAT and ACT, which is marked as 0 in SAT_xxth_20xx
+bacc_master <- bacc_master %>%
+  mutate(missing_test_2009 = ifelse(SAT_25th_2009 == 0 & SAT_75th_2009 == 0, 1, 0),
+         missing_test_2010 = ifelse(SAT_25th_2010 == 0 & SAT_75th_2010 == 0, 1, 0),
+         missing_test_2011 = ifelse(SAT_25th_2011 == 0 & SAT_75th_2011 == 0, 1, 0),
+         missing_test_2015 = ifelse(SAT_25th_2015 == 0 & SAT_75th_2015 == 0, 1, 0),
+         missing_test_2016 = ifelse(SAT_25th_2016 == 0 & SAT_75th_2016 == 0, 1, 0),
+         missing_test_2017 = ifelse(SAT_25th_2017 == 0 & SAT_75th_2017 == 0, 1, 0))
 
 
 # Export bacc_master dataset
