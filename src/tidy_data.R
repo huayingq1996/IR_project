@@ -218,14 +218,86 @@ bacc_master <- bacc_master %>%
          SAT_25th_2017 = test_score_test(`ADM2017.ACT Composite 25th percentile score`, SAT_25th_2017),
          SAT_75th_2017 = test_score_test(`ADM2017.ACT Composite 75th percentile score`, SAT_75th_2017))
 
-# The following is a function that converts ACT to SAT
-convert <- function(ACT){
-  out <- (FALSE | ACT) * (conversion$SAT[match(ACT, conversion$ACT)]) ^ as.logical(ACT)
-  return(out)
-}
-
+# Create a new variable marking institutions which only have ACT
 bacc_master <- bacc_master %>%
-  mutate(SAT_25th_2009 = convert(`IC2009.ACT Composite 25th percentile score`))
+  mutate(ACT_25th_2009_only = ifelse(is.na(SAT_25th_2009),1, 0),
+         ACT_75th_2009_only = ifelse(is.na(SAT_75th_2009),1, 0),
+         ACT_25th_2010_only = ifelse(is.na(SAT_25th_2010),1, 0),
+         ACT_75th_2010_only = ifelse(is.na(SAT_75th_2010),1, 0),
+         ACT_25th_2011_only = ifelse(is.na(SAT_25th_2011),1, 0),
+         ACT_75th_2011_only = ifelse(is.na(SAT_75th_2011),1, 0),
+         ACT_25th_2015_only = ifelse(is.na(SAT_25th_2015),1, 0),
+         ACT_75th_2015_only = ifelse(is.na(SAT_75th_2015),1, 0),
+         ACT_25th_2016_only = ifelse(is.na(SAT_25th_2016),1, 0),
+         ACT_75th_2016_only = ifelse(is.na(SAT_75th_2016),1, 0),
+         ACT_25th_2017_only = ifelse(is.na(SAT_25th_2017),1, 0),
+         ACT_75th_2017_only = ifelse(is.na(SAT_75th_2017),1, 0))
+# SAT, ACT, Conversion table
+conversion <- read.table(text = "ACT SAT
+36 1590
+35 1540
+34 1500
+33 1460
+32 1430
+31 1400
+30 1370
+29 1340
+28 1310
+27 1280
+26 1240
+25 1210
+24 1180
+23 1140
+22 1110
+21 1080
+20 1040
+19 1010
+18 970
+17 930
+16 890
+15 850
+14 800
+13 760
+12 710
+11 670
+10 630
+9  590", header = TRUE)
+
+# For schools only have ACT, convert ACT to SAT. 
+convert <- function(ACT_only, ACT, SAT){
+  out <- ifelse(ACT_only == 1, conversion$SAT[match(ACT, conversion$ACT)], SAT)
+}
+bacc_master <- bacc_master %>%
+  mutate(SAT_25th_2009 = convert(ACT_25th_2009_only, `IC2009.ACT Composite 25th percentile score`, SAT_25th_2009),
+         SAT_75th_2009 = convert(ACT_75th_2009_only, `IC2009.ACT Composite 75th percentile score`, SAT_75th_2009),
+         SAT_25th_2010 = convert(ACT_25th_2010_only, `IC2010.ACT Composite 25th percentile score`, SAT_25th_2010),
+         SAT_75th_2010 = convert(ACT_75th_2010_only, `IC2010.ACT Composite 75th percentile score`, SAT_75th_2010),
+         SAT_25th_2011 = convert(ACT_25th_2011_only, `IC2011.ACT Composite 25th percentile score`, SAT_25th_2011),
+         SAT_75th_2011 = convert(ACT_75th_2011_only, `IC2011.ACT Composite 75th percentile score`, SAT_75th_2011),
+         SAT_25th_2015 = convert(ACT_25th_2015_only, `ADM2015.ACT Composite 25th percentile score`, SAT_25th_2015),
+         SAT_75th_2015 = convert(ACT_75th_2015_only, `ADM2015.ACT Composite 75th percentile score`, SAT_75th_2015),
+         SAT_25th_2016 = convert(ACT_25th_2016_only, `ADM2016.ACT Composite 25th percentile score`, SAT_25th_2016),
+         SAT_75th_2016 = convert(ACT_75th_2016_only, `ADM2016.ACT Composite 75th percentile score`, SAT_75th_2016),
+         SAT_25th_2017 = convert(ACT_25th_2017_only, `ADM2017.ACT Composite 25th percentile score`, SAT_25th_2017),
+         SAT_75th_2017 = convert(ACT_75th_2017_only, `ADM2017.ACT Composite 75th percentile score`, SAT_75th_2017))
+
+# Drop the ACT_only dummy variable
+bacc_master <- bacc_master %>%
+  select(-ACT_25th_2009_only,
+         -ACT_75th_2009_only,
+         -ACT_25th_2010_only,
+         -ACT_75th_2010_only,
+         -ACT_25th_2011_only,
+         -ACT_75th_2011_only,
+         -ACT_25th_2015_only,
+         -ACT_75th_2015_only,
+         -ACT_25th_2016_only,
+         -ACT_75th_2016_only,
+         -ACT_25th_2017_only,
+         -ACT_75th_2017_only)
+
+# Create a dummy variable marking institutions missing both SAT and ACT
+
 
 # Export bacc_master dataset
 write_csv(bacc_master, here("data/bacc_master.csv"))
