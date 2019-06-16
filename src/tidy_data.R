@@ -138,16 +138,26 @@ bacc_join <- bacc_join %>%
 # Merge master institutions and baccalaureate colleges datasets 
 bacc_master <- full_join(master_join,bacc_join)
 
+# Replace missing religious data with 0
+bacc_master <- bacc_master %>%
+  mutate(`IC2009.Religious affiliation` = ifelse(is.na(`IC2009.Religious affiliation`), 0, `IC2009.Religious affiliation`),
+         `IC2010.Religious affiliation` = ifelse(is.na(`IC2010.Religious affiliation`), 0, `IC2010.Religious affiliation`),
+         `IC2011.Religious affiliation` = ifelse(is.na(`IC2011.Religious affiliation`), 0, `IC2011.Religious affiliation`),
+         `IC2015.Religious affiliation` = ifelse(is.na(`IC2015.Religious affiliation`), 0, `IC2015.Religious affiliation`),
+         `IC2016.Religious affiliation` = ifelse(is.na(`IC2016.Religious affiliation`), 0, `IC2016.Religious affiliation`),
+         `IC2017.Religious affiliation` = ifelse(is.na(`IC2017.Religious affiliation`), 0, `IC2017.Religious affiliation`))
+
+
 # Create a new variable called religious
 bacc_master <- bacc_master %>%
-  # If Religious affiliation is not "Not applicable", the school is religious. Assign 1 to religious schools
+  # If Religious affiliation is not "Not applicable", the school is not religious. Assign 1 to religious schools
   # and 0 to non-religious schools
-  mutate(religious = ifelse(`IC2009.Religious affiliation` != "Not applicable" &
-                              `IC2010.Religious affiliation` != "Not applicable" &
-                              `IC2011.Religious affiliation` != "Not applicable" &
-                              `IC2015.Religious affiliation` != "Not applicable" &
-                              `IC2016.Religious affiliation` != "Not applicable" &
-                              `IC2017.Religious affiliation` != "Not applicable", 1, 0)) %>%
+  mutate(religious = ifelse(`IC2009.Religious affiliation` != "Not applicable"|
+                              `IC2010.Religious affiliation` != "Not applicable"|
+                              `IC2011.Religious affiliation` != "Not applicable"|
+                              `IC2015.Religious affiliation` != "Not applicable"|
+                              `IC2016.Religious affiliation` != "Not applicable"|
+                              `IC2017.Religious affiliation` != "Not applicable", 0, 1)) %>%
   # Drop Religious affiliation after classification
   select(-`IC2009.Religious affiliation`,
          -`IC2010.Religious affiliation`,
@@ -307,6 +317,146 @@ bacc_master <- bacc_master %>%
          missing_test_2016 = ifelse(SAT_25th_2016 == 0 & SAT_75th_2016 == 0, 1, 0),
          missing_test_2017 = ifelse(SAT_25th_2017 == 0 & SAT_75th_2017 == 0, 1, 0))
 
+# Drop ACT
+bacc_master <- bacc_master %>%
+  select(-`IC2009.ACT Composite 25th percentile score`,
+         -`IC2009.ACT Composite 75th percentile score`,
+         -`IC2010.ACT Composite 25th percentile score`,
+         -`IC2010.ACT Composite 75th percentile score`,
+         -`IC2011.ACT Composite 25th percentile score`,
+         -`IC2011.ACT Composite 75th percentile score`,
+         -`ADM2015.ACT Composite 25th percentile score`,
+         -`ADM2015.ACT Composite 75th percentile score`,
+         -`ADM2016.ACT Composite 25th percentile score`,
+         -`ADM2016.ACT Composite 75th percentile score`,
+         -`ADM2017.ACT Composite 25th percentile score`,
+         -`ADM2017.ACT Composite 75th percentile score`)
+
+# Create a dummy variable marking institutions missing total expense. If an institution is missing 
+# total_expense code it as 1, otherwise, 0.
+bacc_master <- bacc_master %>%
+  mutate(missing_total_2009 = ifelse(is.na(`F0809_F2.Total expenses`), 1, 0),
+         missing_total_2010 = ifelse(is.na(`F0910_F2.Total expenses`), 1, 0),
+         missing_total_2011 = ifelse(is.na(`F1011_F2.Total expenses`), 1, 0),
+         missing_total_2015 = ifelse(is.na(`F1415_F2.Total expenses`), 1, 0),
+         missing_total_2016 = ifelse(is.na(`F1516_F2.Total expenses`), 1, 0),
+         missing_total_2017 = ifelse(is.na(`F1617_F2.Total expenses`), 1, 0))
+
+# Create a dummy variable to see how many institutions have no data of total expense for all years
+bacc_master <- bacc_master %>%
+  mutate(year_total_expense = missing_total_2009 +
+           missing_total_2010 +
+           missing_total_2011 +
+           missing_total_2015 +
+           missing_total_2016 +
+           missing_total_2017)
+
+# If an institution has no data of total expense for all years, code its total expense as 0
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F0809_F2.Total expenses`),
+         `F0910_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F0910_F2.Total expenses`),
+         `F1011_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F1011_F2.Total expenses`),
+         `F1415_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F1415_F2.Total expenses`),
+         `F1516_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F1516_F2.Total expenses`),
+         `F1617_F2.Total expenses` = ifelse(year_total_expense == 6, 0, `F1617_F2.Total expenses`))
+
+subset <- bacc_master %>%
+  filter(year_total_expense != 6 & year_total_expense != 0) %>%
+  select(`F0809_F2.Total expenses`,
+         `F0910_F2.Total expenses`,
+         `F1011_F2.Total expenses`,
+         `F1415_F2.Total expenses`,
+         `F1516_F2.Total expenses`,
+         `F1617_F2.Total expenses`)
+
+# To replace all NA's with the average of data from available years, first replace all NA's with 0
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Total expenses` = ifelse(is.na(`F0809_F2.Total expenses`), 0, `F0809_F2.Total expenses`),
+         `F0910_F2.Total expenses` = ifelse(is.na(`F0910_F2.Total expenses`), 0, `F0910_F2.Total expenses`),
+         `F1011_F2.Total expenses` = ifelse(is.na(`F1011_F2.Total expenses`), 0, `F1011_F2.Total expenses`),
+         `F1415_F2.Total expenses` = ifelse(is.na(`F1415_F2.Total expenses`), 0, `F1415_F2.Total expenses`),
+         `F1516_F2.Total expenses` = ifelse(is.na(`F1516_F2.Total expenses`), 0, `F1516_F2.Total expenses`),
+         `F1617_F2.Total expenses` = ifelse(is.na(`F1617_F2.Total expenses`), 0, `F1617_F2.Total expenses`))
+
+# Calculate the average
+bacc_master <- bacc_master %>%
+  mutate(total_expense_avg = (`F0809_F2.Total expenses`+
+           `F0910_F2.Total expenses`+
+           `F1011_F2.Total expenses`+
+           `F1415_F2.Total expenses`+
+           `F1516_F2.Total expenses`+
+           `F1617_F2.Total expenses`)/(6-missing_total_2009-
+                                         missing_total_2010-
+                                         missing_total_2011-
+                                         missing_total_2015-
+                                         missing_total_2016-
+                                         missing_total_2017)) %>%
+  # Since some schools has no data for all years the sum of missing_total_20xx will be 0 thus producing
+  # NA's. We need this extra step to replace those NA's with 0
+  mutate(total_expense_avg = ifelse(is.na(total_expense_avg), 0, total_expense_avg))
+
+# Replace 0 with average
+bacc_master <- bacc_master %>%
+  mutate(`F0910_F2.Total expenses` = ifelse(`F0910_F2.Total expenses` == 0, total_expense_avg, `F0910_F2.Total expenses`),
+         `F1011_F2.Total expenses` = ifelse(`F1011_F2.Total expenses` == 0, total_expense_avg, `F1011_F2.Total expenses`),
+         `F0809_F2.Total expenses` = ifelse(`F0809_F2.Total expenses` == 0, total_expense_avg, `F0809_F2.Total expenses`),
+         `F1415_F2.Total expenses` = ifelse(`F1415_F2.Total expenses` == 0, total_expense_avg, `F1415_F2.Total expenses`),
+         `F1516_F2.Total expenses` = ifelse(`F1516_F2.Total expenses` == 0, total_expense_avg, `F1516_F2.Total expenses`),
+         `F1617_F2.Total expenses` = ifelse(`F1617_F2.Total expenses` == 0, total_expense_avg, `F1617_F2.Total expenses`)) %>%
+  # Now we can drop the total_expense_avg column
+  select(-total_expense_avg)
+
+# Create a dummy variable marking schools missing salary data
+bacc_master <- bacc_master %>%
+  mutate(missing_salary_2009 = ifelse(is.na(`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 1, 0),
+         missing_salary_2010 = ifelse(is.na(`DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 1, 0),
+         missing_salary_2011 = ifelse(is.na(`DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 1, 0),
+         missing_salary_2015 = ifelse(is.na(`DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks`), 1, 0),
+         missing_salary_2016 = ifelse(is.na(`DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks`), 1, 0),
+         missing_salary_2017 = ifelse(is.na(`DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks`), 1, 0))
+
+# Replace NA's with 0
+bacc_master <- bacc_master %>%
+  mutate(`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 0, `DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 0, `DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`), 0, `DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks`), 0, `DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks`),
+         `DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks`), 0, `DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks`),
+         `DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(is.na(`DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks`), 0, `DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks`))
+
+# Calculate average salary
+bacc_master <- bacc_master %>%
+  mutate(salary_avg = (`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` + 
+           `DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` +
+           `DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` +
+           `DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks` +
+           `DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks` +
+           `DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks`)/(6 - missing_salary_2009 -
+                                                                                                           missing_salary_2010 -
+                                                                                                           missing_salary_2011 - 
+                                                                                                           missing_salary_2015 -
+                                                                                                           missing_salary_2016 - 
+                                                                                                           missing_salary_2017)) %>%
+  mutate(salary_avg = ifelse(is.na(salary_avg), 0, salary_avg)) %>%
+  mutate(`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(`DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` == 0, salary_avg, `DRVHR2009.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(`DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` == 0, salary_avg, `DRVHR2010.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` = ifelse(`DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks` == 0 , salary_avg, `DRVHR2011.Average salary equated to 9-month contracts of full-time instructional staff - all ranks`),
+         `DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(`DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks` == 0, salary_avg, `DRVHR2015.Average salary equated to 9 months of full-time instructional staff - all ranks`),
+         `DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(`DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks` == 0, salary_avg,`DRVHR2016.Average salary equated to 9 months of full-time instructional staff - all ranks`),
+         `DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks` = ifelse(`DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks` == 0, salary_avg, `DRVHR2017.Average salary equated to 9 months of full-time instructional staff - all ranks`)) %>%
+  select(-salary_avg)
+
+# Create a dummy variable marking schools missing graduation rate
+bacc_master <- bacc_master %>%
+  mutate(missing_grad_2009 = ifelse(is.na(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
+         missing_grad_2010 = ifelse(is.na(`DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
+         missing_grad_2011 = ifelse(is.na(`DRVGR2011.Graduation rate - bachelor's degree within 6 years, total`), 1, 0),
+         missing_grad_2015 = ifelse(is.na(`DRVGR2015.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
+         missing_grad_2016 = ifelse(is.na(`DRVGR2016.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
+         missing_grad_2017 = ifelse(is.na(`DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`), 1, 0)) %>%
+  # Replace NA with 0
+  mutate(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`), 0,  `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`))
 
 # Export bacc_master dataset
 write_csv(bacc_master, here("data/bacc_master.csv"))
