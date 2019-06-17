@@ -271,7 +271,8 @@ conversion <- read.table(text = "ACT SAT
 12 710
 11 670
 10 630
-9  590", header = TRUE)
+9  590
+2  500", header = TRUE)
 
 # For schools only have ACT, convert ACT to SAT. I wrote a convert function to do this. If the dummy variable
 # ACT_only is 1 that means the institution only has ACT score. If so, we replace the NA in SAT_xxth_20xx with
@@ -453,10 +454,426 @@ bacc_master <- bacc_master %>%
          missing_grad_2011 = ifelse(is.na(`DRVGR2011.Graduation rate - bachelor's degree within 6 years, total`), 1, 0),
          missing_grad_2015 = ifelse(is.na(`DRVGR2015.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
          missing_grad_2016 = ifelse(is.na(`DRVGR2016.Graduation rate - Bachelor degree within 6 years, total`), 1, 0),
-         missing_grad_2017 = ifelse(is.na(`DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`), 1, 0)) %>%
-  # Replace NA with 0
+         missing_grad_2017 = ifelse(is.na(`DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`), 1, 0))
+
+# Replace NA's with 0
+bacc_master <- bacc_master %>%
   mutate(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`),
-         `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`), 0,  `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`))
+         `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2011.Graduation rate - bachelor's degree within 6 years, total` = ifelse(is.na(`DRVGR2011.Graduation rate - bachelor's degree within 6 years, total`), 0, `DRVGR2011.Graduation rate - bachelor's degree within 6 years, total`),
+         `DRVGR2015.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2015.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2015.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2016.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2016.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2016.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2017.Graduation rate - Bachelor degree within 6 years, total` = ifelse(is.na(`DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`), 0, `DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`))
+
+# Calculate average graduation rate
+bacc_master <- bacc_master %>%
+  mutate(grad_avg = (`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total` +
+           `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` +
+           `DRVGR2011.Graduation rate - bachelor's degree within 6 years, total` +
+           `DRVGR2015.Graduation rate - Bachelor degree within 6 years, total` +
+           `DRVGR2016.Graduation rate - Bachelor degree within 6 years, total` +
+           `DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`)/(6 - missing_grad_2009-
+           missing_grad_2010-
+           missing_grad_2011-
+           missing_grad_2015-
+           missing_grad_2016-
+           missing_grad_2017)) %>%
+  mutate(grad_avg = ifelse(is.na(grad_avg), 0, grad_avg)) %>%
+  mutate(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total` = ifelse(`DRVGR2009.Graduation rate - Bachelor degree within 6 years, total` == 0, grad_avg, `DRVGR2009.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` = ifelse(`DRVGR2010.Graduation rate - Bachelor degree within 6 years, total` == 0, grad_avg, `DRVGR2010.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2011.Graduation rate - bachelor's degree within 6 years, total` = ifelse(`DRVGR2011.Graduation rate - bachelor's degree within 6 years, total` == 0, grad_avg, `DRVGR2011.Graduation rate - bachelor's degree within 6 years, total`),
+         `DRVGR2015.Graduation rate - Bachelor degree within 6 years, total` = ifelse(`DRVGR2015.Graduation rate - Bachelor degree within 6 years, total` == 0, grad_avg, `DRVGR2015.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2016.Graduation rate - Bachelor degree within 6 years, total` = ifelse(`DRVGR2016.Graduation rate - Bachelor degree within 6 years, total` == 0, grad_avg, `DRVGR2016.Graduation rate - Bachelor degree within 6 years, total`),
+         `DRVGR2017.Graduation rate - Bachelor degree within 6 years, total` = ifelse(`DRVGR2017.Graduation rate - Bachelor degree within 6 years, total` == 0, grad_avg, `DRVGR2017.Graduation rate - Bachelor degree within 6 years, total`)) %>%
+  select(-grad_avg)
+
+# Create a dummy variable marking schools missing instructional total amount
+bacc_master <- bacc_master %>%
+  mutate(missing_instruction_2009 = ifelse(is.na(`F0809_F2.Instruction-Total amount`), 1, 0),
+         missing_instruction_2010 = ifelse(is.na(`F0910_F2.Instruction-Total amount`), 1, 0),
+         missing_instruction_2011 = ifelse(is.na(`F1011_F2.Instruction-Total amount`), 1, 0),
+         missing_instruction_2015 = ifelse(is.na(`F1415_F2.Instruction-Total amount`), 1, 0),
+         missing_instruction_2016 = ifelse(is.na(`F1516_F2.Instruction-Total amount`), 1, 0),
+         missing_instruction_2017 = ifelse(is.na(`F1617_F2.Instruction-Total amount`), 1, 0))
+
+# Replace NA's with 0
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Instruction-Total amount` = ifelse(is.na(`F0809_F2.Instruction-Total amount`), 0, `F0809_F2.Instruction-Total amount`),
+         `F0910_F2.Instruction-Total amount` = ifelse(is.na(`F0910_F2.Instruction-Total amount`), 0, `F0910_F2.Instruction-Total amount`),
+         `F1011_F2.Instruction-Total amount` = ifelse(is.na(`F1011_F2.Instruction-Total amount`), 0, `F1011_F2.Instruction-Total amount`),
+         `F1415_F2.Instruction-Total amount` = ifelse(is.na(`F1415_F2.Instruction-Total amount`), 0, `F1415_F2.Instruction-Total amount`),
+         `F1516_F2.Instruction-Total amount` = ifelse(is.na(`F1516_F2.Instruction-Total amount`), 0, `F1516_F2.Instruction-Total amount`),
+         `F1617_F2.Instruction-Total amount` = ifelse(is.na(`F1617_F2.Instruction-Total amount`), 0, `F1617_F2.Instruction-Total amount`))
+
+# Calculate average instructional total amount
+bacc_master <- bacc_master %>%
+  mutate(instruction_avg = (`F0809_F2.Instruction-Total amount` +
+           `F0910_F2.Instruction-Total amount` +
+           `F1011_F2.Instruction-Total amount` +
+           `F1415_F2.Instruction-Total amount` +
+           `F1516_F2.Instruction-Total amount` +
+           `F1617_F2.Instruction-Total amount`)/ (6 - missing_instruction_2009 -
+           missing_instruction_2010 -
+           missing_instruction_2011 -
+           missing_instruction_2015 -
+           missing_instruction_2016 -
+           missing_instruction_2017)) %>%
+  mutate(instruction_avg = ifelse(is.na(instruction_avg), 0, instruction_avg))
+
+# Replace 0 with average instructional amount
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Instruction-Total amount` = ifelse(`F0809_F2.Instruction-Total amount` == 0, instruction_avg, `F0809_F2.Instruction-Total amount`),
+         `F0910_F2.Instruction-Total amount` = ifelse(`F0910_F2.Instruction-Total amount` == 0, instruction_avg, `F0910_F2.Instruction-Total amount`),
+         `F1011_F2.Instruction-Total amount` = ifelse(`F1011_F2.Instruction-Total amount` == 0, instruction_avg, `F1011_F2.Instruction-Total amount`),
+         `F1415_F2.Instruction-Total amount` = ifelse(`F1415_F2.Instruction-Total amount` == 0, instruction_avg, `F1415_F2.Instruction-Total amount`),
+         `F1516_F2.Instruction-Total amount` = ifelse(`F1516_F2.Instruction-Total amount` == 0, instruction_avg, `F1516_F2.Instruction-Total amount`),
+         `F1617_F2.Instruction-Total amount` = ifelse(`F1617_F2.Instruction-Total amount` == 0, instruction_avg, `F1617_F2.Instruction-Total amount`)) %>%
+  select(-instruction_avg)
+
+# Create dummy variable marking schools missing percent admitted
+bacc_master <- bacc_master %>%
+  mutate(missing_percent_admitted_2009 = ifelse(is.na(`DRVIC2009.Percent admitted - total`), 1, 0),
+         missing_percent_admitted_2010 = ifelse(is.na(`DRVIC2010.Percent admitted - total`), 1, 0),
+         missing_percent_admitted_2011 = ifelse(is.na(`DRVIC2011.Percent admitted - total`), 1, 0),
+         missing_percent_admitted_2015 = ifelse(is.na(`DRVADM2015.Percent admitted - total`), 1, 0),
+         missing_percent_admitted_2016 = ifelse(is.na(`DRVADM2016.Percent admitted - total`), 1, 0),
+         missing_percent_admitted_2017 = ifelse(is.na(`DRVADM2017.Percent admitted - total`), 1, 0))
+
+# Replace NA's with 0
+bacc_master <- bacc_master %>%
+  mutate(`DRVIC2009.Percent admitted - total` = ifelse(is.na(`DRVIC2009.Percent admitted - total`), 0, `DRVIC2009.Percent admitted - total`),
+         `DRVIC2010.Percent admitted - total` = ifelse(is.na(`DRVIC2010.Percent admitted - total`), 0, `DRVIC2010.Percent admitted - total`),
+         `DRVIC2011.Percent admitted - total` = ifelse(is.na(`DRVIC2011.Percent admitted - total`), 0, `DRVIC2011.Percent admitted - total`),
+         `DRVADM2015.Percent admitted - total` = ifelse(is.na(`DRVADM2015.Percent admitted - total`), 0, `DRVADM2015.Percent admitted - total`),
+         `DRVADM2016.Percent admitted - total` = ifelse(is.na(`DRVADM2016.Percent admitted - total`), 0, `DRVADM2016.Percent admitted - total`),
+         `DRVADM2017.Percent admitted - total` = ifelse(is.na(`DRVADM2017.Percent admitted - total`), 0, `DRVADM2017.Percent admitted - total`))
+
+# Calculate average percent admitted
+bacc_master <- bacc_master %>%
+  mutate(percent_admitted_avg = (`DRVIC2009.Percent admitted - total` +
+           `DRVIC2010.Percent admitted - total` +
+           `DRVIC2011.Percent admitted - total` +
+           `DRVADM2015.Percent admitted - total` +
+           `DRVADM2016.Percent admitted - total` +
+           `DRVADM2017.Percent admitted - total`)/ (6 - missing_percent_admitted_2009 -
+           missing_percent_admitted_2010 -
+           missing_percent_admitted_2011 -
+           missing_percent_admitted_2015 -
+           missing_percent_admitted_2016 -
+           missing_percent_admitted_2017)) %>%
+  mutate(percent_admitted_avg = ifelse(is.na(percent_admitted_avg), 0, percent_admitted_avg))
+
+# Replace 0 with percent_admitted_avg
+bacc_master <- bacc_master %>%
+  mutate(`DRVIC2009.Percent admitted - total` = ifelse(`DRVIC2009.Percent admitted - total` == 0, percent_admitted_avg, `DRVIC2009.Percent admitted - total`),
+         `DRVIC2010.Percent admitted - total` = ifelse(`DRVIC2010.Percent admitted - total` == 0, percent_admitted_avg, `DRVIC2010.Percent admitted - total`),
+         `DRVIC2011.Percent admitted - total` = ifelse(`DRVIC2011.Percent admitted - total` == 0, percent_admitted_avg, `DRVIC2011.Percent admitted - total`),
+         `DRVADM2015.Percent admitted - total` = ifelse(`DRVADM2015.Percent admitted - total` == 0, percent_admitted_avg, `DRVADM2015.Percent admitted - total`),
+         `DRVADM2016.Percent admitted - total` = ifelse(`DRVADM2016.Percent admitted - total` == 0, percent_admitted_avg, `DRVADM2016.Percent admitted - total`),
+         `DRVADM2017.Percent admitted - total` = ifelse(`DRVADM2017.Percent admitted - total` == 0, percent_admitted_avg, `DRVADM2017.Percent admitted - total`)) %>%
+  select(-percent_admitted_avg)
+
+# Create a dummy variable marking schools missing admission yield
+bacc_master <- bacc_master %>%
+  mutate(missing_admission_yield_2009 = ifelse(is.na(`DRVIC2009.Admissions yield - total`), 1, 0),
+         missing_admission_yield_2010 = ifelse(is.na(`DRVIC2010.Admissions yield - total`), 1, 0),
+         missing_admission_yield_2011 = ifelse(is.na(`DRVIC2011.Admissions yield - total`), 1, 0),
+         missing_admission_yield_2015 = ifelse(is.na(`DRVADM2015.Admissions yield - total`), 1, 0),
+         missing_admission_yield_2016 = ifelse(is.na(`DRVADM2016.Admissions yield - total`), 1, 0),
+         missing_admission_yield_2017 = ifelse(is.na(`DRVADM2017.Admissions yield - total`), 1, 0))
+
+# Replace NA's with 0
+bacc_master <- bacc_master %>%
+  mutate(`DRVIC2009.Admissions yield - total` = ifelse(is.na(`DRVIC2009.Admissions yield - total`), 0, `DRVIC2009.Admissions yield - total`),
+         `DRVIC2010.Admissions yield - total` = ifelse(is.na(`DRVIC2010.Admissions yield - total`), 0, `DRVIC2010.Admissions yield - total`),
+         `DRVIC2011.Admissions yield - total` = ifelse(is.na(`DRVIC2011.Admissions yield - total`), 0, `DRVIC2011.Admissions yield - total`),
+         `DRVADM2015.Admissions yield - total` = ifelse(is.na(`DRVADM2015.Admissions yield - total`), 0, `DRVADM2015.Admissions yield - total`),
+         `DRVADM2016.Admissions yield - total` = ifelse(is.na(`DRVADM2016.Admissions yield - total`), 0, `DRVADM2016.Admissions yield - total`),
+         `DRVADM2017.Admissions yield - total` = ifelse(is.na(`DRVADM2017.Admissions yield - total`), 0, `DRVADM2017.Admissions yield - total`))
+
+# Calculate admission_yield_avg
+bacc_master <- bacc_master %>%
+  mutate(admission_yield_avg = (`DRVIC2009.Admissions yield - total` +
+           `DRVIC2010.Admissions yield - total` +
+           `DRVIC2011.Admissions yield - total` +
+           `DRVADM2015.Admissions yield - total` +
+           `DRVADM2016.Admissions yield - total` +
+           `DRVADM2017.Admissions yield - total`)/ (6- missing_admission_yield_2009 -
+           missing_admission_yield_2010 -
+           missing_admission_yield_2011 -
+           missing_admission_yield_2015 -
+           missing_admission_yield_2016 -
+           missing_admission_yield_2017)) %>%
+  mutate(admission_yield_avg = ifelse(is.na(admission_yield_avg), 0, admission_yield_avg))
+
+# Replace 0 with admission_yield_avg
+bacc_master <- bacc_master %>%
+  mutate(`DRVIC2009.Admissions yield - total` = ifelse(`DRVIC2009.Admissions yield - total` == 0, admission_yield_avg, `DRVIC2009.Admissions yield - total`),
+         `DRVIC2010.Admissions yield - total` = ifelse(`DRVIC2010.Admissions yield - total` == 0, admission_yield_avg, `DRVIC2010.Admissions yield - total`),
+         `DRVIC2011.Admissions yield - total` = ifelse(`DRVIC2011.Admissions yield - total` == 0, admission_yield_avg, `DRVIC2011.Admissions yield - total`),
+         `DRVADM2015.Admissions yield - total` = ifelse(`DRVADM2015.Admissions yield - total` == 0, admission_yield_avg, `DRVADM2015.Admissions yield - total`),
+         `DRVADM2016.Admissions yield - total` = ifelse(`DRVADM2016.Admissions yield - total` == 0, admission_yield_avg, `DRVADM2016.Admissions yield - total`),
+         `DRVADM2017.Admissions yield - total` = ifelse(`DRVADM2017.Admissions yield - total` == 0, admission_yield_avg, `DRVADM2017.Admissions yield - total`)) %>%
+  select(-admission_yield_avg)
+
+# Create a dummy variable marking schools missing value of endowment
+bacc_master <- bacc_master %>%
+  mutate(missing_endowment_2009 = ifelse(is.na(`F0809_F2.Value of endowment assets at the end of the fiscal year`), 1, 0),
+         missing_endowment_2010 = ifelse(is.na(`F0910_F2.Value of endowment assets at the end of the fiscal year`), 1, 0),
+         missing_endowment_2011 = ifelse(is.na(`F1011_F2.Value of endowment assets at the end of the fiscal year`), 1, 0),
+         missing_endowment_2015 = ifelse(is.na(`F1415_F2.Value of endowment assets at the end of the fiscal year`), 1, 0),
+         missing_endowment_2016 = ifelse(is.na(`F1516_F2.Value of endowment assets at the end of the fiscal year`), 1, 0),
+         missing_endowment_2017 = ifelse(is.na(`F1617_F2.Value of endowment assets at the end of the fiscal year`), 1, 0))
+  
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F0809_F2.Value of endowment assets at the end of the fiscal year`), 0, `F0809_F2.Value of endowment assets at the end of the fiscal year`),
+         `F0910_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F0910_F2.Value of endowment assets at the end of the fiscal year`), 0, `F0910_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1011_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F1011_F2.Value of endowment assets at the end of the fiscal year`), 0, `F1011_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1415_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F1415_F2.Value of endowment assets at the end of the fiscal year`), 0, `F1415_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1516_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F1516_F2.Value of endowment assets at the end of the fiscal year`), 0, `F1516_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1617_F2.Value of endowment assets at the end of the fiscal year` = ifelse(is.na(`F1617_F2.Value of endowment assets at the end of the fiscal year`), 0, `F1617_F2.Value of endowment assets at the end of the fiscal year`))
+
+# Calculate endowment_avg
+bacc_master <- bacc_master %>%
+  mutate(endowment_avg = (`F0809_F2.Value of endowment assets at the end of the fiscal year` +
+           `F0910_F2.Value of endowment assets at the end of the fiscal year` +
+           `F1011_F2.Value of endowment assets at the end of the fiscal year` +
+           `F1415_F2.Value of endowment assets at the end of the fiscal year` +
+           `F1516_F2.Value of endowment assets at the end of the fiscal year` +
+           `F1617_F2.Value of endowment assets at the end of the fiscal year`)/ (6 - missing_endowment_2009 -
+           missing_endowment_2010 -
+           missing_endowment_2011 - 
+           missing_endowment_2015 -
+           missing_endowment_2016 -
+           missing_endowment_2017)) %>%
+  mutate(endowment_avg = ifelse(is.na(endowment_avg), 0, endowment_avg))
+
+# Replace 0 with endowment_avg
+bacc_master <- bacc_master %>%
+  mutate(`F0809_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F0809_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F0809_F2.Value of endowment assets at the end of the fiscal year`),
+         `F0910_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F0910_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F0910_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1011_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F1011_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F1011_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1415_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F1415_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F1415_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1516_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F1516_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F1516_F2.Value of endowment assets at the end of the fiscal year`),
+         `F1617_F2.Value of endowment assets at the end of the fiscal year` = ifelse(`F1617_F2.Value of endowment assets at the end of the fiscal year` == 0, endowment_avg, `F1617_F2.Value of endowment assets at the end of the fiscal year`)) %>%
+  select(-endowment_avg)
+
+# Create a dummy variable marking schools missing grand total student
+bacc_master <- bacc_master %>%
+  mutate(missing_grand_total_2009 = ifelse(is.na(`EF2009A.Grand total`), 1, 0),
+         missing_grand_total_2010 = ifelse(is.na(`EF2010A.Grand total`), 1, 0),
+         missing_grand_total_2011 = ifelse(is.na(`EF2011A.Grand total`), 1, 0),
+         missing_grand_total_2015 = ifelse(is.na(`EF2015A.Grand total`), 1, 0),
+         missing_grand_total_2016 = ifelse(is.na(`EF2016A.Grand total`), 1, 0),
+         missing_grand_total_2017 = ifelse(is.na(`EF2017A.Grand total`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Grand total` = ifelse(is.na(`EF2009A.Grand total`), 0, `EF2009A.Grand total`),
+         `EF2010A.Grand total` = ifelse(is.na(`EF2010A.Grand total`), 0, `EF2010A.Grand total`),
+         `EF2011A.Grand total` = ifelse(is.na(`EF2011A.Grand total`), 0, `EF2011A.Grand total`),
+         `EF2015A.Grand total` = ifelse(is.na(`EF2015A.Grand total`), 0, `EF2015A.Grand total`),
+         `EF2016A.Grand total` = ifelse(is.na(`EF2016A.Grand total`), 0, `EF2016A.Grand total`),
+         `EF2017A.Grand total` = ifelse(is.na(`EF2017A.Grand total`), 0, `EF2017A.Grand total`))
+
+# Calculate grand_total_avg
+bacc_master <- bacc_master %>%
+  mutate(grand_total_avg = (`EF2009A.Grand total` +
+           `EF2010A.Grand total` +
+           `EF2011A.Grand total` +
+           `EF2015A.Grand total` +
+           `EF2016A.Grand total` +
+           `EF2017A.Grand total`)/ (6 - missing_grand_total_2009 -
+           missing_grand_total_2010 -
+           missing_grand_total_2011 -
+           missing_grand_total_2015 -
+           missing_grand_total_2016 -
+           missing_grand_total_2017)) %>%
+  mutate(grand_total_avg = ifelse(is.na(grand_total_avg), 0, grand_total_avg))
+
+# Replace 0 with grand_total_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Grand total` = ifelse(`EF2009A.Grand total` == 0, grand_total_avg, `EF2009A.Grand total`),
+         `EF2010A.Grand total` = ifelse(`EF2010A.Grand total` == 0, grand_total_avg, `EF2010A.Grand total`),
+         `EF2011A.Grand total` = ifelse(`EF2011A.Grand total` == 0, grand_total_avg, `EF2011A.Grand total`),
+         `EF2015A.Grand total` = ifelse(`EF2015A.Grand total` == 0, grand_total_avg, `EF2015A.Grand total`),
+         `EF2016A.Grand total` = ifelse(`EF2016A.Grand total` == 0, grand_total_avg, `EF2016A.Grand total`),
+         `EF2017A.Grand total` = ifelse(`EF2017A.Grand total` == 0, grand_total_avg, `EF2017A.Grand total`)) %>%
+  select(-grand_total_avg)
+
+# Create a dummy variable marking schools missing grand total women
+bacc_master <- bacc_master %>%
+  mutate(missing_grand_total_women_2009 = ifelse(is.na(`EF2009A.Grand total women`), 1, 0),
+         missing_grand_total_women_2010 = ifelse(is.na(`EF2010A.Grand total women`), 1, 0),
+         missing_grand_total_women_2011 = ifelse(is.na(`EF2011A.Grand total women`), 1, 0),
+         missing_grand_total_women_2015 = ifelse(is.na(`EF2015A.Grand total women`), 1, 0),
+         missing_grand_total_women_2016 = ifelse(is.na(`EF2016A.Grand total women`), 1, 0),
+         missing_grand_total_women_2017 = ifelse(is.na(`EF2017A.Grand total women`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Grand total women` = ifelse(is.na(`EF2009A.Grand total women`), 0, `EF2009A.Grand total women`),
+         `EF2010A.Grand total women` = ifelse(is.na(`EF2010A.Grand total women`), 0, `EF2010A.Grand total women`),
+         `EF2011A.Grand total women` = ifelse(is.na(`EF2011A.Grand total women`), 0, `EF2011A.Grand total women`),
+         `EF2015A.Grand total women` = ifelse(is.na(`EF2015A.Grand total women`), 0, `EF2015A.Grand total women`),
+         `EF2016A.Grand total women` = ifelse(is.na(`EF2016A.Grand total women`), 0, `EF2016A.Grand total women`),
+         `EF2017A.Grand total women` = ifelse(is.na(`EF2017A.Grand total women`), 0, `EF2017A.Grand total women`))
+
+# Calculate grand_total_women_avg
+bacc_master <- bacc_master %>%
+  mutate(grand_total_women_avg = (`EF2009A.Grand total women` +
+           `EF2010A.Grand total women` +
+           `EF2011A.Grand total women` +
+           `EF2015A.Grand total women` +
+           `EF2016A.Grand total women` +
+           `EF2017A.Grand total women`)/ (6 - missing_grand_total_women_2009 -
+           missing_grand_total_women_2010 -
+           missing_grand_total_women_2011 -
+           missing_grand_total_women_2015 -
+           missing_grand_total_women_2016 -
+           missing_grand_total_women_2017)) %>%
+  mutate(grand_total_women_avg = ifelse(is.na(grand_total_women_avg), 0, grand_total_women_avg))
+
+# Replace 0 with grand_total_women_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Grand total women` = ifelse(`EF2009A.Grand total women` == 0, grand_total_women_avg, `EF2009A.Grand total women`),
+         `EF2010A.Grand total women` = ifelse(`EF2010A.Grand total women` == 0, grand_total_women_avg, `EF2010A.Grand total women`),
+         `EF2011A.Grand total women` = ifelse(`EF2011A.Grand total women` == 0, grand_total_women_avg, `EF2011A.Grand total women`),
+         `EF2015A.Grand total women` = ifelse(`EF2015A.Grand total women` == 0, grand_total_women_avg, `EF2015A.Grand total women`),
+         `EF2016A.Grand total women` = ifelse(`EF2016A.Grand total women` == 0, grand_total_women_avg, `EF2016A.Grand total women`),
+         `EF2017A.Grand total women` = ifelse(`EF2017A.Grand total women` == 0, grand_total_women_avg, `EF2017A.Grand total women`)) %>%
+  select(-grand_total_women_avg)
+
+# Create a dummy variable marking schools missing Asian total
+bacc_master <- bacc_master %>%
+  mutate(missing_asian_2009 = ifelse(is.na(`EF2009A.Asian total - new`), 1, 0),
+         missing_asian_2010 = ifelse(is.na(`EF2010A.Asian total`), 1, 0),
+         missing_asian_2011 = ifelse(is.na(`EF2011A.Asian total`), 1, 0),
+         missing_asian_2015 = ifelse(is.na(`EF2015A.Asian total`), 1, 0),
+         missing_asian_2016 = ifelse(is.na(`EF2016A.Asian total`), 1, 0),
+         missing_asian_2017 = ifelse(is.na(`EF2017A.Asian total`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Asian total - new` = ifelse(is.na(`EF2009A.Asian total - new`), 0, `EF2009A.Asian total - new`),
+         `EF2010A.Asian total` = ifelse(is.na(`EF2010A.Asian total`), 0, `EF2010A.Asian total`),
+         `EF2011A.Asian total` = ifelse(is.na(`EF2011A.Asian total`), 0, `EF2011A.Asian total`),
+         `EF2015A.Asian total` = ifelse(is.na(`EF2015A.Asian total`), 0, `EF2015A.Asian total`),
+         `EF2016A.Asian total` = ifelse(is.na(`EF2016A.Asian total`), 0, `EF2016A.Asian total`),
+         `EF2017A.Asian total` = ifelse(is.na(`EF2017A.Asian total`), 0, `EF2017A.Asian total`))
+
+# Calculate asian_avg
+bacc_master <- bacc_master %>%
+  mutate(asian_avg = (`EF2009A.Asian total - new` +
+           `EF2010A.Asian total` +
+           `EF2011A.Asian total` +
+           `EF2015A.Asian total` +
+           `EF2016A.Asian total` +
+           `EF2017A.Asian total`)/ (6 - missing_asian_2009 -
+           missing_asian_2010 -
+           missing_asian_2011 -
+           missing_asian_2015 -
+           missing_asian_2016 -
+           missing_asian_2017)) %>%
+  mutate(asian_avg = ifelse(is.na(asian_avg), 0, asian_avg))
+
+# Replace 0 with asian_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Asian total - new` = ifelse(`EF2009A.Asian total - new` == 0, asian_avg, `EF2009A.Asian total - new`),
+         `EF2010A.Asian total` = ifelse(`EF2010A.Asian total` == 0, asian_avg, `EF2010A.Asian total`),
+         `EF2011A.Asian total` = ifelse(`EF2011A.Asian total` == 0, asian_avg, `EF2011A.Asian total`),
+         `EF2015A.Asian total` = ifelse(`EF2015A.Asian total` == 0, asian_avg, `EF2015A.Asian total`),
+         `EF2016A.Asian total` = ifelse(`EF2016A.Asian total` == 0, asian_avg, `EF2016A.Asian total`),
+         `EF2017A.Asian total` = ifelse(`EF2017A.Asian total` == 0, asian_avg, `EF2017A.Asian total`)) %>%
+  select(-asian_avg)
+
+# Create a dummy variable marking schools missing black or African American
+bacc_master <- bacc_master %>%
+  mutate(missing_black_2009 = ifelse(is.na(`EF2009A.Black or African American total - new`), 1, 0),
+         missing_black_2010 = ifelse(is.na(`EF2010A.Black or African American total`), 1, 0),
+         missing_black_2011 = ifelse(is.na(`EF2011A.Black or African American total`), 1, 0),
+         missing_black_2015 = ifelse(is.na(`EF2015A.Black or African American total`), 1, 0),
+         missing_black_2016 = ifelse(is.na(`EF2016A.Black or African American total`), 1, 0),
+         missing_black_2017 = ifelse(is.na(`EF2017A.Black or African American total`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Black or African American total - new` = ifelse(is.na(`EF2009A.Black or African American total - new`), 0, `EF2009A.Black or African American total - new`),
+         `EF2010A.Black or African American total` = ifelse(is.na(`EF2010A.Black or African American total`), 0, `EF2010A.Black or African American total`),
+         `EF2011A.Black or African American total` = ifelse(is.na(`EF2011A.Black or African American total`), 0, `EF2011A.Black or African American total`),
+         `EF2015A.Black or African American total` = ifelse(is.na(`EF2015A.Black or African American total`), 0, `EF2015A.Black or African American total`),
+         `EF2016A.Black or African American total` = ifelse(is.na(`EF2016A.Black or African American total`), 0, `EF2016A.Black or African American total`),
+         `EF2017A.Black or African American total` = ifelse(is.na(`EF2017A.Black or African American total`), 0, `EF2017A.Black or African American total`))
+
+# Calculate black_avg
+bacc_master <- bacc_master %>%
+  mutate(black_avg = (`EF2009A.Black or African American total - new` +
+           `EF2010A.Black or African American total` +
+           `EF2011A.Black or African American total` +
+           `EF2015A.Black or African American total` +
+           `EF2016A.Black or African American total` +
+           `EF2017A.Black or African American total`)/(6 - missing_black_2009 -
+           missing_black_2010 -
+           missing_black_2011 -
+           missing_black_2015 -
+           missing_black_2016 -
+           missing_black_2017)) %>%
+  mutate(black_avg = ifelse(is.na(black_avg), 0, black_avg))
+
+# Replace 0 with black_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Black or African American total - new` = ifelse(`EF2009A.Black or African American total - new` == 0, black_avg, `EF2009A.Black or African American total - new`),
+         `EF2010A.Black or African American total` = ifelse(`EF2010A.Black or African American total` == 0, black_avg, `EF2010A.Black or African American total`),
+         `EF2011A.Black or African American total` = ifelse(`EF2011A.Black or African American total` == 0, black_avg, `EF2011A.Black or African American total`),
+         `EF2015A.Black or African American total` = ifelse(`EF2015A.Black or African American total` == 0, black_avg, `EF2015A.Black or African American total`),
+         `EF2016A.Black or African American total` = ifelse(`EF2016A.Black or African American total` == 0, black_avg, `EF2016A.Black or African American total`),
+         `EF2017A.Black or African American total` = ifelse(`EF2017A.Black or African American total` == 0, black_avg, `EF2017A.Black or African American total`)) %>%
+  select(-black_avg)
+
+# Create a dummy variable marking schools missing hispanic total
+bacc_master <- bacc_master %>%
+  mutate(missing_hispanic_2009 = ifelse(is.na(`EF2009A.Hispanic total - new`), 1, 0),
+         missing_hispanic_2010 = ifelse(is.na(`EF2010A.Hispanic total`), 1, 0),
+         missing_hispanic_2011 = ifelse(is.na(`EF2011A.Hispanic total`), 1, 0),
+         missing_hispanic_2015 = ifelse(is.na(`EF2015A.Hispanic total`), 1, 0),
+         missing_hispanic_2016 = ifelse(is.na(`EF2016A.Hispanic total`), 1, 0),
+         missing_hispanic_2017 = ifelse(is.na(`EF2017A.Hispanic total`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Hispanic total - new` = ifelse(is.na(`EF2009A.Hispanic total - new`), 0, `EF2009A.Hispanic total - new`),
+         `EF2010A.Hispanic total` = ifelse(is.na(`EF2010A.Hispanic total`), 0, `EF2010A.Hispanic total`),
+         `EF2011A.Hispanic total` = ifelse(is.na(`EF2011A.Hispanic total`), 0, `EF2011A.Hispanic total`),
+         `EF2015A.Hispanic total` = ifelse(is.na(`EF2015A.Hispanic total`), 0, `EF2015A.Hispanic total`),
+         `EF2016A.Hispanic total` = ifelse(is.na(`EF2016A.Hispanic total`), 0, `EF2016A.Hispanic total`),
+         `EF2017A.Hispanic total` = ifelse(is.na(`EF2017A.Hispanic total`), 0, `EF2017A.Hispanic total`))
+
+# Calculate hispanic_avg
+bacc_master <- bacc_master %>%
+  mutate(hispanic_avg = (`EF2009A.Hispanic total - new` +
+           `EF2010A.Hispanic total` +
+           `EF2011A.Hispanic total` +
+           `EF2015A.Hispanic total` +
+           `EF2016A.Hispanic total` +
+           `EF2017A.Hispanic total`)/(6 - missing_hispanic_2009 -
+           missing_hispanic_2010 -
+           missing_hispanic_2011 -
+           missing_hispanic_2015 -
+           missing_hispanic_2016 -
+           missing_hispanic_2017)) %>%
+  mutate(hispanic_avg  = ifelse(is.na(hispanic_avg), 0, hispanic_avg))
+
+# Replace 0 with hispanic_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Hispanic total - new` = ifelse(`EF2009A.Hispanic total - new` == 0, hispanic_avg, `EF2009A.Hispanic total - new`),
+         `EF2010A.Hispanic total` = ifelse(`EF2010A.Hispanic total` == 0, hispanic_avg, `EF2010A.Hispanic total`),
+         `EF2011A.Hispanic total` = ifelse(`EF2011A.Hispanic total` == 0, hispanic_avg, `EF2011A.Hispanic total`),
+         `EF2015A.Hispanic total` = ifelse(`EF2015A.Hispanic total` == 0, hispanic_avg, `EF2015A.Hispanic total`),
+         `EF2016A.Hispanic total` = ifelse(`EF2016A.Hispanic total` == 0, hispanic_avg, `EF2016A.Hispanic total`),
+         `EF2017A.Hispanic total` = ifelse(`EF2017A.Hispanic total` == 0, hispanic_avg, `EF2017A.Hispanic total`)) %>%
+  select(-hispanic_avg)
+
 
 # Export bacc_master dataset
 write_csv(bacc_master, here("data/bacc_master.csv"))
