@@ -874,6 +874,5 @@ bacc_master <- bacc_master %>%
          `EF2017A.Hispanic total` = ifelse(`EF2017A.Hispanic total` == 0, hispanic_avg, `EF2017A.Hispanic total`)) %>%
   select(-hispanic_avg)
 
-
 # Export bacc_master dataset
 write_csv(bacc_master, here("data/bacc_master.csv"))

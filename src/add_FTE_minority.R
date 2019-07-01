@@ -180,3 +180,59 @@ bacc_master <- bacc_master %>%
          `EF2016A.American Indian or Alaska Native total` = ifelse(`EF2016A.American Indian or Alaska Native total` == 0, Indian_Alaska_avg, `EF2016A.American Indian or Alaska Native total`),
          `EF2017A.American Indian or Alaska Native total` = ifelse(`EF2017A.American Indian or Alaska Native total` == 0, Indian_Alaska_avg, `EF2017A.American Indian or Alaska Native total`)) %>%
   select(-Indian_Alaska_avg)
+
+# Create a dummy variable called missing_islander
+bacc_master <- bacc_master %>%
+  mutate(missing_islander_2009 = ifelse(is.na(`EF2009A.Native Hawaiian or Other Pacific Islander total - new`), 1, 0),
+         missing_islander_2010 = ifelse(is.na(`EF2010A.Native Hawaiian or Other Pacific Islander total`), 1, 0),
+         missing_islander_2011 = ifelse(is.na(`EF2011A.Native Hawaiian or Other Pacific Islander total`), 1, 0),
+         missing_islander_2015 = ifelse(is.na(`EF2015A.Native Hawaiian or Other Pacific Islander total`), 1, 0),
+         missing_islander_2016 = ifelse(is.na(`EF2016A.Native Hawaiian or Other Pacific Islander total`), 1, 0),
+         missing_islander_2017 = ifelse(is.na(`EF2017A.Native Hawaiian or Other Pacific Islander total`), 1, 0))
+
+# Replace NA with 0
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Native Hawaiian or Other Pacific Islander total - new` = ifelse(is.na(`EF2009A.Native Hawaiian or Other Pacific Islander total - new`), 0, `EF2009A.Native Hawaiian or Other Pacific Islander total - new`),
+         `EF2010A.Native Hawaiian or Other Pacific Islander total` = ifelse(is.na(`EF2010A.Native Hawaiian or Other Pacific Islander total`), 0, `EF2010A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2011A.Native Hawaiian or Other Pacific Islander total` = ifelse(is.na(`EF2011A.Native Hawaiian or Other Pacific Islander total`), 0, `EF2011A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2015A.Native Hawaiian or Other Pacific Islander total` = ifelse(is.na(`EF2015A.Native Hawaiian or Other Pacific Islander total`), 0, `EF2015A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2016A.Native Hawaiian or Other Pacific Islander total` = ifelse(is.na(`EF2016A.Native Hawaiian or Other Pacific Islander total`), 0, `EF2016A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2017A.Native Hawaiian or Other Pacific Islander total` = ifelse(is.na(`EF2017A.Native Hawaiian or Other Pacific Islander total`), 0, `EF2017A.Native Hawaiian or Other Pacific Islander total`))
+
+# Calculate islander_avg
+bacc_master <- bacc_master %>%
+  mutate(islander_avg = (`EF2009A.Native Hawaiian or Other Pacific Islander total - new` +
+           `EF2010A.Native Hawaiian or Other Pacific Islander total` +
+           `EF2011A.Native Hawaiian or Other Pacific Islander total` +
+           `EF2015A.Native Hawaiian or Other Pacific Islander total` +
+           `EF2016A.Native Hawaiian or Other Pacific Islander total` +
+           `EF2017A.Native Hawaiian or Other Pacific Islander total`)/ (6 - missing_islander_2009 -
+           missing_islander_2010 -
+           missing_islander_2011 -
+           missing_islander_2015 -
+           missing_islander_2016 -
+           missing_islander_2017)) %>%
+  mutate(islander_avg = ifelse(is.na(islander_avg), 0, islander_avg))
+
+# Replace 0 with islander_avg
+bacc_master <- bacc_master %>%
+  mutate(`EF2009A.Native Hawaiian or Other Pacific Islander total - new` = ifelse(`EF2009A.Native Hawaiian or Other Pacific Islander total - new` == 0, islander_avg, `EF2009A.Native Hawaiian or Other Pacific Islander total - new`),
+         `EF2010A.Native Hawaiian or Other Pacific Islander total` = ifelse(`EF2010A.Native Hawaiian or Other Pacific Islander total` == 0, islander_avg, `EF2010A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2011A.Native Hawaiian or Other Pacific Islander total` = ifelse(`EF2011A.Native Hawaiian or Other Pacific Islander total` == 0, islander_avg, `EF2011A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2015A.Native Hawaiian or Other Pacific Islander total` = ifelse(`EF2015A.Native Hawaiian or Other Pacific Islander total` == 0, islander_avg, `EF2015A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2016A.Native Hawaiian or Other Pacific Islander total` = ifelse(`EF2016A.Native Hawaiian or Other Pacific Islander total` == 0, islander_avg, `EF2016A.Native Hawaiian or Other Pacific Islander total`),
+         `EF2017A.Native Hawaiian or Other Pacific Islander total` = ifelse(`EF2017A.Native Hawaiian or Other Pacific Islander total` == 0, islander_avg, `EF2017A.Native Hawaiian or Other Pacific Islander total`)) %>%
+  select(-islander_avg)
+
+
+# Calculate endowment per FTE
+bacc_master <- bacc_master %>%
+  mutate(`Endowment per FTE 2009` = `F0809_F2.Value of endowment assets at the end of the fiscal year`/FTE_2009,
+         `Endowment per FTE 2010` = `F0910_F2.Value of endowment assets at the end of the fiscal year`/FTE_2010,
+         `Endowment per FTE 2011` = `F1011_F2.Value of endowment assets at the end of the fiscal year`/FTE_2011,
+         `Endowment per FTE 2015` = `F1415_F2.Value of endowment assets at the end of the fiscal year`/FTE_2015,
+         `Endowment per FTE 2016` = `F1516_F2.Value of endowment assets at the end of the fiscal year`/FTE_2016,
+         `Endowment per FTE 2017` = `F1617_F2.Value of endowment assets at the end of the fiscal year`/FTE_2017)
+
+# Export bacc_master dataset
+write_csv(bacc_master, here("data/bacc_master.csv"))
